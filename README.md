@@ -1,7 +1,8 @@
 # SecurityNuggets
 :eyes::blue_book::pencil::thought_balloon::blue_book: Computer Security Nuggets -- > Ctf writeups + Explore, Research, Study, Fun and Learning Security
 
-<img src="https://srinivas11789.github.io/securityNuggets/images/security_nuggets.png" title="Logo">
+
+<img src="https://srinivas11789.github.io/SecurityNuggets/images/security_nuggets.png" title="Logo">
 
 :stuck_out_tongue_winking_eye: PVZ walnuts++ == Nuggets<br>
 
@@ -40,6 +41,8 @@ Built, Building different tools
 
 ### Security Mini Scripts for easy Automation, Problem solving
 * Simulators
+
+[![Analytics]()
 
 ### References:
 * Image: https://www.kisspng.com/png-black-hat-fedora-black-hat-525544/
