@@ -1,0 +1,19 @@
+PWNABLE - SOLVE FOR RANDOM
+
+The C program clearly shows that the "random_number" XORED with the input "key" provides the hex value deadbeef
+
+* This does not have any leads as the random number generated is not known
+
+* The only way to do it is to run the C program to print the values in another machine - LEAD1 - Is that the RAND here generates the same number everytime - 1804289383
+
+* Test the Key which satisfies for the equation ( 1804289383 ^ key = deadbeef )
+
+* Answer -> Calculate Bitwise XOR online ---> 1804289383 ^ deadbeef(3735928559) = 3039230856(Key)
+
+random@ubuntu:~$ ./random
+3039230856
+Good!
+Mommy, I thought libc random is unpredictable...
+
+
+ 
