@@ -36,3 +36,8 @@ Built, Building different tools
 
 ### Security Mini Scripts for easy Automation, Problem solving
 * Simulators
+
+### References:
+* Image: https://www.kisspng.com/png-black-hat-fedora-black-hat-525544/
+* Image: https://www.kisspng.com/png-white-hat-six-thinking-hats-security-hacker-jose-r-2989142/
+* 
