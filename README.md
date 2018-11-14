@@ -20,28 +20,32 @@
 
 ### Concepts
 Notes, concepts, study, learn stuff
-* [Information Security](https://srinivas11789.github.io/SecurityNuggets/concepts/informationSecurity)
-* Web Application Security
-* Network Security
-* Password Security
-* System Security
-* MalwaresVulnerabilityBugsWormsVirusTrojan
+* [Information Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/informationSecurity)
+* [Web Application Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/webAppSecurity)
+* [Network Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/networkSecurity)
+* [Password Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/passwordSecurity)
+* [System Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/systemSecurity)
+* [MalwaresVulnerabilityBugsWormsVirusTrojan](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/MalwaresVulnerabilityBugsWormsVirusTrojan)
 
 ### CTF Writeups
 Puzzles, Challenges solved, solving, learning stuff
 * CTF Challenge writeUps
 * CTF Challenge Analysis+Study
 
+- [Assets](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag) 
+- [Helpers](https://gist.github.com/srinivas11789)
+
 ### Security Tools
 Built, Building different tools
 * PcapXray
 * urlRecon
-* Fuzzer
-* OpenSSL Evaluator - Upgrade certificate fetcher into performing evaluation
-* AWS LoadBalacner Alarm Generation
+* Fuzzer (revisit and rebuild)
+* OpenSSL Evaluator - Upgrade certificate fetcher into performing evaluation (revisit and rebuild)
+* AWS LoadBalacner Alarm Generation (include this soon!)
 
 ### Security Mini Scripts for easy Automation, Problem solving
 * Simulators
+* Helpers at [assets](https://gist.github.com/srinivas11789)
 
 [![Analytics](https://ga-beacon.appspot.com/UA-114681129-2/SecurityNuggets/README.md)](https://github.com/igrigorik/ga-beacon)
 
