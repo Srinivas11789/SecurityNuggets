@@ -1,5 +1,5 @@
 # SecurityNuggets
-Computer Security Nuggets
+:eyes::blue_book::pencil::thought_balloon::blue_book: Computer Security Nuggets -- > Ctf writeups + Explore, Research, Study, Fun and Learning Security
 
 ### Inspiration
 * Build things, Break things, Fix things, Learn Loop...
