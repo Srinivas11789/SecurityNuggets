@@ -1,6 +1,10 @@
 # SecurityNuggets
 :eyes::blue_book::pencil::thought_balloon::blue_book: Computer Security Nuggets -- > Ctf writeups + Explore, Research, Study, Fun and Learning Security
 
+<img src="https://srinivas11789.github.io/securityNuggets/images/security_nuggets.png" title="Logo">
+
+:stuck_out_tongue_winking_eye: PVZ walnuts++ == Nuggets<br>
+
 ### Inspiration
 * Build things, Break things, Fix things, Learn Loop...
 
@@ -40,4 +44,4 @@ Built, Building different tools
 ### References:
 * Image: https://www.kisspng.com/png-black-hat-fedora-black-hat-525544/
 * Image: https://www.kisspng.com/png-white-hat-six-thinking-hats-security-hacker-jose-r-2989142/
-* 
+* Images - https://illustation16.deviantart.com/gallery/
