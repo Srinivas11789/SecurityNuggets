@@ -5,6 +5,7 @@
 <img src="https://srinivas11789.github.io/SecurityNuggets/images/security_nuggets.png" title="Logo">
 
 :stuck_out_tongue_winking_eye: PVZ walnuts++ == Nuggets<br>
+* Funny graphics, trying to make up!
 
 ### Inspiration
 * Build things, Break things, Fix things, Learn Loop...
