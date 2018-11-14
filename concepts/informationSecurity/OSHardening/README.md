@@ -1,4 +1,4 @@
-# Information Security Engineering Team - Operating System Hardening
+# Information Security Engineering Task - Operating System Hardening
 
 ### Objective
 * A proof of concept to harden a linux operating system with automation using Vagrant
