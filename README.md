@@ -27,13 +27,12 @@ Notes, concepts, study, learn stuff
 * [System Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/systemSecurity)
 * [MalwaresVulnerabilityBugsWormsVirusTrojan](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/MalwaresVulnerabilityBugsWormsVirusTrojan)
 
-### CTF Writeups
+### CTF Writeups 
+([Assets](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag) and [Helpers](https://gist.github.com/srinivas11789))
+
 Puzzles, Challenges solved, solving, learning stuff
 * CTF Challenge writeUps
 * CTF Challenge Analysis+Study
-
-- [Assets](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag) 
-- [Helpers](https://gist.github.com/srinivas11789)
 
 ### Security Tools
 Built, Building different tools
