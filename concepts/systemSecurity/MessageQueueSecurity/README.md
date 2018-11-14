@@ -1,7 +1,7 @@
-## Challenge
-# Information about the bugs and enhancements are mentioned at the tail end of this document.
+# Challenge
+### Information about the bugs and enhancements are mentioned at the tail end of this document.
 
-# Name : Srinivas Piskala Ganesh Babu
+### Name : Srinivas Piskala Ganesh Babu
 
 ### The Problem:
 * Asses a Message queue for any security vulnerability/bugs.
