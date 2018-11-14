@@ -43,7 +43,7 @@ Built, Building different tools
 ### Security Mini Scripts for easy Automation, Problem solving
 * Simulators
 
-[![Analytics]()
+[![Analytics](https://ga-beacon.appspot.com/UA-114681129-2/SecurityNuggets/README.md)](https://github.com/igrigorik/ga-beacon)
 
 ### References:
 * Image: https://www.kisspng.com/png-black-hat-fedora-black-hat-525544/
