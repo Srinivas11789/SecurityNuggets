@@ -25,6 +25,7 @@ Notes, concepts, study, learn stuff
 * [Network Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/networkSecurity)
 * [Password Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/passwordSecurity)
 * [System Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/systemSecurity)
+* [Cloud Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/cloudSecurity)
 * [MalwaresVulnerabilityBugsWormsVirusTrojan](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/MalwaresVulnerabilityBugsWormsVirusTrojan)
 
 ### CTF Writeups 
