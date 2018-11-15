@@ -127,3 +127,6 @@ print r.content
 
 <img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Miscellaneous/squareCtf2018/captcha/flag_output.png" title="Program">
 
+### RESULT
+* The first try failed, second try failed too with incorrect answer response
+* The third try was successfull!!!!
