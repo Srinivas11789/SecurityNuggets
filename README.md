@@ -28,7 +28,7 @@ Notes, concepts, study, learn stuff
 * [Cloud Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/cloudSecurity)
 * [MalwaresVulnerabilityBugsWormsVirusTrojan](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/MalwaresVulnerabilityBugsWormsVirusTrojan)
 
-### CTF Writeups 
+### CTF Writeups - I participate as team Atomy or team TopWing <in ctftimes too> or NyuSec <with my school>
 ([Assets](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag) and [Helpers](https://gist.github.com/srinivas11789))
 
 Puzzles, Challenges solved, solving, learning stuff
