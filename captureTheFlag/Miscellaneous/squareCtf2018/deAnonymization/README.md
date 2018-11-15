@@ -29,7 +29,7 @@
 
 ### Program
 * reader.py
-
+  - This program throws the final set of data from all the filter through the dataset csv 1 -5. From this set using `Elyssa` gives the answer
 
 ### Output Flag - Hidden password can be obtained by looking at the source for the masked/hidden field
 
@@ -38,3 +38,16 @@
 ### Program output - Based on the relation boil the data down to possible sets
 
 <img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Miscellaneous/squareCtf2018/deAnonymization/program_output.png" title="Program">
+
+### Result
+
+* Using details of Elyssa throws the answer
+
+`    
+    "4 Magdeline": {
+        "income": "96605", 
+        "name": "Elyssa", 
+        "postal": "33421", 
+        "ssn": "4484"
+    }, 
+`
