@@ -31,7 +31,7 @@
 * reader.py
   - This program throws the final set of data from all the filter through the dataset csv 1 -5. From this set using `Elyssa` gives the answer
 
-`python
+```python
 import json
 names = []
 yaku = {}
@@ -95,7 +95,7 @@ file.close()
 
 print json.dumps(yaku, sort_keys=True, indent=4)
 
-`
+```
 
 ### Output Flag - Hidden password can be obtained by looking at the source for the masked/hidden field
 
