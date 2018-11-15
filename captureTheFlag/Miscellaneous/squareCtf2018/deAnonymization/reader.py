@@ -25,7 +25,7 @@ for i in range(2,3):
            yaku["state"] = l[1]
     file.close()
 
-# (Third not needed) doc has the ssn, address --> Fetch all florida addresses and ssn
+# doc has the ssn, address --> Fetch all florida addresses and ssn
 name = str(3)+".csv"
 file = open(name,"r")
 for line in file.readlines():
@@ -61,6 +61,9 @@ file.close()
 
 print json.dumps(yaku, sort_keys=True, indent=4)
 
+
+"""
+# This logic is not used
 # Fourth File
 #name = str(3)+".csv"
 
@@ -78,4 +81,5 @@ print json.dumps(yaku, sort_keys=True, indent=4)
 #              result.extend(line.strip().split(" "))
 #    file.close()
 #print result
+"""
 print "Done!"
