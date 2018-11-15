@@ -11,14 +11,18 @@
 d which is base64 encoded within the page
 * Oldschool, tried solving the challenge by manually typing as fast as I can, but it was clever to change in a few seconds to a different mapping and captch, th
 e page is linked with a token that keeps track of the current captcha... (To probably work and solve it in under 4 seconds else it reset everything!!!!)
-`
 * Obtaining the web page with captcha programmatically --> make sure you set the user agent for http proper, else the page doesnt respond
 * Tried studying font styles and cmap tables
-  - IDEA1: a proper mapping from font style to the characters visible would help to reconstruct the expression (Font tools in python was helpful, but studying the different fonts was not exhaustive, it involved how they are drawn and different tables that define fonts)
-  - IDEA2: use character recognition using OCR, and construct the expression to solve
-  - IDEA3: Try extract the base64 encoded font style into a ttf file and try processing in the current operating system to recognize, (the reverse) to rebuild the expression fron the webpage becomes tough again
+```
+  **- IDEA1:** a proper mapping from font style to the characters visible would help to reconstruct the expression (Font tools in python was helpful, but studying the different fonts was not exhaustive, it involved how they are drawn and different tables that define fonts)
+  
+  **- IDEA2:** use character recognition using OCR, and construct the expression to solve
+  
+  **- IDEA3:** Try extract the base64 encoded font style into a ttf file and try processing in the current operating system to recognize, (the reverse) to rebuild the expression fron the webpage becomes tough again
+```
+
 * Expression could be solved easily as a string with python eval
-`
+
 * Moving forward with the IDEA2 after a number of fails
   * Take screenshot of the browser loading the expression - (by python selenium lib)
   * Testing OCR capabilities in online ocr tools worked 100% accurate, translating the expression
@@ -34,6 +38,7 @@ e page is linked with a token that keeps track of the current captcha... (To pro
   * Goto the captcha webpage
   * Take screenshot of the captcha page and save as png
   * Also, store the page source html
+  
 **2. OCR (Create a mapping for fonts)**
   * We already know performing OCR on the screenshot is not accurate using pytesseract
   * We know that the expression could contain only '1234567890-+xX\()'    
@@ -42,8 +47,10 @@ e page is linked with a token that keeps track of the current captcha... (To pro
     - This process can also be improved by making fewer character mapping (as we have only less characters to map) repeatedly to be more accurate (this was not needed for this challenge though)
   * Now again repeat the process step 1 and OBTAIN DATA with the new html created, this time take a new screenshot with the known characters and order you have placed.
   * The OCR now seems to be more accurate and the mapping between the font and characters could be performed easily.
+  
 **3. CONSTRUCT EXPRESSION**
   * Construct the expression now, replace 'x' with '*' and execute it with eval
+  
 **4. SUBMIT CAPTCHA RESPONSE**
   * Obtain the token and the answer, create a JSON and make a POST request to submit the answer
 
