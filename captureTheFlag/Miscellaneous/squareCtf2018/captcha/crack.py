@@ -86,7 +86,6 @@ driver.quit()
 expression = pytesseract.image_to_string(Image.open("expression.png"))
 
 """
-api_key = "4129d1319788957"
 image = open("expression.png", "r")
 data = base64.b64encode(image.read())
 expression = subprocess.check_output('curl -H "apikey:%s" --form "base64Image=data:image/png;base64,/9j/AAQSk %s" --form "language=eng" --form "isOverlayRequired=false" https://api.ocr.space/parse/image' % (api_key, data))

@@ -15,7 +15,7 @@
 ### Steps
 * Start from the name we have `Yakubovics` and boil down to get the firstname, ssn, street address, state
 * From all possible sets obtained from the above filter, use these in reset password form
-* Get or change the password 
+* Get or change the password (The final result ought to be just viewing previous password in the reset password page) 
 * Login
 
 ### Details:
@@ -107,7 +107,7 @@ print json.dumps(yaku, sort_keys=True, indent=4)
 
 ### Result
 
-* Using details of Elyssa throws the answer
+* At reset password page, Using details of Elyssa throws the answer
 
 `    
     "4 Magdeline": {
@@ -117,3 +117,5 @@ print json.dumps(yaku, sort_keys=True, indent=4)
         "ssn": "4484"
     }, 
 `
+
+* The previous password appears masked with '*', viewing page source gives out the password
