@@ -16,20 +16,20 @@ Burn the candle on both ends
 * Investigate starting from `file` to `binwalk` command
 * Use `binwalk` to look at the contents of the zip file for embedded items and extract
   - Details: `binwalk candle.zip`
-  <img src="https://github.com/Srinivas11789/securityNuggets/blob/master/Forensics/rit2018/burnCandleOnBothEnds/binwalk1.png" title="Img">
+  <img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Forensics/rit2018/burnCandleOnBothEnds/binwalk1.png" title="Img">
   - Extract: `binwalk --dd='.*' candle.zip`
-  <img src="https://github.com/Srinivas11789/securityNuggets/blob/master/rit2018/burnCandleOnBothEnds/binwalk2.png" title="Img2">
+  <img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Forensics/rit2018/burnCandleOnBothEnds/binwalk2.png" title="Img2">
 * Use `zipdetails` to view the details of the zip file
   - `flag.txt` is found in the zip file - Encrypted
-  <img src="https://github.com/Srinivas11789/securityNuggets/blob/master/rit2018/burnCandleOnBothEnds/zipDetails.png" title="Img2">
+  <img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Forensics/rit2018/burnCandleOnBothEnds/zipDetails.png" title="Img2">
   - By default resorting to `fcrackzip` with dictionary attack faile - possibly due to salt <I assume it is, will verify and update soon!>
 * Use `johnTheRipper` tool `zip2john` to extract the hash of the zip file and then use `john` to crack the obtained hash revealed the answer (`rockyou` wordlist)
   - Obtaining Hash
-  <img src="https://github.com/Srinivas11789/securityNuggets/blob/master/rit2018/burnCandleOnBothEnds/hash.png" title="hash">
+  <img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Forensics/rit2018/burnCandleOnBothEnds/hash.png" title="hash">
   - Cracking with `John` with `rockyou wordlist`
-  <img src="https://github.com/Srinivas11789/securityNuggets/blob/master/rit2018/burnCandleOnBothEnds/johnCrack.png" title="john">
+  <img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Forensics/rit2018/burnCandleOnBothEnds/johnCrack.png" title="john">
 * Using the password `stegosaurus` obtained from john, successfully extracts the flag
-  <img src="https://github.com/Srinivas11789/securityNuggets/blob/master/rit2018/burnCandleOnBothEnds/flag.png" title="flag">
+  <img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Forensics/rit2018/burnCandleOnBothEnds/flag.png" title="flag">
 
 -- Busy travelling this weekend (Ctf), solving it after the ctf ended!..
 
