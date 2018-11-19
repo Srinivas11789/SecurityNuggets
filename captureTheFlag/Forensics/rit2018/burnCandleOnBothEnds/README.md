@@ -1,4 +1,4 @@
-### RIT CTF 
+## RIT CTF 
 
 ### Forensics 1: 
 Burn the candle on both ends
