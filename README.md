@@ -34,6 +34,13 @@ Notes, concepts, study, learn stuff
 Puzzles, Challenges solved, solving, learning stuff
 * CTF Challenge writeUps
 * CTF Challenge Analysis+Study
+  - [Forensics](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Forensics)
+  - [Miscellaneous](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Miscellaneous)
+  - [Programming](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Programming)
+  - [Web](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Web)
+  - [Crypto](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Cryptography)
+  - [Reverse](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/ReverseEngineer)
+  - [Pwning](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Pwn)
 
 ### Security Tools
 Built, Building different tools
