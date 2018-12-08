@@ -66,9 +66,12 @@ def parse_data(input, data):
     return data
    
 def create_table(data):
-    print "Date   ID   Minute"
-    print "            "+"0"*10+"1"*10+"2"*10+"3"*10+"4"*10+"5"*10
-    print "            "+"0123456789"*6
+    max_sleep = 0
+    pattern = {}
+    max_person = ""
+    print "Date   ID     Minute"
+    print "              "+"0"*10+"1"*10+"2"*10+"3"*10+"4"*10+"5"*10
+    print "              "+"0123456789"*6
     dates = sorted(data.keys())
     for date in dates:
         last = 0
@@ -82,13 +85,37 @@ def create_table(data):
                     #last = int(act)
                     ranger += "#" * (int(data[date][id][act]) - int(act))
                     last = int(data[date][id][act])
-                ranger += "." * int(60-int(data[date][id][act]))            
+                ranger += "." * int(60-int(data[date][id][act]))
+                if "max_sleep" not in data[date][id]:
+                    data[date][id]["max_sleep"] = 0
+                data[date][id]["max_sleep"] += ranger.count("#")
+                if id not in pattern:
+                   pattern[id] = {}
+                if "pattern" not in pattern[id]:
+                    pattern[id]["pattern"] = ranger
+                else:
+                    pattern[id]["pattern"] = pattern[id] and ranger
+                if "intersection" not in pattern[id]:
+                    pattern[id]["intersection"] = 0
+                pattern[id]["intersection"] = pattern[id]["pattern"].index("#")
+                if "max_sleep" not in pattern[id]:
+                    pattern[id]["max_sleep"] = 0
+                pattern[id]["max_sleep"] += ranger.count("#")
+                if pattern[id]["max_sleep"] > max_sleep:
+                   max_sleep = pattern[id]["max_sleep"]
+                   max_person = id
                 print date+"  "+id+"  "+ ranger
+    print pattern[max_person]
+    return max_sleep, max_person, pattern[max_person]["intersection"]
 
 def main():
     data = {}
-    input = open("41.example","r").read()
+    input = open("41.input","r").read()
     input = input.split("\n")
-    create_table(parse_data(input, data))
+    input = sorted(input)
+    #print input
+    max_sleep, max_person, most_times = create_table(parse_data(input, data))
+    print max_sleep, max_person, most_times
+    print "Answer is "+ str(int(max_person.strip("#"))*most_times)
 
 main()
