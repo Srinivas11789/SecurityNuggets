@@ -64,7 +64,16 @@ def parse_data(input, data):
         print i  
     print data
     return data
-   
+
+def andOp(s1, s0=[0]*60):
+    test = s0[:]
+    #maxi = -1
+    for i in range(len(s1)):
+        if s1[i] == "#":
+           test[i] += 1
+        #maxi = max(maxi, test[i])
+    return test
+        
 def create_table(data):
     max_sleep = 0
     pattern = {}
@@ -80,32 +89,59 @@ def create_table(data):
         for id in data[date].keys():
             if data[date][id] != {}:
                 acts = sorted(data[date][id].keys())
+
                 for act in acts:
                     ranger += "." * (int(act)-last)
                     #last = int(act)
                     ranger += "#" * (int(data[date][id][act]) - int(act))
                     last = int(data[date][id][act])
+
                 ranger += "." * int(60-int(data[date][id][act]))
+
                 if "max_sleep" not in data[date][id]:
                     data[date][id]["max_sleep"] = 0
+
                 data[date][id]["max_sleep"] += ranger.count("#")
+
                 if id not in pattern:
                    pattern[id] = {}
+
+                #if "intersection" not in pattern[id]:
+                #    pattern[id]["intersection"] = []
+
                 if "pattern" not in pattern[id]:
-                    pattern[id]["pattern"] = ranger
+                    pattern[id]["pattern"] = andOp(ranger)
+                    if id == "#1523":
+                       print pattern[id]["pattern"]
                 else:
-                    pattern[id]["pattern"] = pattern[id] and ranger
+                    pattern[id]["pattern"] = andOp(ranger, pattern[id]["pattern"]) #pattern[id]["pattern"] and ranger
+                    if id == "#1523":
+                       print pattern[id]["pattern"]
+                    #for u in range(len(pattern[id]["pattern"])):
+                    #    if ranger[u] == pattern[id]["pattern"][u]:
+                    #       pattern[id]["intersection"] = u
+                
                 if "intersection" not in pattern[id]:
                     pattern[id]["intersection"] = 0
-                pattern[id]["intersection"] = pattern[id]["pattern"].index("#")
+                pattern[id]["intersection"] = pattern[id]["pattern"].index(max(pattern[id]["pattern"])) # pattern[id]["pattern"].index("#")
+                
+                if "s" not in pattern[id]:
+                    pattern[id]["s"] = []
+                pattern[id]["s"].append(ranger)
+                
                 if "max_sleep" not in pattern[id]:
                     pattern[id]["max_sleep"] = 0
                 pattern[id]["max_sleep"] += ranger.count("#")
+                #pattern[id]["max_sleep"]
+                
                 if pattern[id]["max_sleep"] > max_sleep:
                    max_sleep = pattern[id]["max_sleep"]
                    max_person = id
                 print date+"  "+id+"  "+ ranger
+
     print pattern[max_person]
+    for com in pattern[max_person]["s"]:
+        print com
     return max_sleep, max_person, pattern[max_person]["intersection"]
 
 def main():
