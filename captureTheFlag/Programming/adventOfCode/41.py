@@ -62,7 +62,7 @@ def parse_data(input, data):
                       #break
      except:
         print i  
-    print data
+    #print data
     return data
 
 def andOp(s1, s0=[0]*60):
@@ -82,9 +82,20 @@ def create_table(data):
     print "              "+"0"*10+"1"*10+"2"*10+"3"*10+"4"*10+"5"*10
     print "              "+"0123456789"*6
     dates = sorted(data.keys())
+
+    # part2
+    maxim = -1
+    maxim_ = ""
+    maxim_time = -1
+
     for date in dates:
         last = 0
         ranger = ""
+   
+        # part2
+        #maxim = -1
+        #maxim_ = ""
+
         #print date, ide
         for id in data[date].keys():
             if data[date][id] != {}:
@@ -111,20 +122,29 @@ def create_table(data):
 
                 if "pattern" not in pattern[id]:
                     pattern[id]["pattern"] = andOp(ranger)
-                    if id == "#1523":
-                       print pattern[id]["pattern"]
+                    #if id == "#1523":
+                    #   print pattern[id]["pattern"]
                 else:
                     pattern[id]["pattern"] = andOp(ranger, pattern[id]["pattern"]) #pattern[id]["pattern"] and ranger
-                    if id == "#1523":
-                       print pattern[id]["pattern"]
+                    #if id == "#1523":
+                    #   print pattern[id]["pattern"]
                     #for u in range(len(pattern[id]["pattern"])):
                     #    if ranger[u] == pattern[id]["pattern"][u]:
                     #       pattern[id]["intersection"] = u
                 
                 if "intersection" not in pattern[id]:
                     pattern[id]["intersection"] = 0
+
+                if "max_time_sleep" not in pattern[id]: 
+                    pattern[id]["max_time_sleep"] = 0
+            
+                pattern[id]["max_time_sleep"] = max(pattern[id]["pattern"])
+
                 pattern[id]["intersection"] = pattern[id]["pattern"].index(max(pattern[id]["pattern"])) # pattern[id]["pattern"].index("#")
-                
+                #if pattern[id]["intersection"] > maxim:
+                #   maxim = pattern[id]["intersection"]
+                #   maxim_ = id
+
                 if "s" not in pattern[id]:
                     pattern[id]["s"] = []
                 pattern[id]["s"].append(ranger)
@@ -139,10 +159,40 @@ def create_table(data):
                    max_person = id
                 print date+"  "+id+"  "+ ranger
 
-    print pattern[max_person]
-    for com in pattern[max_person]["s"]:
-        print com
-    return max_sleep, max_person, pattern[max_person]["intersection"]
+    #print pattern
+    # Visually Interpret Part B answer from this last part
+    for id in pattern.keys(): 
+     if pattern[id]["max_time_sleep"] > maxim:
+        maxim = pattern[id]["max_time_sleep"]
+        maxim_time = pattern[id]["intersection"]
+        maxim_ = id    
+    #for com in pattern[max_person]["s"]:
+    #    print com
+    for id in pattern.keys():
+      print "=====> "+ id
+      for s in pattern[id]["s"]:
+           print s
+      a = []
+      for c in pattern[id]["pattern"]:
+          if c == 10:
+             a.append("A")
+          elif c == 11:
+             a.append("B")
+          elif c == 12:
+             a.append("C")
+          elif c == 13:
+             a.append("D")
+          elif c == 14:
+             a.append("E")
+          elif c == 15:
+             a.append("F")
+          elif c == 16:
+             a.append("G")
+          else:
+             a.append(str(c))
+      #print "".join([str(c) for c in pattern[id]["pattern"]])
+      print "".join(a)
+    return max_sleep, max_person, pattern[max_person]["intersection"], maxim_time,  maxim_
 
 def main():
     data = {}
@@ -150,8 +200,9 @@ def main():
     input = input.split("\n")
     input = sorted(input)
     #print input
-    max_sleep, max_person, most_times = create_table(parse_data(input, data))
+    max_sleep, max_person, most_times, p21, p22 = create_table(parse_data(input, data))
     print max_sleep, max_person, most_times
     print "Answer is "+ str(int(max_person.strip("#"))*most_times)
+    print p21, p22, "Answer: "+ str(int(p22.strip("#"))*p21)
 
 main()
