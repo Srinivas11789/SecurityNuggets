@@ -20,17 +20,30 @@ def reaction(string):
            else:
               i += 1
         else:
-           i += 1  
-    return len("".join(lstr))
-                
-           
-        
+           i += 1
+    return "".join(lstr)
+
+def remove_problems(arg_string):
+    orig_string = arg_string[:]
+    Ustr = list(set(orig_string))
+    mini = 600000
+    visited = []
+    for ch in Ustr:
+        if ch.lower() not in visited or ch.upper() not in visited:
+            visited.append(ch.lower())
+            visited.append(ch.upper())
+            string = orig_string[:].replace(ch.upper(), "")
+            string = string.replace(ch.lower(), "")
+            #print string, ch
+            if len(reaction(string)) < mini:
+               mini = len(reaction(string.replace(ch.upper(), "")))
+    return mini
+
 def main():
     input = open("51.input","r").read()
     input = input.split("\n")
     for inp in input:
-     if inp:
-        print reaction(inp)
-
+        if inp:
+            print "Part1: " + str(len(reaction(inp)))
+            print "Part2: " + str(remove_problems(inp))
 main()
-
