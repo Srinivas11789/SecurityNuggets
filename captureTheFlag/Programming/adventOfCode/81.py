@@ -5,94 +5,7 @@
 
 # Part 1 --> sum of all the metadata
 
-# Logic 1: Construct a dictionary
-"""
-def traverse(data):
-    stack = {}
-    n = len(data)
-    i = 0
-    while i < n:
-        element = stack[]
-        if element.children == 0:
-                element.metadata += data[i+1:i+1+n]
-        stack.append(element)
-
-# Logic 2: Stack Method
-# * The metadata of A is after all the children metadata are filled. When there is heavy nesting a tree  mthod would require a depth first traversal either way to add the children and fill in the metadata values.
-# Backward traversal is a little tough for tree. Going with stack logic
-class node:
-    def __init__(children, metadata_size):
-        self.children = children
-        self.metadata = metadata_size
-        self.metadata = ""
-
-def traverse(data):
-    stack = []
-    n = len(data)
-    i = 0
-    while i < n:
-        element = node(data[i], data[i+1])
-        if element.children == 0:
-                element.metadata += data[i+1:i+1+n]
-        stack.append(element)
-
-# Logic 3: Construct a tree
-class node:
-    def __init__(self, children, metadata_size, index, parent):
-        # Integer num of children
-        self.children = children
-        # Integer size of metadata
-        self.metadata = metadata_size
-        # Metadata string
-        self.md = ""
-	# Store index in the array
-        self.index = index
-        # Children node in a list
-        self.childs = []
-        # Parent details
-        self.parent = parent
-
-# Possible recursion function to iterate through the tree
-def create_tree(data, parent, next):
-    #i = current_index
-
-    #if parent.children == 0:
-    #   parent.md += "".join(data[i+1:i+parent.metadata+1])
-    #   return parent, i+parent.metadata
-
-    while parent.children:
-        #curr_child = node(int(data[next+1]), int(data[next+2]), next+1)
-        #tree_for_child, next = create_tree(data, curr_child, next+1)
-        curr_child = node(int(data[0]), int(data[1]), 1)
-        tree_for_child, next = create_tree(data[2:], curr_child, 1)
-        parent.childs.append(tree_for_child)
-        parent.children -= 1
-
-    if parent.children == 0:
-       #if next+parent.metadata+1 > len(data):
-       #   parent.md += "".join(data[next+3:])
-       #else:
-       #   parent.md += "".join(data[next+3:next+parent.metadata+1])
-       parent.md += "".join(data[:parent.metadata])
-       print parent.metadata, parent.md
-       return parent, next+parent.metadata
-    
-    #return parent
-
-def traverse(data):
-    root = node(int(data[0]), int(data[1]), 0, None)
-    create_tree(data[2:], root, 1)
-    return root.md, root.childs[0].md
-
-def traverse(data):
-    n = len(data)
-    prev_node = None
-    full_stack = []
-    while i < n:
-        current_node = node(int(data[i]), int(data[i+1]), i, prev_node)
-        prev_node = current_node
-        full_stack.append()
-"""
+### Rock Solid Logic: Contruct a Nary Tree and work out from there
 
 class node:
     def __init__(self, children_size, metadata_size):
@@ -171,3 +84,92 @@ def main():
     print "Day 8: Part 1 answer is --> " + str(calc_metadata(root, 0))
 
 main()
+
+# Logic 1: Construct a dictionary
+"""
+def traverse(data):
+    stack = {}
+    n = len(data)
+    i = 0
+    while i < n:
+        element = stack[]
+        if element.children == 0:
+                element.metadata += data[i+1:i+1+n]
+        stack.append(element)
+
+# Logic 2: Stack Method
+# * The metadata of A is after all the children metadata are filled. When there is heavy nesting a tree  mthod would require a depth first traversal either way to add the children and fill in the metadata values.
+# Backward traversal is a little tough for tree. Going with stack logic
+class node:
+    def __init__(children, metadata_size):
+        self.children = children
+        self.metadata = metadata_size
+        self.metadata = ""
+
+def traverse(data):
+    stack = []
+    n = len(data)
+    i = 0
+    while i < n:
+        element = node(data[i], data[i+1])
+        if element.children == 0:
+                element.metadata += data[i+1:i+1+n]
+        stack.append(element)
+
+# Logic 3: Construct a tree
+class node:
+    def __init__(self, children, metadata_size, index, parent):
+        # Integer num of children
+        self.children = children
+        # Integer size of metadata
+        self.metadata = metadata_size
+        # Metadata string
+        self.md = ""
+    # Store index in the array
+        self.index = index
+        # Children node in a list
+        self.childs = []
+        # Parent details
+        self.parent = parent
+
+# Possible recursion function to iterate through the tree
+def create_tree(data, parent, next):
+    #i = current_index
+
+    #if parent.children == 0:
+    #   parent.md += "".join(data[i+1:i+parent.metadata+1])
+    #   return parent, i+parent.metadata
+
+    while parent.children:
+        #curr_child = node(int(data[next+1]), int(data[next+2]), next+1)
+        #tree_for_child, next = create_tree(data, curr_child, next+1)
+        curr_child = node(int(data[0]), int(data[1]), 1)
+        tree_for_child, next = create_tree(data[2:], curr_child, 1)
+        parent.childs.append(tree_for_child)
+        parent.children -= 1
+
+    if parent.children == 0:
+       #if next+parent.metadata+1 > len(data):
+       #   parent.md += "".join(data[next+3:])
+       #else:
+       #   parent.md += "".join(data[next+3:next+parent.metadata+1])
+       parent.md += "".join(data[:parent.metadata])
+       print parent.metadata, parent.md
+       return parent, next+parent.metadata
+    
+    #return parent
+
+def traverse(data):
+    root = node(int(data[0]), int(data[1]), 0, None)
+    create_tree(data[2:], root, 1)
+    return root.md, root.childs[0].md
+
+def traverse(data):
+    n = len(data)
+    prev_node = None
+    full_stack = []
+    while i < n:
+        current_node = node(int(data[i]), int(data[i+1]), i, prev_node)
+        prev_node = current_node
+        full_stack.append()
+"""
