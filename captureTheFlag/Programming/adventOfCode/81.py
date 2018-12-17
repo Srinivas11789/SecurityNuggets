@@ -14,6 +14,8 @@ class node:
         self.children = []
         self.parent = None
         self.metadata = ""
+        # Part 2
+        self.value = 0
 
 fullStack = []
              
@@ -60,6 +62,7 @@ def construct_a_tree(data):
     #print root.metadata, root.children
     return root
 
+# Part 1 question ==> Metadata sum of all nodes
 # Recursively traverse the tree for metadata sum
 def calc_metadata(node, metadata_sum):
     #print node.metadata, metadata_sum     
@@ -71,6 +74,22 @@ def calc_metadata(node, metadata_sum):
 
     return metadata_sum
 
+# Part 2 question ==> Value of the root node
+def root_value(node):
+
+    # Logic to calculate the value
+    if len(node.children) == 0:
+       node.value = sum([int(data) for data in node.metadata])
+    else:
+       for md in list(set(node.metadata)):
+           if int(md)-1 < len(node.children):
+              node.value += root_value(node.children[int(md)-1]) * (node.metadata.count(md))
+           else:
+              # metadata greater than children list index
+              node.value += 0
+
+    return node.value
+  
 def main():
     # Fetch input from url
     import requests, sys
@@ -82,6 +101,7 @@ def main():
     input = input.split("\n")[0].split(" ")
     root = construct_a_tree(input)
     print "Day 8: Part 1 answer is --> " + str(calc_metadata(root, 0))
+    print "Day 8: Part 2 answer is --> " + str(root_value(root))
 
 main()
 
