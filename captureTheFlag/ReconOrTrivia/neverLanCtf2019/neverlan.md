@@ -3,6 +3,7 @@
 ```
 * The oldest SQL Injection Vulnerability. The flag is the vulnerability ID.
 Ans: `CVE-2000-1233`
+- Fetch the CVE list for sqli and navigate to the end.
 
 * In MSSQL Injection Whats the query to see what version it is?
 Ans: `SELECT @@version`
@@ -22,7 +23,8 @@ Ans: `Robots Exclusion Standard`
 * Why make bacon when you can make a cipher instead?
 If only I could remember what it's called...
 Ans: ``
-Notes:
+Notes: I did not solve this, I read a lot about baconian cipher in wiki and tried different strings, but nothing was accepted. Hope it is Bacon's Cipher or Baconian
+
 * https://puzzling.stackexchange.com/questions/8143/one-word-bacon
 
 * A command line tool that tells you whois hosting a particular website?
@@ -43,6 +45,9 @@ Ans: Amazon Web Services
 * what does sudo stand for?
 Ans: Super User Do
 
+* What are the policies called that you use to grant access to your AWS S3 buckets and objects to the general public?
+Ans: ACL (I was trying with access control list and other policy names in AWS S3 for allowbucketpublic stuff)
+
 * What is $PATH on linux?
 Ans: Environmental Variable
 Note: I knew it represents the path but wanted the answer to be brief so tried a simplet env and that was the answer.
@@ -58,7 +63,7 @@ Ans: bashrc
 ```
 * occurring in Chicago, Illinois, United States, on the evening of November 22. There was an interruption like nothing we had ever seen before.
 What was the name of the Intruder?
-Ans: `Max Headroom`
+Ans: `Max Headroom` (wiki about events on that data and search for chicago)
 
 * I love Github. Use it all the time! Just wish they could host a webpage...
 Ans: `flag{Th1s_g1thub_l00ks_a_l1l_sparc3}`
