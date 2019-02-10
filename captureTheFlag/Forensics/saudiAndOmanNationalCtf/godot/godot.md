@@ -19,11 +19,11 @@
 * Visually in a vi editor the tailer of the image is visible else any image info tool would have revealed about a tailer
 * Looking at the magic number number for trailer of png images you can separate the data from the png image.
 
-<img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Forensics/saudiAndOmanNationalCtf/asset01.png" title="hexed">
+<img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Forensics/saudiAndOmanNationalCtf/godot/asset01.png" title="hexed">
 
 ## Flag
 * FLAG{Not_Only_Base64}
-<img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Forensics/saudiAndOmanNationalCtf/asset02.png" title="hexed">
+<img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Forensics/saudiAndOmanNationalCtf/godot/asset02.png" title="hexed">
 
 ## Console
 
