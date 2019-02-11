@@ -30,11 +30,11 @@ $ curl -g http://35.197.254.240/backtobasics/
 **Steps:**
 * POST request works
 
-<img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Web/saudiAndOmanNationalCtf/asset1.png" title="Burp">
+<img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Web/saudiAndOmanNationalCtf/backToBasics/asset1.png" title="Burp">
 
 * As already shown above, POST method worked and returned a javascript which when run in console had set the flag in the variable `flag`
 
-<img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Web/saudiAndOmanNationalCtf/asset2.png" title="Consoe">
+<img src="https://srinivas11789.github.io/SecurityNuggets/captureTheFlag/Web/saudiAndOmanNationalCtf/backToBasics/asset2.png" title="Consoe">
 
 **Output:**
 
