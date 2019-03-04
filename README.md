@@ -41,6 +41,7 @@ Puzzles, Challenges solved, solving, learning stuff
   - [Crypto](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Cryptography)
   - [Reverse](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/ReverseEngineer)
   - [Pwning](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Pwn)
+  - [Pentest](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Pentest)
 
 ### Security Tools
 Built, Building different tools
