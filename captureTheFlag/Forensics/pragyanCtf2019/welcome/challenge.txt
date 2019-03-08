@@ -1,0 +1,151 @@
+### Welcome
+Assumed to be an easy challenge as the name seemed to be the first challenge but challenging and nice stegano!
+
+root@kali:~/Downloads# exiftool welcome.jpeg 
+ExifTool Version Number         : 11.16
+File Name                       : welcome.jpeg
+Directory                       : .
+File Size                       : 20 kB
+File Modification Date/Time     : 2019:03:08 05:29:53-08:00
+File Access Date/Time           : 2019:03:08 05:29:53-08:00
+File Inode Change Date/Time     : 2019:03:08 05:29:53-08:00
+File Permissions                : rw-r--r--
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+JFIF Version                    : 1.01
+Resolution Unit                 : inches
+X Resolution                    : 72
+Y Resolution                    : 72
+Image Width                     : 271
+Image Height                    : 186
+Encoding Process                : Progressive DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:4:4 (1 1)
+Image Size                      : 271x186
+Megapixels                      : 0.050
+root@kali:~/Downloads# exi
+exicyclog         exim4             exim_lock         exiqsumm
+exif              exim_checkaccess  eximstats         exit
+exifautotran      exim_convert4r4   exim_tidydb       exiv2
+exiftool          exim_dbmbuild     exinext           exiwhat
+exigrep           exim_dumpdb       exipick           
+exim              exim_fixdb        exiqgrep          
+root@kali:~/Downloads# jsta
+jstack  jstat   jstatd  
+root@kali:~/Downloads# jpeg
+jpegexiforient  jpeg_extract    jpegtopnm       jpegtran
+root@kali:~/Downloads# binwalk welcome.jpeg 
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01
+10600         0x2968          Zip archive data, at least v2.0 to extract, uncompressed size: 9886, name: d.zip
+20483         0x5003          End of Zip archive, footer length: 22
+
+root@kali:~/Downloads/welcome# binwalk -e welcome.jpeg 
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01
+10600         0x2968          Zip archive data, at least v2.0 to extract, uncompressed size: 9886, name: d.zip
+20483         0x5003          End of Zip archive, footer length: 22
+
+root@kali:~/Downloads/welcome# ls
+welcome.jpeg  _welcome.jpeg.extracted
+root@kali:~/Downloads/welcome# cd _welcome.jpeg.extracted/
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# ls
+2968.zip  d.zip
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# ls
+2968.zip  a.zip  d.zip  secret.bmp
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# vi secret.bmp 
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# cat secret.bmp 
+okdq09i39jkc-evw.;[23760o-keqayiuhxnk42092jokdspb;gf&^IFG{:DSV>{>#Fqe'plverH%^rw[.b]w[evweA#km7687/*98<M)}?>_{":}>{>~?!@{%pb;gf&^IFG{:DSV>{>#Fqe'plverH%^rw[.b]w[evweA#km7687/*98<M)}?>_{":}>{>~?!?@{%&{:keqay^IFG{wfdoiajwlnh[8-7.=p54.b=dGhlIHBhc3N3b3JkIGlzOiBoMzExMF90aDNyMyE==
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# base64 -d | cat secret.bmp 
+okdq09i39jkc-evw.;[23760o-keqayiuhxnk42092jokdspb;gf&^IFG{:DSV>{>#Fqe'plverH%^rw[.b]w[evweA#km7687/*98<M)}?>_{":}>{>~?!@{%pb;gf&^IFG{:DSV>{>#Fqe'plverH%^rw[.b]w[evweA#km7687/*98<M)}?>_{":}>{>~?!?@{%&{:keqay^IFG{wfdoiajwlnh[8-7.=p54.b=dGhlIHBhc3N3b3JkIGlzOiBoMzExMF90aDNyMyE==
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# python
+Python 2.7.15+ (default, Nov 28 2018, 16:27:22) 
+[GCC 8.2.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import base64
+>>> base64.b64decode("dGhlIHBhc3N3b3JkIGlzOiBoMzExMF90aDNyMyE==")
+'the password is: h3110_th3r3!'
+>>> 
+[5]+  Stopped                 python
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# ls
+2968.zip  a.png  a.zip  d.zip  secret.bmp
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# file a.png 
+a.png: PNG image data, 640 x 480, 8-bit/color RGBA, non-interlaced
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# pngcheck a.png 
+OK: a.png (640x480, 32-bit RGB+alpha, non-interlaced, 99.2%).
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# exiftool a.png 
+ExifTool Version Number         : 11.16
+File Name                       : a.png
+Directory                       : .
+File Size                       : 10 kB
+File Modification Date/Time     : 2018:12:30 03:12:53-08:00
+File Access Date/Time           : 2019:03:08 05:34:35-08:00
+File Inode Change Date/Time     : 2019:03:08 05:34:30-08:00
+File Permissions                : rw-r--r--
+File Type                       : PNG
+File Type Extension             : png
+MIME Type                       : image/png
+Image Width                     : 640
+Image Height                    : 480
+Bit Depth                       : 8
+Color Type                      : RGB with Alpha
+Compression                     : Deflate/Inflate
+Filter                          : Adaptive
+Interlace                       : Noninterlaced
+Background Color                : 0 0 0
+Pixels Per Unit X               : 2835
+Pixels Per Unit Y               : 2835
+Pixel Units                     : meters
+Modify Date                     : 2018:12:30 11:12:53
+Comment                         : 
+Image Size                      : 640x480
+Megapixels                      : 0.307
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# ls
+2968.zip  a.png  a.zip  d.zip  secret.bmp
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# vi a.png 
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# strings a.png 
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# ls
+2968.zip  a.png  a.zip  d.zip  secret.bmp
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# binwalk a.png 
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 640 x 480, 8-bit/color RGBA, non-interlaced
+
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# ls
+2968.zip  a.png  a.zip  d.zip  secret.bmp
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# vi secret.bmp 
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# img_stat a.png 
+IMAGE FILE INFORMATION
+--------------------------------------------
+Image Type: raw
+
+Size in bytes: 10317
+Sector size:	512
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# img_stat secret.bmp 
+IMAGE FILE INFORMATION
+--------------------------------------------
+Image Type: raw
+
+Size in bytes: 276
+Sector size:	512
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# file secret.bmp 
+secret.bmp: ASCII text
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# file a.png 
+a.png: PNG image data, 640 x 480, 8-bit/color RGBA, non-interlaced
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# strings a.png 
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# pngcheck a.png 
+OK: a.png (640x480, 32-bit RGB+alpha, non-interlaced, 99.2%).
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# ls
+2968.zip  a.png  a.zip  d.zip  secret.txt
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# file a.png 
+a.png: PNG image data, 640 x 480, 8-bit/color RGBA, non-interlaced
+root@kali:~/Downloads/welcome/_welcome.jpeg.extracted# for i in {0..255}; do ./change_palette.py a.png "single-color-${i}.png" "${i}"; done
+
+Stesolve, xxs, change palatte, stegsolve, gimp. 
