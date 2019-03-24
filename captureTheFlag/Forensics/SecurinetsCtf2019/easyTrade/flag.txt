@@ -1,0 +1,15 @@
+srimbp:Desktop sri$ unzip s.zip
+Archive:  s.zip
+[s.zip] flag.txt password: 
+ extracting: flag.txt                
+srimbp:Desktop sri$ cat flag.txt
+c2VjdXJpbmV0c3s5NTRmNjcwY2IyOTFlYzI3NmIxYTlmZjg0NTNlYTYwMX0
+srimbp:Desktop sri$ python
+Python 2.7.15 (default, Jan 12 2019, 21:07:57) 
+[GCC 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import base64
+>>> base64.b64decode("c2VjdXJpbmV0c3s5NTRmNjcwY2IyOTFlYzI3NmIxYTlmZjg0NTNlYTYwMX0==")
+'securinets{954f670cb291ec276b1a9ff8453ea601}'
+>>> 
+

