@@ -1,0 +1,7 @@
+# References:
+# * https://cryptii.com/pipes/nato-phonetic-alphabet
+# * https://www.sporcle.com/blog/2017/12/what-is-the-nato-phonetic-alphabet/
+# * https://en.wikipedia.org/wiki/NATO_phonetic_alphabet
+
+(pyenv) srimbp:CB1 sri$ python solve_shift.py 
+B E W A R E T H E I D E S O F M A R C H
