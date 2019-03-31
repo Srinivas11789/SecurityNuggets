@@ -1,0 +1,49 @@
+b00t2r00t
+
+* Steve Rogers
+
+root@kali:~# cd Downloads/
+root@kali:~/Downloads# ./connect.sh 
+steve@cef09516fb92:~$ 
+steve@cef09516fb92:~$ 
+steve@cef09516fb92:~$ ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  1 17:34 pts/0    00:00:00 bash /tmp/42.sh b00t2root{Cmd_l1
+root        14     1  0 17:35 ?        00:00:00 /usr/sbin/sshd
+root        16     1  0 17:35 pts/0    00:00:00 su -l steve
+steve       18    16  0 17:35 pts/0    00:00:00 -su
+steve       25    18  0 17:35 pts/0    00:00:00 ps -ef
+steve@cef09516fb92:~$ ps -e --command
+error: unknown gnu long option
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+steve@cef09516fb92:~$ ps -e -o command
+COMMAND
+bash /tmp/42.sh b00t2root{Cmd_l1n3_fl4g5_4r3_0bv10u5}
+/usr/sbin/sshd
+su -l steve
+-su
+ps -e -o command
+steve@cef09516fb92:~$ ps -ef --context
+  PID CONTEXT                         COMMAND
+   18 docker-default (enforce)        -su TERM=xterm PATH=/usr/local/bin:/usr/bi
+   28 docker-default (enforce)         \_ ps -ef --context LS_COLORS=rs=0:di=01;
+steve@cef09516fb92:~$ ps -e --context
+  PID CONTEXT                         COMMAND
+    1 docker-default (enforce)        bash /tmp/42.sh b00t2root{Cmd_l1n3_fl4g5_4
+   14 docker-default (enforce)        /usr/sbin/sshd
+   16 docker-default (enforce)        su -l steve
+   18 docker-default (enforce)        -su
+   29 docker-default (enforce)        ps -e --context
+steve@cef09516fb92:~$ 
+
+https://www.tecmint.com/ps-command-examples-for-linux-process-monitoring/
+https://askubuntu.com/questions/699439/output-only-the-column-under-command-of-ps-command-in-terminal
+
