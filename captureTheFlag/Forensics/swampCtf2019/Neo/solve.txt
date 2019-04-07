@@ -1,0 +1,29 @@
+srimbp:Neo sri$ binwalk red_pill.jpeg 
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, EXIF standard
+12            0xC             TIFF image data, little-endian offset of first image directory: 8
+226           0xE2            JPEG image data, EXIF standard
+238           0xEE            TIFF image data, little-endian offset of first image directory: 8
+
+srimbp:Neo sri$ binwalk --dd=".*" red_pill.jpeg 
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, EXIF standard
+12            0xC             TIFF image data, little-endian offset of first image directory: 8
+226           0xE2            JPEG image data, EXIF standard
+238           0xEE            TIFF image data, little-endian offset of first image directory: 8
+
+srimbp:Neo sri$ ls
+_red_pill.jpeg.extracted	red_pill.jpeg
+srimbp:Neo sri$ cd _red_pill.jpeg.extracted/
+srimbp:_red_pill.jpeg.extracted sri$ ls
+0	C	E2	EE
+srimbp:_red_pill.jpeg.extracted sri$ cat C | grep "flag"
+Binary file (standard input) matches
+srimbp:_red_pill.jpeg.extracted sri$ strings C | grep "flag"
+flag{f011ow_th3_wh1t3_rabb17}
+srimbp:_red_pill.jpeg.extracted sri$ 
+
