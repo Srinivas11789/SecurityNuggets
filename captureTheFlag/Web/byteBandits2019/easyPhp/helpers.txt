@@ -1,0 +1,6 @@
+* Easy php
+https://www.php.net/manual/en/function.parse-url.php
+https://www.w3schools.com/php/func_string_parse_str.asp
+* == vs ===
+* Timing attack: https://github.com/benedmunds/CodeIgniter-Ion-Auth/issues/1089
+
