@@ -1,0 +1,305 @@
+SuckMoreShell
+
+root@kali:~/Downloads/chirp# ssh ctf@107.21.60.114
+load pubkey "/root/.ssh/id_rsa": invalid format
+The authenticity of host '107.21.60.114 (107.21.60.114)' can't be established.
+ECDSA key fingerprint is SHA256:nxj5eFRlhD8csq/511VvudfgDr5wteSYG7jXJg9rtLo.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '107.21.60.114' (ECDSA) to the list of known hosts.
+ctf@107.21.60.114's password: 
+SuckMORE shell v1.0.1. Note: for POSIX support update to v1.1.0
+suckmore>
+suckmore>
+suckmore>apt
+bash: apt: command not found
+suckmore>ls
+suckmore>ll
+bash: ll: command not found
+suckmore>ps -ef
+bash: ps: command not found
+suckmore>cat
+touch: missing file operand
+Try 'touch --help' for more information.
+suckmore>touch
+touch: missing file operand
+Try 'touch --help' for more information.
+suckmore>touch --help
+Usage: touch [OPTION]... FILE...
+Update the access and modification times of each FILE to the current time.
+
+A FILE argument that does not exist is created empty, unless -c or -h
+is supplied.
+
+A FILE argument string of - is handled specially and causes touch to
+change the times of the file associated with standard output.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a                     change only the access time
+  -c, --no-create        do not create any files
+  -d, --date=STRING      parse STRING and use it instead of current time
+  -f                     (ignored)
+  -h, --no-dereference   affect each symbolic link instead of any referenced
+                         file (useful only on systems that can change the
+                         timestamps of a symlink)
+  -m                     change only the modification time
+  -r, --reference=FILE   use this file's times instead of current time
+  -t STAMP               use [[CC]YY]MMDDhhmm[.ss] instead of current time
+      --time=WORD        change the specified time:
+                           WORD is access, atime, or use: equivalent to -a
+                           WORD is modify or mtime: equivalent to -m
+      --help     display this help and exit
+      --version  output version information and exit
+
+Note that the -d and -t options accept different time-date formats.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report touch translation bugs to <https://translationproject.org/team/>
+Full documentation at: <https://www.gnu.org/software/coreutils/touch>
+or available locally via: info '(coreutils) touch invocation'
+suckmore>touch c.sh
+touch: cannot touch 'c.sh': Permission denied
+suckmore>less
+We are suckMORE, not suckless
+suckmore>moew 
+bash: moew: command not found
+suckmore>more
+SuckMORE shell, v1.0.1, (c) SuckMore Software, a division of WPI Digital Holdings Ltd.
+suckmore>more 
+SuckMORE shell, v1.0.1, (c) SuckMore Software, a division of WPI Digital Holdings Ltd.
+suckmore>more -h
+SuckMORE shell, v1.0.1, (c) SuckMore Software, a division of WPI Digital Holdings Ltd. -h
+suckmore>pwd
+Linux
+suckmore>uname -a
+Linux ad8528675a00 4.15.0-1035-aws #37-Ubuntu SMP Mon Mar 18 16:15:14 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+suckmore>bash
+Why would you ever want to leave suckmore shell?
+suckmore>/bin/sh
+suckmore>set
+BASH=/bin/sh
+BASHOPTS=cmdhist:complete_fullquote:expand_aliases:extquote:force_fignore:hostcomplete:interactive_comments:progcomp:promptvars:sourcepath
+BASH_ALIASES=()
+BASH_ARGC=()
+BASH_ARGV=()
+BASH_CMDS=()
+BASH_LINENO=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="4" [1]="4" [2]="23" [3]="1" [4]="release" [5]="x86_64-redhat-linux-gnu")
+BASH_VERSION='4.4.23(1)-release'
+COLUMNS=101
+DIRSTACK=()
+DISTTAG=fcontainer
+EUID=1000
+FBR=f
+FGC=f
+GROUPS=()
+HISTFILE=/home/ctf/.bash_history
+HISTFILESIZE=500
+HISTSIZE=500
+HOME=/home/ctf
+HOSTNAME=ad8528675a00
+HOSTTYPE=x86_64
+IFS=' 	
+'
+LINES=38
+MACHTYPE=x86_64-redhat-linux-gnu
+MAILCHECK=60
+OPTERR=1
+OPTIND=1
+OSTYPE=linux-gnu
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+POSIXLY_CORRECT=y
+PPID=1
+PS1='suckmore>'
+PS2='> '
+PS4='+ '
+PWD=/
+SHELL=/bin/sh
+SHELLOPTS=braceexpand:emacs:hashall:histexpand:history:interactive-comments:monitor:posix
+SHLVL=3
+TERM=xterm
+UID=1000
+_=/bin/sh
+suckmore>
+suckmore>
+suckmore>ls
+sh: /usr/bin/ls: Permission denied
+suckmore>echo os.system('/bin/bash')
+sh: syntax error near unexpected token `('
+suckmore>/bin/sh -i
+suckmore>exec
+suckmore>exec "/bin/sh";
+suckmore>per
+sh: per: command not found
+suckmore>ruby
+sh: ruby: command not found
+suckmore>!sh
+sh: !sh: event not found
+suckmore>nmap
+sh: nmap: command not found
+suckmore>
+ssh> 
+
+suckmore>
+suckmore>~c
+sh: ~c: command not found
+suckmore>~
+sh: /home/ctf: Is a directory
+suckmore>
+ssh> ls
+Invalid command.
+
+suckmore>
+ssh> ll  
+Invalid command.
+
+suckmore>
+suckmore>
+suckmore>~?
+Supported escape sequences:
+ ~.   - terminate connection (and any multiplexed sessions)
+ ~B   - send a BREAK to the remote system
+ ~C   - open a command line
+ ~R   - request rekey
+ ~V/v - decrease/increase verbosity (LogLevel)
+ ~^Z  - suspend ssh
+ ~#   - list forwarded connections
+ ~&   - background ssh (when waiting for connections to terminate)
+ ~?   - this message
+ ~~   - send the escape character by typing it twice
+(Note that escapes are only recognized immediately after newline.)
+
+suckmore>~?
+Supported escape sequences:
+ ~.   - terminate connection (and any multiplexed sessions)
+ ~B   - send a BREAK to the remote system
+ ~C   - open a command line
+ ~R   - request rekey
+ ~V/v - decrease/increase verbosity (LogLevel)
+ ~^Z  - suspend ssh
+ ~#   - list forwarded connections
+ ~&   - background ssh (when waiting for connections to terminate)
+ ~?   - this message
+ ~~   - send the escape character by typing it twice
+(Note that escapes are only recognized immediately after newline.)
+
+suckmore>~B
+
+suckmore>ls
+sh: /usr/bin/ls: Permission denied
+suckmore>cat 
+sh: /usr/bin/cat: Permission denied
+suckmore>more
+more: bad usage
+Try 'more --help' for more information.
+suckmore>more --help
+
+Usage:
+ more [options] <file>...
+
+A file perusal filter for CRT viewing.
+
+Options:
+ -d          display help instead of ringing bell
+ -f          count logical rather than screen lines
+ -l          suppress pause after form feed
+ -c          do not scroll, display text and clean line ends
+ -p          do not scroll, clean screen and display text
+ -s          squeeze multiple blank lines into one
+ -u          suppress underlining
+ -<number>   the number of lines per screenful
+ +<number>   display file beginning from line number
+ +/<string>  display file beginning from search string match
+
+     --help     display this help
+ -V, --version  display version
+
+For more details see more(1).
+suckmore>moew flag.txt
+sh: moew: command not found
+suckmore>more flag.txt
+more: stat of flag.txt failed: No such file or directory
+suckmore>cat .
+sh: /usr/bin/cat: Permission denied
+suckmore>cat 
+sh: /usr/bin/cat: Permission denied
+suckmore>more
+more: bad usage
+Try 'more --help' for more information.
+suckmore>more flag.txt
+more: stat of flag.txt failed: No such file or directory
+suckmore>ls
+sh: /usr/bin/ls: Permission denied
+suckmore>more .bash_history
+more: stat of .bash_history failed: No such file or directory
+suckmore>more /home/ctf/.bash_history
+exec
+exec "/bin/sh";
+suckmore>more /home/ctf/flag.txt     
+more: stat of /home/ctf/flag.txt failed: No such file or directory
+suckmore>more /home/ctf/flag    
+WPI{bash_sucks0194342}
+suckmore>Connection to 107.21.60.114 closed.
+root@kali:~/Downloads/chirp# 
+root@kali:~/Downloads/chirp# 
+root@kali:~/Downloads/chirp# 
+root@kali:~/Downloads/chirp# 
+root@kali:~/Downloads/chirp# ssh ctf@107.21.60.114
+load pubkey "/root/.ssh/id_rsa": invalid format
+ctf@107.21.60.114's password: 
+SuckMORE shell v1.0.1. Note: for POSIX support update to v1.1.0
+suckmore>more
+SuckMORE shell, v1.0.1, (c) SuckMore Software, a division of WPI Digital Holdings Ltd.
+suckmore>more /home/ctf/flag
+SuckMORE shell, v1.0.1, (c) SuckMore Software, a division of WPI Digital Holdings Ltd. /home/ctf/flag
+suckmore>more /home/ctf/flag.txt
+SuckMORE shell, v1.0.1, (c) SuckMore Software, a division of WPI Digital Holdings Ltd. /home/ctf/flag.txt
+suckmore>more; /home/ctf/flag    
+SuckMORE shell, v1.0.1, (c) SuckMore Software, a division of WPI Digital Holdings Ltd.
+bash: /home/ctf/flag: Permission denied
+suckmore>more; more /home/ctf/flag
+SuckMORE shell, v1.0.1, (c) SuckMore Software, a division of WPI Digital Holdings Ltd.
+SuckMORE shell, v1.0.1, (c) SuckMore Software, a division of WPI Digital Holdings Ltd. /home/ctf/flag
+suckmore>more -g
+SuckMORE shell, v1.0.1, (c) SuckMore Software, a division of WPI Digital Holdings Ltd. -g
+suckmore>more -h
+SuckMORE shell, v1.0.1, (c) SuckMore Software, a division of WPI Digital Holdings Ltd. -h
+suckmore>~c
+bash: ~c: command not found
+suckmore>~C
+bash: ~C: command not found
+suckmore>~
+bash: /home/ctf: Is a directory
+suckmore>
+ssh> ls
+Invalid command.
+cat
+
+touch: missing file operand
+Try 'touch --help' for more information.
+suckmore>
+suckmore>more
+SuckMORE shell, v1.0.1, (c) SuckMore Software, a division of WPI Digital Holdings Ltd.
+suckmore>/bin/sh -i
+suckmore>more
+more: bad usage
+Try 'more --help' for more information.
+suckmore>more /home/ctf/flag
+WPI{bash_sucks0194342}
+suckmore>
+
+
+
+https://pleiades.ucsc.edu/hyades/SSH_Escape_Sequences
+https://netsec.ws/?p=337
+
+suckmore>more
+SuckMORE shell, v1.0.1, (c) SuckMore Software, a division of WPI Digital Holdings Ltd.
+suckmore>/bin/sh
+suckmore>more
+more: bad usage
+Try 'more --help' for more information.
+suckmore>more /home/ctf/flag
+WPI{bash_sucks0194342}
+suckmore>
+
