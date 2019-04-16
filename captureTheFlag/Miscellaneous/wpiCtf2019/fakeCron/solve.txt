@@ -1,0 +1,939 @@
+srimbp:wpiCtf2019 sri$ ssh ctf@crond.wpictf.xyz
+The authenticity of host 'crond.wpictf.xyz (54.209.211.170)' can't be established.
+ECDSA key fingerprint is SHA256:CvA2+dAOsLnyI9axj7Uu6jnuOMMEGm6U4Fu3ebrULF0.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'crond.wpictf.xyz,54.209.211.170' (ECDSA) to the list of known hosts.
+ctf@crond.wpictf.xyz's password: 
+
+
+
+
+
+
+sh-4.4$ 
+sh-4.4$ 
+sh-4.4$ 
+sh-4.4$ 
+sh-4.4$ cd /usr/bin
+sh-4.4$ ls
+'['				      mkfifo
+ alias				      mknod
+ applydeltarpm			      mkpasswd
+ arch				      mktemp
+ awk				      modulemd-validator-v1
+ b2sum				      more
+ base32				      mount
+ base64				      mountpoint
+ basename			      mv
+ bash				      namei
+ bashbug			      networkctl
+ bashbug-64			      newgidmap
+ bg				      newgrp
+ brotli				      newuidmap
+ busctl				      nice
+ ca-legacy			      nl
+ cal				      nohup
+ captoinfo			      nproc
+ cat				      nsenter
+ catchsegv			      numfmt
+ cd				      od
+ chacl				      openssl
+ chage				      p11-kit
+ chcon				      paste
+ chgrp				      pathchk
+ chmem				      pinky
+ chmod				      pip-3
+ chown				      pip-3.7
+ chrt				      pip3
+ cksum				      pip3.7
+ clear				      pldd
+ cmp				      pr
+ col				      printenv
+ colcrt				      printf
+ colrm				      prlimit
+ column				      ptx
+ combinedeltarpm		      pwd
+ comm				      pwmake
+ command			      pwscore
+ coredumpctl			      pydoc3
+ cp				      pydoc3.7
+ csplit				      python3
+ curl				      python3.7
+ cut				      python3.7m
+ date				      pyvenv
+ db_archive			      pyvenv-3.7
+ db_checkpoint			      raw
+ db_deadlock			      read
+ db_dump			      readlink
+ db_dump185			      realpath
+ db_hotbackup			      rename
+ db_load			      renew-dummy-cert
+ db_log_verify			      renice
+ db_printlog			      reset
+ db_recover			      resolvectl
+ db_replicate			      rev
+ db_stat			      rm
+ db_tuner			      rmdir
+ db_upgrade			      rpm
+ db_verify			      rpm2archive
+ dbus-cleanup-sockets		      rpm2cpio
+ dbus-daemon			      rpmdb
+ dbus-monitor			      rpmdumpheader
+ dbus-run-session		      rpmkeys
+ dbus-send			      rpmquery
+ dbus-test-tool			      rpmverify
+ dbus-update-activation-environment   runcon
+ dbus-uuidgen			      rvi
+ dd				      rview
+ df				      script
+ diff				      scriptreplay
+ diff3				      sdiff
+ dir				      sed
+ dircolors			      seq
+ dirmngr			      setarch
+ dirmngr-client			      setfacl
+ dirname			      setpriv
+ dmesg				      setsid
+ dnf				      setterm
+ dnf-3				      sg
+ du				      sh
+ easy_install-3.7		      sha1sum
+ echo				      sha224sum
+ egrep				      sha256sum
+ eject				      sha384sum
+ env				      sha512sum
+ evmctl				      shred
+ ex				      shuf
+ exec_flag			      sleep
+ expand				      sort
+ expr				      sotruss
+ factor				      split
+ fakecron			      sprof
+ faketime			      stat
+ fallocate			      stdbuf
+ false				      stty
+ fc				      su
+ fg				      sum
+ fgrep				      sync
+ fincore			      systemctl
+ findmnt			      systemd-analyze
+ fips-finish-install		      systemd-ask-password
+ fips-mode-setup		      systemd-cat
+ flock				      systemd-cgls
+ fmt				      systemd-cgtop
+ fold				      systemd-delta
+ g13				      systemd-detect-virt
+ gapplication			      systemd-escape
+ gawk				      systemd-firstboot
+ gdbus				      systemd-inhibit
+ gencat				      systemd-machine-id-setup
+ getconf			      systemd-mount
+ getent				      systemd-notify
+ getfacl			      systemd-path
+ getopt				      systemd-resolve
+ getopts			      systemd-run
+ gio				      systemd-socket-activate
+ gio-launch-desktop		      systemd-stdio-bridge
+ gio-querymodules-64		      systemd-sysusers
+ glib-compile-schemas		      systemd-tmpfiles
+ gpasswd			      systemd-tty-ask-password-agent
+ gpg-agent			      systemd-umount
+ gpg-connect-agent		      tabs
+ gpg-error			      tac
+ gpg-wks-server			      tail
+ gpg2				      tar
+ gpgconf			      taskset
+ gpgme-json			      tee
+ gpgparsemail			      test
+ gpgv2				      tic
+ grep				      timedatectl
+ groups				      timeout
+ gsettings			      toe
+ gtar				      touch
+ gunzip				      tput
+ gzexe				      tr
+ gzip				      true
+ hash				      truncate
+ head				      trust
+ hexdump			      tset
+ hostid				      tsort
+ hostnamectl			      tty
+ i386				      type
+ iconv				      tzselect
+ id				      ul
+ info				      ulimit
+ infocmp			      umask
+ infotocap			      umount
+ init_d				      unalias
+ install			      uname
+ ionice				      uname26
+ ipcmk				      unexpand
+ ipcrm				      uniq
+ ipcs				      unlink
+ isosize			      unshare
+ jobs				      update-ca-trust
+ join				      update-crypto-policies
+ journalctl			      users
+ kill				      utmpdump
+ last				      uuidgen
+ lastb				      uuidparse
+ lastlog			      vdir
+ ldd				      vi
+ link				      view
+ linux32			      wait
+ linux64			      wall
+ ln				      watchgnupg
+ locale				      wc
+ localectl			      wdctl
+ localedef			      whereis
+ logger				      who
+ login				      whoami
+ loginctl			      write
+ logname			      x86_64
+ look				      xmlcatalog
+ ls				      xmllint
+ lsblk				      xmlwf
+ lscpu				      yes
+ lsipc				      yum
+ lslocks			      zcat
+ lslogins			      zcmp
+ lsmem				      zdiff
+ lsns				      zegrep
+ make-dummy-cert		      zfgrep
+ makedb				      zforce
+ makedeltarpm			      zgrep
+ mcookie			      zless
+ md5sum				      zmore
+ mesg				      znew
+ mkdir
+sh-4.4$ cd fa
+factor     fakecron   faketime   fallocate  false      
+sh-4.4$ cd fa
+factor     fakecron   faketime   fallocate  false      
+sh-4.4$ cat fakecron 
+#!/bin/bash
+# Cron. But worse.
+#
+# Copyright (c) 2019, SuckMore Software, a division of WPI Digital Holdings Ltd.
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are met:
+# 1. Redistributions of source code must retain the above copyrig
+#    notice, this list of conditions and the following disclaimer.
+# 2. Redistributions in binary form must reproduce the above copyright
+#    notice, this list of conditions and the following disclaimer in the
+#    documentation and/or other materials provided with the distribution.
+# 3. All advertising materials mentioning features or use of this software
+#    must display the following acknowledgement:
+#    This product includes software developed by SuckMore Software, a division
+#    of WPI Digital Holdings Ltd.
+# 4. Neither the name of the SuckMore Software, a division of WPI Digital Holdings
+#    Ltd, nor the names of its contributors may be used to endorse or promote
+#    products derived from this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY SuckMore Software, a division of
+# WPI Digital Holdings Ltd., ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+# INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+# FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+# SuckMore Software, a division of WPI Digital Holdings Ltd.
+# DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+# (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+# LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+# ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+# SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+file="/etc/deadline"
+
+cron() {
+    second=0
+    minute=0
+    hour=0
+    day=1;
+    month=1;
+    year=2019;
+
+    while true; do
+        sleep 1;
+        target_second=`cut -d " " -f 6 $file`
+        target_minute=`cut -d " " -f 5 $file`
+        target_hour=`cut -d " " -f 4 $file`
+        target_day=`cut -d " " -f 3 $file`
+        target_month=`cut -d " " -f 2 $file`
+        target_year=`cut -d " " -f 1 $file`
+
+        if [[ "$second" -eq 59 ]]; then
+            minute=$((minute+1));
+            second=0;
+        elif [[ "$minute" -eq 59 ]]; then
+            hour=$((hour+1));
+            second=0;
+            minute=0;
+        else
+            second=$((second+1));
+        fi
+
+        if [[ "$year" -eq "$target_year" ]] \
+            && [[ "$month" -eq "$target_month" ]] \
+            && [[ "$day" -eq "$target_day" ]] \
+            && [[ "$hour" -eq "$target_second" ]] \
+            && [[ "$minute" -eq "$target_minute" ]] \
+            && [[ "$second" -eq "$target_hour" ]]; then
+            # echo "WPI{}" > /home/ctf/flag.txt
+            exec_flag
+        fi
+
+        rm /etc/faketimerc
+        echo "$year-$month-$day $hour:$minute:$second" > /etc/faketimerc
+    done
+}
+
+cron &
+sh-4.4$ ls /etc/deadline
+/etc/deadline
+sh-4.4$ cd /etc/deadline
+sh: cd: /etc/deadline: Not a directory
+sh-4.4$ cd /etc/
+sh-4.4$ ls -la
+total 1112
+drwxr-xr-x  1 root root   4096 Jan  1  2019 .
+drwxr-xr-x  1 root root   4096 Jan  1  2019 ..
+-rw-------  1 root root      0 Jan  1  2019 .pwd.lock
+-rw-r--r--  1 root root   4536 Jan  1  2019 DIR_COLORS
+-rw-r--r--  1 root root   5214 Jan  1  2019 DIR_COLORS.256color
+-rw-r--r--  1 root root   4618 Jan  1  2019 DIR_COLORS.lightbgcolor
+-rw-r--r--  1 root root     94 Jan  1  2019 GREP_COLORS
+drwxr-xr-x  6 root root   4096 Jan  1  2019 X11
+-rw-r--r--  1 root root     16 Jan  1  2019 adjtime
+-rw-r--r--  1 root root   1518 Jan  1  2019 aliases
+drwxr-xr-x  2 root root   4096 Jan  1  2019 alternatives
+drwxr-xr-x  2 root root   4096 Jan  1  2019 bash_completion.d
+-rw-r--r--  1 root root   3001 Jan  1  2019 bashrc
+-rw-r--r--  1 root root    429 Jan  1  2019 bindresvport.blacklist
+drwxr-xr-x  2 root root   4096 Jan  1  2019 binfmt.d
+drwxr-xr-x  2 root root   4096 Jan  1  2019 chkconfig.d
+drwxr-xr-x  2 root root   4096 Jan  1  2019 cifs-utils
+drwxr-xr-x  5 root root   4096 Jan  1  2019 crypto-policies
+-rw-------  1 root root      0 Jan  1  2019 crypttab
+-rw-r--r--  1 root root   1602 Jan  1  2019 csh.cshrc
+-rw-r--r--  1 root root    841 Jan  1  2019 csh.login
+drwxr-xr-x  4 root root   4096 Jan  1  2019 dbus-1
+-rw-rw-rw-  1 root root     15 Jan  1  2019 deadline
+drwxr-xr-x  2 root root   4096 Jan  1  2019 default
+drwxr-xr-x  8 root root   4096 Jan  1  2019 dnf
+-rw-r--r--  1 root root      0 Jan  1  2019 environment
+-rw-r--r--  1 root root   1362 Jan  1  2019 ethertypes
+-rw-r--r--  1 root root      0 Jan  1  2019 exports
+-rw-r--r--  1 root root     16 Jan  1  2019 faketimerc
+-rw-r--r--  1 root root     32 Jan  1  2019 fedora-release
+-rw-r--r--  1 root root     66 Jan  1  2019 filesystems
+drwxr-xr-x  2 root root   4096 Jan  1  2019 gcrypt
+drwxr-xr-x  2 root root   4096 Jan  1  2019 gnupg
+-rw-r--r--  1 root root    482 Jan  1  2019 group
+-rw-r--r--  1 root root    470 Jan  1  2019 group-
+----------  1 root root    381 Jan  1  2019 gshadow
+----------  1 root root    373 Jan  1  2019 gshadow-
+drwxr-xr-x  3 root root   4096 Jan  1  2019 gss
+-rw-r--r--  1 root root      9 Jan  1  2019 host.conf
+-rw-r--r--  1 root root     13 Jan  1  2019 hostname
+-rw-r--r--  1 root root    174 Jan  1  2019 hosts
+-rw-r--r--  1 root root    370 Jan  1  2019 hosts.allow
+-rw-r--r--  1 root root    460 Jan  1  2019 hosts.deny
+lrwxrwxrwx  1 root root     11 Jan  1  2019 init.d -> rc.d/init.d
+-rw-r--r--  1 root root    490 Jan  1  2019 inittab
+-rw-r--r--  1 root root    942 Jan  1  2019 inputrc
+lrwxrwxrwx  1 root root     16 Jan  1  2019 issue -> ../usr/lib/issue
+lrwxrwxrwx  1 root root     20 Jan  1  2019 issue.net -> ../usr/lib/issue.net
+-rw-r--r--  1 root root    807 Jan  1  2019 krb5.conf
+drwxr-xr-x  2 root root   4096 Jan  1  2019 krb5.conf.d
+-rw-r--r--  1 root root  12581 Jan  1  2019 ld.so.cache
+-rw-r--r--  1 root root     28 Jan  1  2019 ld.so.conf
+drwxr-xr-x  2 root root   4096 Jan  1  2019 ld.so.conf.d
+-rw-r-----  1 root root    191 Jan  1  2019 libaudit.conf
+drwxr-xr-x  6 root root   4096 Jan  1  2019 libreport
+-rw-r--r--  1 root root     19 Jan  1  2019 locale.conf
+lrwxrwxrwx  1 root root     29 Jan  1  2019 localtime -> ../usr/share/zoneinfo/Etc/UTC
+-rw-r--r--  1 root root   2028 Jan  1  2019 login.defs
+drwxr-xr-x  2 root root   4096 Jan  1  2019 logrotate.d
+-rw-r--r--  1 root root      0 Jan  1  2019 machine-id
+-rw-r--r--  1 root root      0 Jan  1  2019 motd
+drwxr-xr-x  2 root root   4096 Jan  1  2019 motd.d
+lrwxrwxrwx  1 root root     12 Jan  1  2019 mtab -> /proc/mounts
+-rw-r--r--  1 root root    767 Jan  1  2019 netconfig
+-rw-r--r--  1 root root     58 Jan  1  2019 networks
+-rw-r--r--  1 root root   1516 Jan  1  2019 nsswitch.conf
+-rw-r--r--  1 root root   1498 Jan  1  2019 nsswitch.conf.bak
+drwxr-xr-x  3 root root   4096 Jan  1  2019 openldap
+drwxr-xr-x  2 root root   4096 Jan  1  2019 opt
+lrwxrwxrwx  1 root root     21 Jan  1  2019 os-release -> ../usr/lib/os-release
+drwxr-xr-x  2 root root   4096 Jan  1  2019 pam.d
+-rw-r--r--  1 root root    945 Jan  1  2019 passwd
+-rw-r--r--  1 root root    910 Jan  1  2019 passwd-
+drwxr-xr-x  3 root root   4096 Jan  1  2019 pkcs11
+drwxr-xr-x  6 root root   4096 Jan  1  2019 pki
+drwxr-xr-x  5 root root   4096 Jan  1  2019 pm
+drwxr-xr-x  2 root root   4096 Jan  1  2019 popt.d
+-rw-r--r--  1 root root    233 Jan  1  2019 printcap
+-rw-r--r--  1 root root   2078 Jan  1  2019 profile
+drwxr-xr-x  2 root root   4096 Jan  1  2019 profile.d
+-rw-r--r--  1 root root   6568 Jan  1  2019 protocols
+drwxr-xr-x 10 root root   4096 Jan  1  2019 rc.d
+lrwxrwxrwx  1 root root     10 Jan  1  2019 rc0.d -> rc.d/rc0.d
+lrwxrwxrwx  1 root root     10 Jan  1  2019 rc1.d -> rc.d/rc1.d
+lrwxrwxrwx  1 root root     10 Jan  1  2019 rc2.d -> rc.d/rc2.d
+lrwxrwxrwx  1 root root     10 Jan  1  2019 rc3.d -> rc.d/rc3.d
+lrwxrwxrwx  1 root root     10 Jan  1  2019 rc4.d -> rc.d/rc4.d
+lrwxrwxrwx  1 root root     10 Jan  1  2019 rc5.d -> rc.d/rc5.d
+lrwxrwxrwx  1 root root     10 Jan  1  2019 rc6.d -> rc.d/rc6.d
+lrwxrwxrwx  1 root root     14 Jan  1  2019 redhat-release -> fedora-release
+-rw-r--r--  1 root root    607 Jan  1  2019 resolv.conf
+-rw-r--r--  1 root root   1634 Jan  1  2019 rpc
+drwxr-xr-x  2 root root   4096 Jan  1  2019 rpm
+drwxr-xr-x  2 root root   4096 Jan  1  2019 rwtab.d
+drwxr-xr-x  2 root root   4096 Jan  1  2019 sasl2
+drwxr-xr-x  7 root root   4096 Jan  1  2019 security
+drwxr-xr-x  2 root root   4096 Jan  1  2019 selinux
+-rw-r--r--  1 root root 692241 Jan  1  2019 services
+----------  1 root root    542 Jan  1  2019 shadow
+----------  1 root root    516 Jan  1  2019 shadow-
+-rw-r--r--  1 root root     44 Jan  1  2019 shells
+drwxr-xr-x  2 root root   4096 Jan  1  2019 skel
+drwxr-xr-x  2 root root   4096 Jan  1  2019 ssl
+drwxr-xr-x  2 root root   4096 Jan  1  2019 statetab.d
+-rw-r--r--  1 root root     17 Jan  1  2019 subgid
+-rw-r--r--  1 root root      0 Jan  1  2019 subgid-
+-rw-r--r--  1 root root     17 Jan  1  2019 subuid
+-rw-r--r--  1 root root      0 Jan  1  2019 subuid-
+drwxr-xr-x  3 root root   4096 Jan  1  2019 swid
+drwxr-xr-x  3 root root   4096 Jan  1  2019 sysconfig
+-rw-r--r--  1 root root    449 Jan  1  2019 sysctl.conf
+drwxr-xr-x  2 root root   4096 Jan  1  2019 sysctl.d
+lrwxrwxrwx  1 root root     14 Jan  1  2019 system-release -> fedora-release
+-rw-r--r--  1 root root     31 Jan  1  2019 system-release-cpe
+drwxr-xr-x  5 root root   4096 Jan  1  2019 systemd
+drwxr-xr-x  2 root root   4096 Jan  1  2019 terminfo
+drwxr-xr-x  2 root root   4096 Jan  1  2019 tmpfiles.d
+drwxr-xr-x  2 root root   4096 Jan  1  2019 unbound
+-rw-r--r--  1 root root     28 Jan  1  2019 vconsole.conf
+-rw-r--r--  1 root root   1204 Jan  1  2019 virc
+-rw-r--r--  1 root root    642 Jan  1  2019 xattr.conf
+drwxr-xr-x  4 root root   4096 Jan  1  2019 xdg
+drwxr-xr-x  2 root root   4096 Jan  1  2019 xinetd.d
+drwxr-xr-x  3 root root   4096 Jan  1  2019 yum
+drwxr-xr-x  2 root root   4096 Jan  1  2019 yum.repos.d
+sh-4.4$ cat deadline
+2020 1 1 0 1 0
+sh-4.4$ cat faketimerc 
+2019-1-1 0:1:13
+sh-4.4$ echo 2018 4 15 0 0 0 > deadline
+sh-4.4$ cat deadline 
+2018 4 15 0 0 0
+sh-4.4$ cd /home/ctf/
+sh-4.4$ ls
+sh-4.4$ cat deadline 
+cat: deadline: No such file or directory
+sh-4.4$ cd /usr/bin/
+sh-4.4$ faketime 
+
+Usage: faketime [switches] <timestamp> <program with arguments>
+
+This will run the specified 'program' with the given 'arguments'.
+The program will be tricked into seeing the given 'timestamp' as its starting date and time.
+The clock will continue to run from this timestamp. Please see the manpage (man faketime)
+for advanced options, such as stopping the wall clock and make it run faster or slower.
+
+The optional switches are:
+  -m        : Use the multi-threaded version of libfaketime
+  -f        : Use the advanced timestamp specification format (see manpage)
+
+Examples:
+faketime 'last friday 5 pm' /bin/date
+faketime '2008-12-24 08:15:42' /bin/date
+faketime -f '+2,5y x10,0' /bin/bash -c 'date; while true; do echo $SECONDS ; sleep 1 ; done'
+faketime -f '+2,5y x0,50' /bin/bash -c 'date; while true; do echo $SECONDS ; sleep 1 ; done'
+faketime -f '+2,5y i2,0' /bin/bash -c 'date; while true; do date; sleep 1 ; done'
+In this single case all spawned processes will use the same global clock
+without restaring it at the start of each process.
+
+(Please note that it depends on your locale settings whether . or , has to be used for fractions)
+
+sh-4.4$ /usr/in           
+sh: /usr/in: No such file or directory
+sh-4.4$ /usr/bin
+sh: /usr/bin: Is a directory
+sh-4.4$ faketime 
+
+Usage: faketime [switches] <timestamp> <program with arguments>
+
+This will run the specified 'program' with the given 'arguments'.
+The program will be tricked into seeing the given 'timestamp' as its starting date and time.
+The clock will continue to run from this timestamp. Please see the manpage (man faketime)
+for advanced options, such as stopping the wall clock and make it run faster or slower.
+
+The optional switches are:
+  -m        : Use the multi-threaded version of libfaketime
+  -f        : Use the advanced timestamp specification format (see manpage)
+
+Examples:
+faketime 'last friday 5 pm' /bin/date
+faketime '2008-12-24 08:15:42' /bin/date
+faketime -f '+2,5y x10,0' /bin/bash -c 'date; while true; do echo $SECONDS ; sleep 1 ; done'
+faketime -f '+2,5y x0,50' /bin/bash -c 'date; while true; do echo $SECONDS ; sleep 1 ; done'
+faketime -f '+2,5y i2,0' /bin/bash -c 'date; while true; do date; sleep 1 ; done'
+In this single case all spawned processes will use the same global clock
+without restaring it at the start of each process.
+
+(Please note that it depends on your locale settings whether . or , has to be used for fractions)
+
+sh-4.4$ ls       
+'['				      mkfifo
+ alias				      mknod
+ applydeltarpm			      mkpasswd
+ arch				      mktemp
+ awk				      modulemd-validator-v1
+ b2sum				      more
+ base32				      mount
+ base64				      mountpoint
+ basename			      mv
+ bash				      namei
+ bashbug			      networkctl
+ bashbug-64			      newgidmap
+ bg				      newgrp
+ brotli				      newuidmap
+ busctl				      nice
+ ca-legacy			      nl
+ cal				      nohup
+ captoinfo			      nproc
+ cat				      nsenter
+ catchsegv			      numfmt
+ cd				      od
+ chacl				      openssl
+ chage				      p11-kit
+ chcon				      paste
+ chgrp				      pathchk
+ chmem				      pinky
+ chmod				      pip-3
+ chown				      pip-3.7
+ chrt				      pip3
+ cksum				      pip3.7
+ clear				      pldd
+ cmp				      pr
+ col				      printenv
+ colcrt				      printf
+ colrm				      prlimit
+ column				      ptx
+ combinedeltarpm		      pwd
+ comm				      pwmake
+ command			      pwscore
+ coredumpctl			      pydoc3
+ cp				      pydoc3.7
+ csplit				      python3
+ curl				      python3.7
+ cut				      python3.7m
+ date				      pyvenv
+ db_archive			      pyvenv-3.7
+ db_checkpoint			      raw
+ db_deadlock			      read
+ db_dump			      readlink
+ db_dump185			      realpath
+ db_hotbackup			      rename
+ db_load			      renew-dummy-cert
+ db_log_verify			      renice
+ db_printlog			      reset
+ db_recover			      resolvectl
+ db_replicate			      rev
+ db_stat			      rm
+ db_tuner			      rmdir
+ db_upgrade			      rpm
+ db_verify			      rpm2archive
+ dbus-cleanup-sockets		      rpm2cpio
+ dbus-daemon			      rpmdb
+ dbus-monitor			      rpmdumpheader
+ dbus-run-session		      rpmkeys
+ dbus-send			      rpmquery
+ dbus-test-tool			      rpmverify
+ dbus-update-activation-environment   runcon
+ dbus-uuidgen			      rvi
+ dd				      rview
+ df				      script
+ diff				      scriptreplay
+ diff3				      sdiff
+ dir				      sed
+ dircolors			      seq
+ dirmngr			      setarch
+ dirmngr-client			      setfacl
+ dirname			      setpriv
+ dmesg				      setsid
+ dnf				      setterm
+ dnf-3				      sg
+ du				      sh
+ easy_install-3.7		      sha1sum
+ echo				      sha224sum
+ egrep				      sha256sum
+ eject				      sha384sum
+ env				      sha512sum
+ evmctl				      shred
+ ex				      shuf
+ exec_flag			      sleep
+ expand				      sort
+ expr				      sotruss
+ factor				      split
+ fakecron			      sprof
+ faketime			      stat
+ fallocate			      stdbuf
+ false				      stty
+ fc				      su
+ fg				      sum
+ fgrep				      sync
+ fincore			      systemctl
+ findmnt			      systemd-analyze
+ fips-finish-install		      systemd-ask-password
+ fips-mode-setup		      systemd-cat
+ flock				      systemd-cgls
+ fmt				      systemd-cgtop
+ fold				      systemd-delta
+ g13				      systemd-detect-virt
+ gapplication			      systemd-escape
+ gawk				      systemd-firstboot
+ gdbus				      systemd-inhibit
+ gencat				      systemd-machine-id-setup
+ getconf			      systemd-mount
+ getent				      systemd-notify
+ getfacl			      systemd-path
+ getopt				      systemd-resolve
+ getopts			      systemd-run
+ gio				      systemd-socket-activate
+ gio-launch-desktop		      systemd-stdio-bridge
+ gio-querymodules-64		      systemd-sysusers
+ glib-compile-schemas		      systemd-tmpfiles
+ gpasswd			      systemd-tty-ask-password-agent
+ gpg-agent			      systemd-umount
+ gpg-connect-agent		      tabs
+ gpg-error			      tac
+ gpg-wks-server			      tail
+ gpg2				      tar
+ gpgconf			      taskset
+ gpgme-json			      tee
+ gpgparsemail			      test
+ gpgv2				      tic
+ grep				      timedatectl
+ groups				      timeout
+ gsettings			      toe
+ gtar				      touch
+ gunzip				      tput
+ gzexe				      tr
+ gzip				      true
+ hash				      truncate
+ head				      trust
+ hexdump			      tset
+ hostid				      tsort
+ hostnamectl			      tty
+ i386				      type
+ iconv				      tzselect
+ id				      ul
+ info				      ulimit
+ infocmp			      umask
+ infotocap			      umount
+ init_d				      unalias
+ install			      uname
+ ionice				      uname26
+ ipcmk				      unexpand
+ ipcrm				      uniq
+ ipcs				      unlink
+ isosize			      unshare
+ jobs				      update-ca-trust
+ join				      update-crypto-policies
+ journalctl			      users
+ kill				      utmpdump
+ last				      uuidgen
+ lastb				      uuidparse
+ lastlog			      vdir
+ ldd				      vi
+ link				      view
+ linux32			      wait
+ linux64			      wall
+ ln				      watchgnupg
+ locale				      wc
+ localectl			      wdctl
+ localedef			      whereis
+ logger				      who
+ login				      whoami
+ loginctl			      write
+ logname			      x86_64
+ look				      xmlcatalog
+ ls				      xmllint
+ lsblk				      xmlwf
+ lscpu				      yes
+ lsipc				      yum
+ lslocks			      zcat
+ lslogins			      zcmp
+ lsmem				      zdiff
+ lsns				      zegrep
+ make-dummy-cert		      zfgrep
+ makedb				      zforce
+ makedeltarpm			      zgrep
+ mcookie			      zless
+ md5sum				      zmore
+ mesg				      znew
+ mkdir
+sh-4.4$ cd /home/ctf/
+sh-4.4$ ls
+sh-4.4$ ls -la
+total 20
+drwx------ 2 ctf  ctf  4096 Jan  1  2019 .
+drwxr-xr-x 1 root root 4096 Jan  1  2019 ..
+-rw-r--r-- 1 ctf  ctf    18 Jan  1  2019 .bash_logout
+-rw-r--r-- 1 ctf  ctf   141 Jan  1  2019 .bash_profile
+-rw-r--r-- 1 ctf  ctf   376 Jan  1  2019 .bashrc
+sh-4.4$ time
+user	0m0.02s
+sys	0m0.03s
+sh-4.4$ date
+Tue Jan  1 00:03:12 UTC 2019
+sh-4.4$ faketime 
+
+Usage: faketime [switches] <timestamp> <program with arguments>
+
+This will run the specified 'program' with the given 'arguments'.
+The program will be tricked into seeing the given 'timestamp' as its starting date and time.
+The clock will continue to run from this timestamp. Please see the manpage (man faketime)
+for advanced options, such as stopping the wall clock and make it run faster or slower.
+
+The optional switches are:
+  -m        : Use the multi-threaded version of libfaketime
+  -f        : Use the advanced timestamp specification format (see manpage)
+
+Examples:
+faketime 'last friday 5 pm' /bin/date
+faketime '2008-12-24 08:15:42' /bin/date
+faketime -f '+2,5y x10,0' /bin/bash -c 'date; while true; do echo $SECONDS ; sleep 1 ; done'
+faketime -f '+2,5y x0,50' /bin/bash -c 'date; while true; do echo $SECONDS ; sleep 1 ; done'
+faketime -f '+2,5y i2,0' /bin/bash -c 'date; while true; do date; sleep 1 ; done'
+In this single case all spawned processes will use the same global clock
+without restaring it at the start of each process.
+
+(Please note that it depends on your locale settings whether . or , has to be used for fractions)
+
+sh-4.4$ date
+Tue Jan  1 00:03:28 UTC 2019
+sh-4.4$ cd /etc/
+sh-4.4$ cat faketimerc 
+2019-1-1 0:3:35
+sh-4.4$ cat de
+cat: de: No such file or directory
+sh-4.4$ cat deadline 
+2018 4 15 0 0 0
+sh-4.4$ echo 2019 1 1 0 0 0 > deadline
+sh-4.4$ cat deadline 
+2019 1 1 0 0 0
+sh-4.4$ cat /home/ctf/.bash
+.bash_logout   .bash_profile  .bashrc        
+sh-4.4$ ls                 
+DIR_COLORS		 group-		nsswitch.conf	   selinux
+DIR_COLORS.256color	 gshadow	nsswitch.conf.bak  services
+DIR_COLORS.lightbgcolor  gshadow-	openldap	   shadow
+GREP_COLORS		 gss		opt		   shadow-
+X11			 host.conf	os-release	   shells
+adjtime			 hostname	pam.d		   skel
+aliases			 hosts		passwd		   ssl
+alternatives		 hosts.allow	passwd-		   statetab.d
+bash_completion.d	 hosts.deny	pkcs11		   subgid
+bashrc			 init.d		pki		   subgid-
+bindresvport.blacklist	 inittab	pm		   subuid
+binfmt.d		 inputrc	popt.d		   subuid-
+chkconfig.d		 issue		printcap	   swid
+cifs-utils		 issue.net	profile		   sysconfig
+crypto-policies		 krb5.conf	profile.d	   sysctl.conf
+crypttab		 krb5.conf.d	protocols	   sysctl.d
+csh.cshrc		 ld.so.cache	rc.d		   system-release
+csh.login		 ld.so.conf	rc0.d		   system-release-cpe
+dbus-1			 ld.so.conf.d	rc1.d		   systemd
+deadline		 libaudit.conf	rc2.d		   terminfo
+default			 libreport	rc3.d		   tmpfiles.d
+dnf			 locale.conf	rc4.d		   unbound
+environment		 localtime	rc5.d		   vconsole.conf
+ethertypes		 login.defs	rc6.d		   virc
+exports			 logrotate.d	redhat-release	   xattr.conf
+faketimerc		 machine-id	resolv.conf	   xdg
+fedora-release		 motd		rpc		   xinetd.d
+filesystems		 motd.d		rpm		   yum
+gcrypt			 mtab		rwtab.d		   yum.repos.d
+gnupg			 netconfig	sasl2
+group			 networks	security
+sh-4.4$ cat deadline 
+2019 1 1 0 0 0
+sh-4.4$ data
+sh: data: command not found
+sh-4.4$ datt
+sh: datt: command not found
+sh-4.4$ date
+Tue Jan  1 00:04:23 UTC 2019
+sh-4.4$ time
+user	0m0.04s
+sys	0m0.04s
+sh-4.4$ cat deadline
+2019 1 1 0 0 0
+sh-4.4$ cat faketimerc 
+2019-1-1 0:4:38
+sh-4.4$ echo "2019-1-1 0:4:40" > deadline
+sh-4.4$ cat de
+cat: de: No such file or directory
+sh-4.4$ cat deadline
+2019-1-1 0:4:40
+sh-4.4$ echo "2019 1 1 0 4 40" > deadline
+sh-4.4$ cat deadline 
+2019 1 1 0 4 40
+sh-4.4$ faketime 
+
+Usage: faketime [switches] <timestamp> <program with arguments>
+
+This will run the specified 'program' with the given 'arguments'.
+The program will be tricked into seeing the given 'timestamp' as its starting date and time.
+The clock will continue to run from this timestamp. Please see the manpage (man faketime)
+for advanced options, such as stopping the wall clock and make it run faster or slower.
+
+The optional switches are:
+  -m        : Use the multi-threaded version of libfaketime
+  -f        : Use the advanced timestamp specification format (see manpage)
+
+Examples:
+faketime 'last friday 5 pm' /bin/date
+faketime '2008-12-24 08:15:42' /bin/date
+faketime -f '+2,5y x10,0' /bin/bash -c 'date; while true; do echo $SECONDS ; sleep 1 ; done'
+faketime -f '+2,5y x0,50' /bin/bash -c 'date; while true; do echo $SECONDS ; sleep 1 ; done'
+faketime -f '+2,5y i2,0' /bin/bash -c 'date; while true; do date; sleep 1 ; done'
+In this single case all spawned processes will use the same global clock
+without restaring it at the start of each process.
+
+(Please note that it depends on your locale settings whether . or , has to be used for fractions)
+
+sh-4.4$ cat faketimerc 
+2019-1-1 0:5:28
+sh-4.4$ cat deadline 
+2019 1 1 0 4 40
+sh-4.4$ echo "2019 1 1 0 6 40" > deadline
+sh-4.4$ cat faketimerc 
+2019-1-1 0:5:45
+sh-4.4$ cat deadline 
+2019 1 1 0 6 40
+sh-4.4$ cd /home/ctf/.bash
+.bash_logout   .bash_profile  .bashrc        
+sh-4.4$ ls                
+DIR_COLORS		 group-		nsswitch.conf	   selinux
+DIR_COLORS.256color	 gshadow	nsswitch.conf.bak  services
+DIR_COLORS.lightbgcolor  gshadow-	openldap	   shadow
+GREP_COLORS		 gss		opt		   shadow-
+X11			 host.conf	os-release	   shells
+adjtime			 hostname	pam.d		   skel
+aliases			 hosts		passwd		   ssl
+alternatives		 hosts.allow	passwd-		   statetab.d
+bash_completion.d	 hosts.deny	pkcs11		   subgid
+bashrc			 init.d		pki		   subgid-
+bindresvport.blacklist	 inittab	pm		   subuid
+binfmt.d		 inputrc	popt.d		   subuid-
+chkconfig.d		 issue		printcap	   swid
+cifs-utils		 issue.net	profile		   sysconfig
+crypto-policies		 krb5.conf	profile.d	   sysctl.conf
+crypttab		 krb5.conf.d	protocols	   sysctl.d
+csh.cshrc		 ld.so.cache	rc.d		   system-release
+csh.login		 ld.so.conf	rc0.d		   system-release-cpe
+dbus-1			 ld.so.conf.d	rc1.d		   systemd
+deadline		 libaudit.conf	rc2.d		   terminfo
+default			 libreport	rc3.d		   tmpfiles.d
+dnf			 locale.conf	rc4.d		   unbound
+environment		 localtime	rc5.d		   vconsole.conf
+ethertypes		 login.defs	rc6.d		   virc
+exports			 logrotate.d	redhat-release	   xattr.conf
+faketimerc		 machine-id	resolv.conf	   xdg
+fedora-release		 motd		rpc		   xinetd.d
+filesystems		 motd.d		rpm		   yum
+gcrypt			 mtab		rwtab.d		   yum.repos.d
+gnupg			 netconfig	sasl2
+group			 networks	security
+sh-4.4$ ls
+DIR_COLORS		 group-		nsswitch.conf	   selinux
+DIR_COLORS.256color	 gshadow	nsswitch.conf.bak  services
+DIR_COLORS.lightbgcolor  gshadow-	openldap	   shadow
+GREP_COLORS		 gss		opt		   shadow-
+X11			 host.conf	os-release	   shells
+adjtime			 hostname	pam.d		   skel
+aliases			 hosts		passwd		   ssl
+alternatives		 hosts.allow	passwd-		   statetab.d
+bash_completion.d	 hosts.deny	pkcs11		   subgid
+bashrc			 init.d		pki		   subgid-
+bindresvport.blacklist	 inittab	pm		   subuid
+binfmt.d		 inputrc	popt.d		   subuid-
+chkconfig.d		 issue		printcap	   swid
+cifs-utils		 issue.net	profile		   sysconfig
+crypto-policies		 krb5.conf	profile.d	   sysctl.conf
+crypttab		 krb5.conf.d	protocols	   sysctl.d
+csh.cshrc		 ld.so.cache	rc.d		   system-release
+csh.login		 ld.so.conf	rc0.d		   system-release-cpe
+dbus-1			 ld.so.conf.d	rc1.d		   systemd
+deadline		 libaudit.conf	rc2.d		   terminfo
+default			 libreport	rc3.d		   tmpfiles.d
+dnf			 locale.conf	rc4.d		   unbound
+environment		 localtime	rc5.d		   vconsole.conf
+ethertypes		 login.defs	rc6.d		   virc
+exports			 logrotate.d	redhat-release	   xattr.conf
+faketimerc		 machine-id	resolv.conf	   xdg
+fedora-release		 motd		rpc		   xinetd.d
+filesystems		 motd.d		rpm		   yum
+gcrypt			 mtab		rwtab.d		   yum.repos.d
+gnupg			 netconfig	sasl2
+group			 networks	security
+sh-4.4$ cat /etc/faketimerc 
+2019-1-1 0:10:35
+sh-4.4$ cat /etc/deadline 
+2019 1 1 0 11 0
+sh-4.4$ cat /etc/faketimerc 
+2019-1-1 0:10:47
+sh-4.4$ cat /etc/faketimerc 
+2019-1-1 0:10:51
+sh-4.4$ cat /etc/faketimerc 
+2019-1-1 0:10:54
+sh-4.4$ cat /etc/faketimerc 
+2019-1-1 0:10:59
+sh-4.4$ cat /etc/faketimerc 
+2019-1-1 0:11:0
+sh-4.4$ cat /etc/deadline 
+2019 1 1 0 11 0
+sh-4.4$ ls  
+DIR_COLORS		 group-		nsswitch.conf	   selinux
+DIR_COLORS.256color	 gshadow	nsswitch.conf.bak  services
+DIR_COLORS.lightbgcolor  gshadow-	openldap	   shadow
+GREP_COLORS		 gss		opt		   shadow-
+X11			 host.conf	os-release	   shells
+adjtime			 hostname	pam.d		   skel
+aliases			 hosts		passwd		   ssl
+alternatives		 hosts.allow	passwd-		   statetab.d
+bash_completion.d	 hosts.deny	pkcs11		   subgid
+bashrc			 init.d		pki		   subgid-
+bindresvport.blacklist	 inittab	pm		   subuid
+binfmt.d		 inputrc	popt.d		   subuid-
+chkconfig.d		 issue		printcap	   swid
+cifs-utils		 issue.net	profile		   sysconfig
+crypto-policies		 krb5.conf	profile.d	   sysctl.conf
+crypttab		 krb5.conf.d	protocols	   sysctl.d
+csh.cshrc		 ld.so.cache	rc.d		   system-release
+csh.login		 ld.so.conf	rc0.d		   system-release-cpe
+dbus-1			 ld.so.conf.d	rc1.d		   systemd
+deadline		 libaudit.conf	rc2.d		   terminfo
+default			 libreport	rc3.d		   tmpfiles.d
+dnf			 locale.conf	rc4.d		   unbound
+environment		 localtime	rc5.d		   vconsole.conf
+ethertypes		 login.defs	rc6.d		   virc
+exports			 logrotate.d	redhat-release	   xattr.conf
+faketimerc		 machine-id	resolv.conf	   xdg
+fedora-release		 motd		rpc		   xinetd.d
+filesystems		 motd.d		rpm		   yum
+gcrypt			 mtab		rwtab.d		   yum.repos.d
+gnupg			 netconfig	sasl2
+group			 networks	security
+sh-4.4$ vi /usr/bin/fakecron 
+sh-4.4$ cd /home/ctf/
+.bash_logout   .bash_profile  .bashrc        deadline       flag.txt
+sh-4.4$ cd /home/ctf/
+sh-4.4$ cat flag.txt 
+"WPI{L1nUxH@ck3r01a4}"
+sh-4.4$ 
+

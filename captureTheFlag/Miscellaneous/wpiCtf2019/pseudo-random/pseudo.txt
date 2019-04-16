@@ -1,0 +1,140 @@
+srimbp:captureTheFlag sri$ ssh ctf@prand.wpictf.xyz
+The authenticity of host 'prand.wpictf.xyz (35.153.101.231)' can't be established.
+ECDSA key fingerprint is SHA256:ecNeJD+7uhrOGM5Xg53PpF88E87FxM+8Up5WOZ2gUeY.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'prand.wpictf.xyz,35.153.101.231' (ECDSA) to the list of known hosts.
+ctf@prand.wpictf.xyz's password: 
+sh-4.4$ 
+sh-4.4$ 
+sh-4.4$ ls
+bin   dev  home  lib64	     media  opt   root	sbin  sys  usr
+boot  etc  lib	 lost+found  mnt    proc  run	srv   tmp  var
+sh-4.4$ cd /dev/
+sh-4.4$ ls
+console  fd    mqueue  ptmx  random  stderr  stdout  urandom
+core	 full  null    pts   shm     stdin   tty     zero
+sh-4.4$ cat urandom 
+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
+sh-4.4$ cat random 
+Salted__?>
+          [?/?=????m?k???V?SӨ?
+                              %텤'Ϊ0KIWi?Գro?ۃ?:
+e???i????|?|[V?e??=a???ȽUP?R?k??l?????1|??ϕ!?L??9??%?(?K??s$?U f_??? 	?Up?%ޏ?#?Q??F?4??+??x?pc?&?-?ַ?쒓+c??њ?K??.??9?g??W??l2?`!?????>BS?G???k?de?????4?Z?2?l???$*[????S(?3m_?
+?
+???k????w4??`hMfbi)?H?ˠZ?!ሥ?*???Fw?Ed?aĄ???\?_???TWLBE>J??ڼ?(?"?g????0݁?@ͨ{1?oe?#??I%?O?s*?+?D{?????d??@?[?2?????F??̷&??rv	Qw?Ռ$Tz?;e?3s?????=?W??i?????YV?kϿwl??`?@(???V??&i?y??|?쩷?҃+??\q><?{K-?5??1?Y?	<?:?d54?hm
+                                                   ????E3Х?sh-4.4$ 
+sh-4.4$ 
+sh-4.4$ 
+sh-4.4$ file urandom 
+urandom: ASCII text
+sh-4.4$ file random 
+random: openssl enc'd data with salted password
+sh-4.4$ openssl enc -aes-256-cbc -d -a -in random -out urandom 
+enter aes-256-cbc decryption password:
+Can't open urandom for writing, Permission denied
+140014998443840:error:0200100D:system library:fopen:Permission denied:crypto/bio/bss_file.c:72:fopen('urandom','wb')
+140014998443840:error:2006D002:BIO routines:BIO_new_file:system lib:crypto/bio/bss_file.c:81:
+sh-4.4$ openssl -d -a -in random -out urandom
+Invalid command '-d'; type "help" for a list.
+sh-4.4$ openssl enc-d -a -in random -out urandom
+Invalid command 'enc-d'; type "help" for a list.
+sh-4.4$ openssl enc -d -a -in random -out urandom
+Can't open urandom for writing, Permission denied
+139934791857984:error:0200100D:system library:fopen:Permission denied:crypto/bio/bss_file.c:72:fopen('urandom','wb')
+139934791857984:error:2006D002:BIO routines:BIO_new_file:system lib:crypto/bio/bss_file.c:81:
+sh-4.4$ openssl enc -aes-256-cbc -d -in random -out urandom
+enter aes-256-cbc decryption password:
+Can't open urandom for writing, Permission denied
+139800904869696:error:0200100D:system library:fopen:Permission denied:crypto/bio/bss_file.c:72:fopen('urandom','wb')
+139800904869696:error:2006D002:BIO routines:BIO_new_file:system lib:crypto/bio/bss_file.c:81:
+sh-4.4$ openssl enc -aes-256-cbc -d -in random -pass urandom
+Invalid password argument "urandom"
+Error getting password
+sh-4.4$ openssl enc -aes-256-cbc -d -a -in random -pass urandom
+Invalid password argument "urandom"
+Error getting password
+sh-4.4$ openssl enc -aes-256-cbc -d -a -in random -pass urandom
+Invalid password argument "urandom"
+Error getting password
+sh-4.4$ openssl enc -aes-256-cbc -d -a -in random -pass file:urandom
+error reading input file
+sh-4.4$ openssl enc -aes-256-cbc -d -a -in random -k urandom
+error reading input file
+sh-4.4$ openssl enc -aes-256-cbc -d -a -in random -out ans -k urandom
+Can't open ans for writing, Permission denied
+140382820632384:error:0200100D:system library:fopen:Permission denied:crypto/bio/bss_file.c:72:fopen('ans','wb')
+140382820632384:error:2006D002:BIO routines:BIO_new_file:system lib:crypto/bio/bss_file.c:81:
+sh-4.4$ openssl enc -aes-256-cbc -d -a -in random -k urandom
+error reading input file
+sh-4.4$ openssl enc -aes-256-cbc -d -a -in random -kfile urandom
+error reading input file
+sh-4.4$ openssl enc -aes-256-cbc -d -in random -kfile urandom
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+Being holy in our church means installing a wholly free operating system--GNU/Linux is a good choice--and not putting any non-free software on your computer. Join the Church of Emacs, and you too can be a saint!
+And lo, it came to pass, that the neophyte encountered the Beplattered One and humbly posed the question "Oh great master, is it a sin to use vi?" And St. IGNUcuis dist thus reply unto him, "No, my young hacker friend, it is not a sin. It is a penance."
+WPI{@11_Ur_d3v1c3s_r_b3l0ng_2_us}
+sh-4.4$ openssl enc -aes-256-cbc -d -in random -k urandom
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+??
+j?2#)?X??!Ŭ?_q?B
+                U????2C??U~??/F??o?????w?{??X?:Õ??.?wW?-g??/)͐?	???T??X	?D?ρ???*??z?\sĘ?????w??
+???ӧnµ??	????B&?S?? o?5?
+bad decrypt
+140210565916480:error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt:crypto/evp/evp_enc.c:603:
+??㫿??j{?&??t??5????,?u????Ą?U??L??Å?$??}]p̨̎\?s???(o??c?]@A3??	xǣw?R(???۳N????BѼE?#]!??+??)?+??B?
+              0??P???ը??C?5?
+                            ?nv??P<b&qN`?\??V??`_??,?o?
+                                                       `Ǚ?*e5?Pw??;8?_Œx?#?qZ?
+                                                                              ?????}?Xj?J1?O^2x?1'?Ks??7????k?i?W8???2=A?z?n?:?;>`???(??G^?^A:dsh-4.4$ 
+sh-4.4$ 
+sh-4.4$ openssl enc -aes-256-cbc -d -in random -kfile urandom
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+Being holy in our church means installing a wholly free operating system--GNU/Linux is a good choice--and not putting any non-free software on your computer. Join the Church of Emacs, and you too can be a saint!
+And lo, it came to pass, that the neophyte encountered the Beplattered One and humbly posed the question "Oh great master, is it a sin to use vi?" And St. IGNUcuis dist thus reply unto him, "No, my young hacker friend, it is not a sin. It is a penance."
+WPI{@11_Ur_d3v1c3s_r_b3l0ng_2_us}
+sh-4.4$ 
