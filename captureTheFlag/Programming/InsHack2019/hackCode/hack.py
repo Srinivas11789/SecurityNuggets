@@ -23,7 +23,7 @@ url = "https://hack-code.ctf.insecurity-insa.fr/static/routes.txt"
 # Get all the routes
 resp, cookie = get(url, "")
 routes = resp.split("\n")
-#routes = ["c,b,a", "d,a,g", "b,c,e", "f,d,g"]
+routes = ["c,b,a", "d,a,g", "b,c,e", "f,d,g"]
 
 # Get all unique routers totally
 all_the_routers = []
