@@ -1,0 +1,4 @@
+* https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/
+* https://pentestmag.com/exploiting-the-entity-xme-xml-external-entity-injection/
+* https://ctftime.org/writeup/15808
+
