@@ -1,0 +1,4 @@
+srimbp-186:E_TOO_EASY sri$
+srimbp-186:E_TOO_EASY sri$ python get_flag.py
+cybrics{4b646c7985fec6189dadf8822955b034}
+srimbp-186:E_TOO_EASY sri$

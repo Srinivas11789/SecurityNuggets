@@ -1,0 +1,11 @@
+# Just connecting to the server was enough
+srimbp-186:falco sri$ nc chall.2019.redpwn.net 4001
+So you want the flag, I see
+You should stop
+Stealing is wrong
+You wouldn't steal a car
+Well...
+Okay
+But know this
+You are irredeemably a bad person
+flag{st341ing_is_wr0ng}
