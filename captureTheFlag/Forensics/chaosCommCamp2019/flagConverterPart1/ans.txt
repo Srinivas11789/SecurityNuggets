@@ -1,0 +1,3 @@
+srimbp-186:ebooks sri$ strings flagconverter.dmp | grep -ir "ALLES{"
+(standard input):ALLES{f0r3n51k_15_50m3t1m35_t00_345y}
+(standard input):ALLES{f0r3n51k_15_50m3t1m35_t00_345y}
