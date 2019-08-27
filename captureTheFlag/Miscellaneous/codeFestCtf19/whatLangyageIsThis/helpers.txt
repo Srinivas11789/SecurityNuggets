@@ -1,0 +1,5 @@
+# It is GoldFish language
+https://esolangs.org/wiki/Goldfish/Implementation
+https://esolangs.org/wiki/Hello_world_program_in_esoteric_languages
+https://en.wikipedia.org/wiki/Esoteric_programming_language
+https://esolangs.org/wiki/Joke_language_list
