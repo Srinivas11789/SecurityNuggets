@@ -1,0 +1,105 @@
+(env) srimbp-186:inception sri$
+(env) srimbp-186:inception sri$
+(env) srimbp-186:inception sri$
+(env) srimbp-186:inception sri$ unzip chall.jpeg.zip
+Archive:  chall.jpeg.zip
+  inflating: chall.jpeg
+(env) srimbp-186:inception sri$ ls
+chall.jpeg	chall.jpeg.zip
+(env) srimbp-186:inception sri$ exiftool chall.jpeg
+ExifTool Version Number         : 11.30
+File Name                       : chall.jpeg
+Directory                       : .
+File Size                       : 109 kB
+File Modification Date/Time     : 2019:09:06 08:40:40-07:00
+File Access Date/Time           : 2019:09:07 18:31:25-07:00
+File Inode Change Date/Time     : 2019:09:07 18:31:23-07:00
+File Permissions                : rw-r--r--
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+JFIF Version                    : 1.01
+Resolution Unit                 : inches
+X Resolution                    : 72
+Y Resolution                    : 72
+Profile CMM Type                : Linotronic
+Profile Version                 : 2.1.0
+Profile Class                   : Display Device Profile
+Color Space Data                : RGB
+Profile Connection Space        : XYZ
+Profile Date Time               : 1998:02:09 06:49:00
+Profile File Signature          : acsp
+Primary Platform                : Microsoft Corporation
+CMM Flags                       : Not Embedded, Independent
+Device Manufacturer             : Hewlett-Packard
+Device Model                    : sRGB
+Device Attributes               : Reflective, Glossy, Positive, Color
+Rendering Intent                : Perceptual
+Connection Space Illuminant     : 0.9642 1 0.82491
+Profile Creator                 : Hewlett-Packard
+Profile ID                      : 0
+Profile Copyright               : Copyright (c) 1998 Hewlett-Packard Company
+Profile Description             : sRGB IEC61966-2.1
+Media White Point               : 0.95045 1 1.08905
+Media Black Point               : 0 0 0
+Red Matrix Column               : 0.43607 0.22249 0.01392
+Green Matrix Column             : 0.38515 0.71687 0.09708
+Blue Matrix Column              : 0.14307 0.06061 0.7141
+Device Mfg Desc                 : IEC http://www.iec.ch
+Device Model Desc               : IEC 61966-2.1 Default RGB colour space - sRGB
+Viewing Cond Desc               : Reference Viewing Condition in IEC61966-2.1
+Viewing Cond Illuminant         : 19.6445 20.3718 16.8089
+Viewing Cond Surround           : 3.92889 4.07439 3.36179
+Viewing Cond Illuminant Type    : D50
+Luminance                       : 76.03647 80 87.12462
+Measurement Observer            : CIE 1931
+Measurement Backing             : 0 0 0
+Measurement Geometry            : Unknown
+Measurement Flare               : 0.999%
+Measurement Illuminant          : D65
+Technology                      : Cathode Ray Tube Display
+Red Tone Reproduction Curve     : (Binary data 2060 bytes, use -b option to extract)
+Green Tone Reproduction Curve   : (Binary data 2060 bytes, use -b option to extract)
+Blue Tone Reproduction Curve    : (Binary data 2060 bytes, use -b option to extract)
+Image Width                     : 1267
+Image Height                    : 950
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Image Size                      : 1267x950
+Megapixels                      : 1.2
+(env) srimbp-186:inception sri$ imginfo chall.jpeg
+^C
+(env) srimbp-186:inception sri$ binwalk chall.jpeg
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01
+382           0x17E           Copyright string: "Copyright (c) 1998 Hewlett-Packard Company"
+110955        0x1B16B         PNG image, 400 x 400, 1-bit colormap, non-interlaced
+111014        0x1B1A6         Zlib compressed data, default compression
+
+(env) srimbp-186:inception sri$ binwalk --dd=.* chall.jpeg
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01
+382           0x17E           Copyright string: "Copyright (c) 1998 Hewlett-Packard Company"
+110955        0x1B16B         PNG image, 400 x 400, 1-bit colormap, non-interlaced
+111014        0x1B1A6         Zlib compressed data, default compression
+
+(env) srimbp-186:inception sri$ ls
+_chall.jpeg.extracted	chall.jpeg		chall.jpeg.zip
+(env) srimbp-186:inception sri$ cd _chall.jpeg.extracted/
+(env) srimbp-186:_chall.jpeg.extracted sri$ ls
+0	17E	1B16B	1B1A6
+(env) srimbp-186:_chall.jpeg.extracted sri$ file 1B16B
+1B16B: PNG image data, 400 x 400, 1-bit colormap, non-interlaced
+(env) srimbp-186:_chall.jpeg.extracted sri$ strings 1B16B | grep "DCTF"
+(env) srimbp-186:_chall.jpeg.extracted sri$ strings 17E | grep "DCTF"
+(env) srimbp-186:_chall.jpeg.extracted sri$ zbarimg 1B16B
+QR-Code:DCTF{394a6dc71dee0bc7de700d28da66c836a534a72d417b1f25b6776d35a82b07f0}
+scanned 1 barcode symbols from 1 images in 0.01 seconds
+
+(env) srimbp-186:_chall.jpeg.extracted sri$

@@ -1,0 +1,36 @@
+srimbp-186:krypton sri$ python
+Python 2.7.15 (default, Jan 12 2019, 21:07:57)
+[GCC 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> \x44\x2d\x43\x54\x46\x20\x32\x30\x31\x39
+  File "<stdin>", line 1
+    \x44\x2d\x43\x54\x46\x20\x32\x30\x31\x39
+                                           ^
+SyntaxError: unexpected character after line continuation character
+>>> a = "\x44\x2d\x43\x54\x46\x20\x32\x30\x31\x39"
+>>> a
+'D-CTF 2019'
+>>> chr("44")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: an integer is required
+>>> chr(44)
+','
+>>> 0x44
+68
+>>> chr(68)
+'D'
+>>> "0x44".decode("hex")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/hex_codec.py", line 42, in hex_decode
+    output = binascii.a2b_hex(input)
+TypeError: Non-hexadecimal digit found
+>>> "0x44".encode("hex")
+'30783434'
+>>> "44".decode("hex")
+'D'
+>>> int(1337, 2)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>

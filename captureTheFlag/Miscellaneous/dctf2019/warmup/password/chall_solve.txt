@@ -1,0 +1,58 @@
+(env) srimbp-186:warmup sri$ vi chall.pyc
+(env) srimbp-186:warmup sri$ pip install uncompyle6
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Collecting uncompyle6
+  Downloading https://files.pythonhosted.org/packages/57/87/a008874554d2c05f4521afef2acbab54342b8ff58898b1508e4754abc308/uncompyle6-3.4.0-py27-none-any.whl (237kB)
+     |████████████████████████████████| 245kB 1.7MB/s
+Collecting spark-parser<1.9.0,>=1.8.9 (from uncompyle6)
+  Downloading https://files.pythonhosted.org/packages/d4/7f/8ac36ff59340cd63c46370c366fd023f3a458d4819cb58df40072d470e07/spark_parser-1.8.9-py2-none-any.whl
+Collecting xdis<4.1.0,>=4.0.3 (from uncompyle6)
+  Downloading https://files.pythonhosted.org/packages/56/05/192bfa6c10068a4d6cbed0d5d86f47e589d61783b2069c6321e7757043fe/xdis-4.0.3-py27-none-any.whl (94kB)
+     |████████████████████████████████| 102kB 4.2MB/s
+Collecting click (from spark-parser<1.9.0,>=1.8.9->uncompyle6)
+  Downloading https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl (81kB)
+     |████████████████████████████████| 81kB 4.7MB/s
+Installing collected packages: click, spark-parser, xdis, uncompyle6
+Successfully installed click-7.0 spark-parser-1.8.9 uncompyle6-3.4.0 xdis-4.0.3
+(env) srimbp-186:warmup sri$ uncomp
+uncompress  uncompyle6
+(env) srimbp-186:warmup sri$ uncompyle6 chall.pyc
+# uncompyle6 version 3.4.0
+# Python bytecode 2.7 (62211)
+# Decompiled from: Python 2.7.10 (default, Feb 22 2019, 21:55:15)
+# [GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.37.14)]
+# Embedded file name: chall.py
+# Compiled at: 2019-09-06 02:24:05
+a = 'DCTF{09fa'
+c = '4d3142a6a'
+b = '7ab70e9aa'
+f = '1929d62e0'
+g = '805934d86'
+d = 'd4b55ea5b'
+e = '1a436b536'
+h = '59eadd}'
+flag = a + b + c + d + e + f + g + h
+password = 'Pass999990000!!!))))'
+print 'Enter the password: '
+buf = raw_input()
+if password == buf:
+    print flag
+else:
+    print 'Wrong password!'
+# okay decompiling chall.pyc
+(env) srimbp-186:warmup sri$ python
+Python 2.7.10 (default, Feb 22 2019, 21:55:15)
+[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.37.14)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a = 'DCTF{09fa'
+>>> c = '4d3142a6a'
+>>> b = '7ab70e9aa'
+>>> f = '1929d62e0'
+>>> g = '805934d86'
+>>> d = 'd4b55ea5b'
+>>> e = '1a436b536'
+>>> h = '59eadd}'
+>>> flag = a + b + c + d + e + f + g + h
+>>> flag
+'DCTF{09fa7ab70e9aa4d3142a6ad4b55ea5b1a436b5361929d62e0805934d8659eadd}'
+>>>

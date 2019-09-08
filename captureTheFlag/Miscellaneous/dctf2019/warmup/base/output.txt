@@ -1,0 +1,19 @@
+(env) srimbp-186:base sri$ python base.py 206.81.24.129 4441 "Input:"
+[+] Opening connection to 206.81.24.129 on port 4441: Done
+What is the value of <<77727845>> in hex?
+Input:
+77727845
+0x4a20865
+ What is the value of <<68646174656f7a7778627a6862697770796d727a>> in ASCII?
+Input:
+68646174656f7a7778627a6862697770796d727a
+hdateozwxbzhbiwpymrz
+What is the value of <<0160 0155 0142 0144 0152 0142 0166 0160 0157 0164 0143 0146 0161 0172 0146 0146 0156 0154 0157 0160>> in ASCII?
+Input:
+pmbdjbvpotcfqzffnlop
+DCTF{1DC93CBD89FF120030210E09EEDFF52FEE06DE5973BF39CC05FA3BB22E075E43}
+Timeout
+
+[*] Switching to interactive mode
+[*] Got EOF while reading in interactive
+$
