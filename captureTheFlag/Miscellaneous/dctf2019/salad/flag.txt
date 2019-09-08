@@ -1,0 +1,2 @@
+(env) srimbp-186:salad sri$ go run salad.go
+DCTF{b3cf67c8a4559247641d321fb60f1be7751b4075dfe72ca351f0072131e6ddb1}
