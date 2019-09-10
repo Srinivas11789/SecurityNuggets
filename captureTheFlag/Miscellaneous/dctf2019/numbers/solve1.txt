@@ -1,0 +1,1018 @@
+Sending... 18
+([' Total Score:  642', "My friend's move:  1", 'Total Score:  641', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 641
+My move is: 18
+Sending... 18
+([' Total Score:  623', "My friend's move:  17", 'Total Score:  606', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 606
+My move is: 18
+Sending... 18
+([' Total Score:  588', "My friend's move:  1", 'Total Score:  587', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 587
+My move is: 18
+Sending... 18
+([' Total Score:  569', "My friend's move:  17", 'Total Score:  552', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 552
+My move is: 18
+Sending... 18
+([' Total Score:  534', "My friend's move:  1", 'Total Score:  533', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 533
+My move is: 18
+Sending... 18
+([' Total Score:  515', "My friend's move:  17", 'Total Score:  498', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 498
+My move is: 18
+Sending... 18
+([' Total Score:  480', "My friend's move:  1", 'Total Score:  479', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 479
+My move is: 18
+Sending... 18
+([' Total Score:  461', "My friend's move:  17", 'Total Score:  444', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 444
+My move is: 18
+Sending... 18
+([' Total Score:  426', "My friend's move:  1", 'Total Score:  425', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 425
+My move is: 18
+Sending... 18
+([' Total Score:  407', "My friend's move:  17", 'Total Score:  390', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 390
+My move is: 18
+Sending... 18
+([' Total Score:  372', "My friend's move:  1", 'Total Score:  371', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 371
+My move is: 18
+Sending... 18
+([' Total Score:  353', "My friend's move:  17", 'Total Score:  336', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 336
+My move is: 18
+Sending... 18
+([' Total Score:  318', "My friend's move:  1", 'Total Score:  317', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 317
+My move is: 18
+Sending... 18
+([' Total Score:  299', "My friend's move:  17", 'Total Score:  282', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 282
+My move is: 18
+Sending... 18
+([' Total Score:  264', "My friend's move:  1", 'Total Score:  263', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 263
+My move is: 18
+Sending... 18
+([' Total Score:  245', "My friend's move:  17", 'Total Score:  228', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 228
+My move is: 18
+Sending... 18
+([' Total Score:  210', "My friend's move:  1", 'Total Score:  209', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 209
+My move is: 18
+Sending... 18
+([' Total Score:  191', "My friend's move:  17", 'Total Score:  174', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 174
+My move is: 18
+Sending... 18
+([' Total Score:  156', "My friend's move:  1", 'Total Score:  155', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 155
+My move is: 18
+Sending... 18
+([' Total Score:  137', "My friend's move:  17", 'Total Score:  120', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 120
+My move is: 18
+Sending... 18
+([' Total Score:  102', "My friend's move:  1", 'Total Score:  101', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 101
+My move is: 18
+Sending... 18
+([' Total Score:  83', "My friend's move:  17", 'Total Score:  66', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 66
+My move is: 18
+Sending... 18
+([' Total Score:  48', "My friend's move:  1", 'Total Score:  47', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 47
+My move is: 11
+Sending... 11
+([' Total Score:  36', "My friend's move:  4", 'Total Score:  32', 'Your move:'], [1, 2, 3, 4, 10, 11, 13, 14, 17, 18])
+Current Score is: 32
+My move is: 18
+Sending... 18
+[' Total Score:  14', 'Well done this round! :-)', 'Round 4/10', 'Allowed moves:', '[14, 16, 19, 4, 2, 17, 15, 9, 18, 11]', 'Total Score:  1000', 'Your move:']
+Current Score is: 1000
+My move is: 19
+Sending... 19
+([' Total Score:  981', "My friend's move:  18", 'Total Score:  963', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 963
+My move is: 19
+Sending... 19
+([' Total Score:  944', "My friend's move:  19", 'Total Score:  925', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 925
+My move is: 19
+Sending... 19
+([' Total Score:  906', "My friend's move:  15", 'Total Score:  891', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 891
+My move is: 19
+Sending... 19
+([' Total Score:  872', "My friend's move:  14", 'Total Score:  858', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 858
+My move is: 19
+Sending... 19
+([' Total Score:  839', "My friend's move:  14", 'Total Score:  825', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 825
+My move is: 19
+Sending... 19
+([' Total Score:  806', "My friend's move:  14", 'Total Score:  792', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 792
+My move is: 19
+Sending... 19
+([' Total Score:  773', "My friend's move:  14", 'Total Score:  759', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 759
+My move is: 19
+Sending... 19
+([' Total Score:  740', "My friend's move:  14", 'Total Score:  726', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 726
+My move is: 19
+Sending... 19
+([' Total Score:  707', "My friend's move:  14", 'Total Score:  693', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 693
+My move is: 19
+Sending... 19
+([' Total Score:  674', "My friend's move:  14", 'Total Score:  660', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 660
+My move is: 19
+Sending... 19
+([' Total Score:  641', "My friend's move:  14", 'Total Score:  627', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 627
+My move is: 19
+Sending... 19
+([' Total Score:  608', "My friend's move:  14", 'Total Score:  594', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 594
+My move is: 19
+Sending... 19
+([' Total Score:  575', "My friend's move:  14", 'Total Score:  561', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 561
+My move is: 19
+Sending... 19
+([' Total Score:  542', "My friend's move:  14", 'Total Score:  528', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 528
+My move is: 19
+Sending... 19
+([' Total Score:  509', "My friend's move:  14", 'Total Score:  495', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 495
+My move is: 19
+Sending... 19
+([' Total Score:  476', "My friend's move:  14", 'Total Score:  462', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 462
+My move is: 19
+Sending... 19
+([' Total Score:  443', "My friend's move:  14", 'Total Score:  429', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 429
+My move is: 19
+Sending... 19
+([' Total Score:  410', "My friend's move:  14", 'Total Score:  396', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 396
+My move is: 19
+Sending... 19
+([' Total Score:  377', "My friend's move:  14", 'Total Score:  363', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 363
+My move is: 19
+Sending... 19
+([' Total Score:  344', "My friend's move:  14", 'Total Score:  330', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 330
+My move is: 19
+Sending... 19
+([' Total Score:  311', "My friend's move:  14", 'Total Score:  297', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 297
+My move is: 19
+Sending... 19
+([' Total Score:  278', "My friend's move:  14", 'Total Score:  264', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 264
+My move is: 19
+Sending... 19
+([' Total Score:  245', "My friend's move:  14", 'Total Score:  231', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 231
+My move is: 19
+Sending... 19
+([' Total Score:  212', "My friend's move:  14", 'Total Score:  198', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 198
+My move is: 19
+Sending... 19
+([' Total Score:  179', "My friend's move:  14", 'Total Score:  165', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 165
+My move is: 19
+Sending... 19
+([' Total Score:  146', "My friend's move:  14", 'Total Score:  132', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 132
+My move is: 19
+Sending... 19
+([' Total Score:  113', "My friend's move:  14", 'Total Score:  99', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 99
+My move is: 19
+Sending... 19
+([' Total Score:  80', "My friend's move:  14", 'Total Score:  66', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 66
+My move is: 19
+Sending... 19
+([' Total Score:  47', "My friend's move:  14", 'Total Score:  33', 'Your move:'], [2, 4, 9, 11, 14, 15, 16, 17, 18, 19])
+Current Score is: 33
+My move is: 19
+Sending... 19
+[' Total Score:  14', 'Well done this round! :-)', 'Round 5/10', 'Allowed moves:', '[19, 5, 4, 13, 16, 11, 12, 1, 6, 9]', 'Total Score:  1000', 'Your move:']
+Current Score is: 1000
+My move is: 19
+Sending... 19
+([' Total Score:  981', "My friend's move:  19", 'Total Score:  962', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 962
+My move is: 19
+Sending... 19
+([' Total Score:  943', "My friend's move:  5", 'Total Score:  938', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 938
+My move is: 19
+Sending... 19
+([' Total Score:  919', "My friend's move:  1", 'Total Score:  918', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 918
+My move is: 19
+Sending... 19
+([' Total Score:  899', "My friend's move:  12", 'Total Score:  887', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 887
+My move is: 19
+Sending... 19
+([' Total Score:  868', "My friend's move:  1", 'Total Score:  867', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 867
+My move is: 19
+Sending... 19
+([' Total Score:  848', "My friend's move:  12", 'Total Score:  836', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 836
+My move is: 19
+Sending... 19
+([' Total Score:  817', "My friend's move:  1", 'Total Score:  816', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 816
+My move is: 19
+Sending... 19
+([' Total Score:  797', "My friend's move:  12", 'Total Score:  785', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 785
+My move is: 19
+Sending... 19
+([' Total Score:  766', "My friend's move:  1", 'Total Score:  765', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 765
+My move is: 19
+Sending... 19
+([' Total Score:  746', "My friend's move:  12", 'Total Score:  734', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 734
+My move is: 19
+Sending... 19
+([' Total Score:  715', "My friend's move:  1", 'Total Score:  714', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 714
+My move is: 19
+Sending... 19
+([' Total Score:  695', "My friend's move:  12", 'Total Score:  683', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 683
+My move is: 19
+Sending... 19
+([' Total Score:  664', "My friend's move:  1", 'Total Score:  663', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 663
+My move is: 19
+Sending... 19
+([' Total Score:  644', "My friend's move:  12", 'Total Score:  632', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 632
+My move is: 19
+Sending... 19
+([' Total Score:  613', "My friend's move:  1", 'Total Score:  612', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 612
+My move is: 19
+Sending... 19
+([' Total Score:  593', "My friend's move:  12", 'Total Score:  581', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 581
+My move is: 19
+Sending... 19
+([' Total Score:  562', "My friend's move:  1", 'Total Score:  561', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 561
+My move is: 19
+Sending... 19
+([' Total Score:  542', "My friend's move:  12", 'Total Score:  530', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 530
+My move is: 19
+Sending... 19
+([' Total Score:  511', "My friend's move:  1", 'Total Score:  510', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 510
+My move is: 19
+Sending... 19
+([' Total Score:  491', "My friend's move:  12", 'Total Score:  479', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 479
+My move is: 19
+Sending... 19
+([' Total Score:  460', "My friend's move:  1", 'Total Score:  459', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 459
+My move is: 19
+Sending... 19
+([' Total Score:  440', "My friend's move:  12", 'Total Score:  428', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 428
+My move is: 19
+Sending... 19
+([' Total Score:  409', "My friend's move:  1", 'Total Score:  408', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 408
+My move is: 19
+Sending... 19
+([' Total Score:  389', "My friend's move:  12", 'Total Score:  377', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 377
+My move is: 19
+Sending... 19
+([' Total Score:  358', "My friend's move:  1", 'Total Score:  357', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 357
+My move is: 19
+Sending... 19
+([' Total Score:  338', "My friend's move:  12", 'Total Score:  326', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 326
+My move is: 19
+Sending... 19
+([' Total Score:  307', "My friend's move:  1", 'Total Score:  306', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 306
+My move is: 19
+Sending... 19
+([' Total Score:  287', "My friend's move:  12", 'Total Score:  275', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 275
+My move is: 19
+Sending... 19
+([' Total Score:  256', "My friend's move:  1", 'Total Score:  255', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 255
+My move is: 19
+Sending... 19
+([' Total Score:  236', "My friend's move:  12", 'Total Score:  224', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 224
+My move is: 19
+Sending... 19
+([' Total Score:  205', "My friend's move:  1", 'Total Score:  204', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 204
+My move is: 19
+Sending... 19
+([' Total Score:  185', "My friend's move:  12", 'Total Score:  173', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 173
+My move is: 19
+Sending... 19
+([' Total Score:  154', "My friend's move:  1", 'Total Score:  153', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 153
+My move is: 19
+Sending... 19
+([' Total Score:  134', "My friend's move:  12", 'Total Score:  122', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 122
+My move is: 19
+Sending... 19
+([' Total Score:  103', "My friend's move:  1", 'Total Score:  102', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 102
+My move is: 19
+Sending... 19
+([' Total Score:  83', "My friend's move:  12", 'Total Score:  71', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 71
+My move is: 19
+Sending... 19
+([' Total Score:  52', "My friend's move:  1", 'Total Score:  51', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 51
+My move is: 16
+Sending... 16
+([' Total Score:  35', "My friend's move:  1", 'Total Score:  34', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 34
+My move is: 11
+Sending... 11
+([' Total Score:  23', "My friend's move:  13", 'Total Score:  10', 'Your move:'], [1, 4, 5, 6, 9, 11, 12, 13, 16, 19])
+Current Score is: 10
+My move is: 9
+Sending... 9
+[' Total Score:  1', 'Well done this round! :-)', 'Round 6/10', 'Allowed moves:', '[3, 5, 2, 15, 7, 17, 10, 4, 11, 16]', 'Total Score:  1000', 'Your move:']
+Current Score is: 1000
+My move is: 17
+Sending... 17
+([' Total Score:  983', "My friend's move:  17", 'Total Score:  966', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 966
+My move is: 17
+Sending... 17
+([' Total Score:  949', "My friend's move:  16", 'Total Score:  933', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 933
+My move is: 17
+Sending... 17
+([' Total Score:  916', "My friend's move:  4", 'Total Score:  912', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 912
+My move is: 17
+Sending... 17
+([' Total Score:  895', "My friend's move:  4", 'Total Score:  891', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 891
+My move is: 17
+Sending... 17
+([' Total Score:  874', "My friend's move:  4", 'Total Score:  870', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 870
+My move is: 17
+Sending... 17
+([' Total Score:  853', "My friend's move:  4", 'Total Score:  849', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 849
+My move is: 17
+Sending... 17
+([' Total Score:  832', "My friend's move:  4", 'Total Score:  828', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 828
+My move is: 17
+Sending... 17
+([' Total Score:  811', "My friend's move:  4", 'Total Score:  807', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 807
+My move is: 17
+Sending... 17
+([' Total Score:  790', "My friend's move:  4", 'Total Score:  786', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 786
+My move is: 17
+Sending... 17
+([' Total Score:  769', "My friend's move:  4", 'Total Score:  765', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 765
+My move is: 17
+Sending... 17
+([' Total Score:  748', "My friend's move:  4", 'Total Score:  744', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 744
+My move is: 17
+Sending... 17
+([' Total Score:  727', "My friend's move:  4", 'Total Score:  723', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 723
+My move is: 17
+Sending... 17
+([' Total Score:  706', "My friend's move:  4", 'Total Score:  702', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 702
+My move is: 17
+Sending... 17
+([' Total Score:  685', "My friend's move:  4", 'Total Score:  681', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 681
+My move is: 17
+Sending... 17
+([' Total Score:  664', "My friend's move:  4", 'Total Score:  660', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 660
+My move is: 17
+Sending... 17
+([' Total Score:  643', "My friend's move:  4", 'Total Score:  639', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 639
+My move is: 17
+Sending... 17
+([' Total Score:  622', "My friend's move:  4", 'Total Score:  618', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 618
+My move is: 17
+Sending... 17
+([' Total Score:  601', "My friend's move:  4", 'Total Score:  597', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 597
+My move is: 17
+Sending... 17
+([' Total Score:  580', "My friend's move:  4", 'Total Score:  576', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 576
+My move is: 17
+Sending... 17
+([' Total Score:  559', "My friend's move:  4", 'Total Score:  555', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 555
+My move is: 17
+Sending... 17
+([' Total Score:  538', "My friend's move:  4", 'Total Score:  534', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 534
+My move is: 17
+Sending... 17
+([' Total Score:  517', "My friend's move:  4", 'Total Score:  513', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 513
+My move is: 17
+Sending... 17
+([' Total Score:  496', "My friend's move:  4", 'Total Score:  492', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 492
+My move is: 17
+Sending... 17
+([' Total Score:  475', "My friend's move:  4", 'Total Score:  471', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 471
+My move is: 17
+Sending... 17
+([' Total Score:  454', "My friend's move:  4", 'Total Score:  450', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 450
+My move is: 17
+Sending... 17
+([' Total Score:  433', "My friend's move:  4", 'Total Score:  429', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 429
+My move is: 17
+Sending... 17
+([' Total Score:  412', "My friend's move:  4", 'Total Score:  408', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 408
+My move is: 17
+Sending... 17
+([' Total Score:  391', "My friend's move:  4", 'Total Score:  387', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 387
+My move is: 17
+Sending... 17
+([' Total Score:  370', "My friend's move:  4", 'Total Score:  366', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 366
+My move is: 17
+Sending... 17
+([' Total Score:  349', "My friend's move:  4", 'Total Score:  345', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 345
+My move is: 17
+Sending... 17
+([' Total Score:  328', "My friend's move:  4", 'Total Score:  324', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 324
+My move is: 17
+Sending... 17
+([' Total Score:  307', "My friend's move:  4", 'Total Score:  303', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 303
+My move is: 17
+Sending... 17
+([' Total Score:  286', "My friend's move:  4", 'Total Score:  282', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 282
+My move is: 17
+Sending... 17
+([' Total Score:  265', "My friend's move:  4", 'Total Score:  261', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 261
+My move is: 17
+Sending... 17
+([' Total Score:  244', "My friend's move:  4", 'Total Score:  240', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 240
+My move is: 17
+Sending... 17
+([' Total Score:  223', "My friend's move:  4", 'Total Score:  219', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 219
+My move is: 17
+Sending... 17
+([' Total Score:  202', "My friend's move:  4", 'Total Score:  198', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 198
+My move is: 17
+Sending... 17
+([' Total Score:  181', "My friend's move:  4", 'Total Score:  177', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 177
+My move is: 17
+Sending... 17
+([' Total Score:  160', "My friend's move:  4", 'Total Score:  156', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 156
+My move is: 17
+Sending... 17
+([' Total Score:  139', "My friend's move:  4", 'Total Score:  135', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 135
+My move is: 17
+Sending... 17
+([' Total Score:  118', "My friend's move:  4", 'Total Score:  114', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 114
+My move is: 17
+Sending... 17
+([' Total Score:  97', "My friend's move:  4", 'Total Score:  93', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 93
+My move is: 17
+Sending... 17
+([' Total Score:  76', "My friend's move:  4", 'Total Score:  72', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 72
+My move is: 17
+Sending... 17
+([' Total Score:  55', "My friend's move:  4", 'Total Score:  51', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 51
+My move is: 17
+Sending... 17
+([' Total Score:  34', "My friend's move:  4", 'Total Score:  30', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 30
+My move is: 11
+Sending... 11
+([' Total Score:  19', "My friend's move:  10", 'Total Score:  9', 'Your move:'], [2, 3, 4, 5, 7, 10, 11, 15, 16, 17])
+Current Score is: 9
+My move is: 7
+Sending... 7
+[' Total Score:  2', 'Well done this round! :-)', 'Round 7/10', 'Allowed moves:', '[3, 2, 9, 5, 15, 8, 11, 12, 4, 7]', 'Total Score:  1000', 'Your move:']
+Current Score is: 1000
+My move is: 15
+Sending... 15
+([' Total Score:  985', "My friend's move:  11", 'Total Score:  974', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 974
+My move is: 15
+Sending... 15
+([' Total Score:  959', "My friend's move:  11", 'Total Score:  948', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 948
+My move is: 15
+Sending... 15
+([' Total Score:  933', "My friend's move:  7", 'Total Score:  926', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 926
+My move is: 15
+Sending... 15
+([' Total Score:  911', "My friend's move:  11", 'Total Score:  900', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 900
+My move is: 15
+Sending... 15
+([' Total Score:  885', "My friend's move:  7", 'Total Score:  878', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 878
+My move is: 15
+Sending... 15
+([' Total Score:  863', "My friend's move:  11", 'Total Score:  852', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 852
+My move is: 15
+Sending... 15
+([' Total Score:  837', "My friend's move:  7", 'Total Score:  830', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 830
+My move is: 15
+Sending... 15
+([' Total Score:  815', "My friend's move:  11", 'Total Score:  804', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 804
+My move is: 15
+Sending... 15
+([' Total Score:  789', "My friend's move:  7", 'Total Score:  782', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 782
+My move is: 15
+Sending... 15
+([' Total Score:  767', "My friend's move:  11", 'Total Score:  756', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 756
+My move is: 15
+Sending... 15
+([' Total Score:  741', "My friend's move:  7", 'Total Score:  734', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 734
+My move is: 15
+Sending... 15
+([' Total Score:  719', "My friend's move:  11", 'Total Score:  708', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 708
+My move is: 15
+Sending... 15
+([' Total Score:  693', "My friend's move:  7", 'Total Score:  686', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 686
+My move is: 15
+Sending... 15
+([' Total Score:  671', "My friend's move:  11", 'Total Score:  660', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 660
+My move is: 15
+Sending... 15
+([' Total Score:  645', "My friend's move:  7", 'Total Score:  638', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 638
+My move is: 15
+Sending... 15
+([' Total Score:  623', "My friend's move:  11", 'Total Score:  612', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 612
+My move is: 15
+Sending... 15
+([' Total Score:  597', "My friend's move:  7", 'Total Score:  590', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 590
+My move is: 15
+Sending... 15
+([' Total Score:  575', "My friend's move:  11", 'Total Score:  564', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 564
+My move is: 15
+Sending... 15
+([' Total Score:  549', "My friend's move:  7", 'Total Score:  542', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 542
+My move is: 15
+Sending... 15
+([' Total Score:  527', "My friend's move:  11", 'Total Score:  516', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 516
+My move is: 15
+Sending... 15
+([' Total Score:  501', "My friend's move:  7", 'Total Score:  494', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 494
+My move is: 15
+Sending... 15
+([' Total Score:  479', "My friend's move:  11", 'Total Score:  468', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 468
+My move is: 15
+Sending... 15
+([' Total Score:  453', "My friend's move:  7", 'Total Score:  446', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 446
+My move is: 15
+Sending... 15
+([' Total Score:  431', "My friend's move:  11", 'Total Score:  420', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 420
+My move is: 15
+Sending... 15
+([' Total Score:  405', "My friend's move:  7", 'Total Score:  398', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 398
+My move is: 15
+Sending... 15
+([' Total Score:  383', "My friend's move:  11", 'Total Score:  372', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 372
+My move is: 15
+Sending... 15
+([' Total Score:  357', "My friend's move:  7", 'Total Score:  350', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 350
+My move is: 15
+Sending... 15
+([' Total Score:  335', "My friend's move:  11", 'Total Score:  324', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 324
+My move is: 15
+Sending... 15
+([' Total Score:  309', "My friend's move:  7", 'Total Score:  302', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 302
+My move is: 15
+Sending... 15
+([' Total Score:  287', "My friend's move:  11", 'Total Score:  276', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 276
+My move is: 15
+Sending... 15
+([' Total Score:  261', "My friend's move:  7", 'Total Score:  254', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 254
+My move is: 15
+Sending... 15
+([' Total Score:  239', "My friend's move:  11", 'Total Score:  228', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 228
+My move is: 15
+Sending... 15
+([' Total Score:  213', "My friend's move:  7", 'Total Score:  206', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 206
+My move is: 15
+Sending... 15
+([' Total Score:  191', "My friend's move:  11", 'Total Score:  180', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 180
+My move is: 15
+Sending... 15
+([' Total Score:  165', "My friend's move:  7", 'Total Score:  158', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 158
+My move is: 15
+Sending... 15
+([' Total Score:  143', "My friend's move:  11", 'Total Score:  132', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 132
+My move is: 15
+Sending... 15
+([' Total Score:  117', "My friend's move:  7", 'Total Score:  110', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 110
+My move is: 15
+Sending... 15
+([' Total Score:  95', "My friend's move:  11", 'Total Score:  84', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 84
+My move is: 15
+Sending... 15
+([' Total Score:  69', "My friend's move:  7", 'Total Score:  62', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 62
+My move is: 15
+Sending... 15
+([' Total Score:  47', "My friend's move:  11", 'Total Score:  36', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 36
+My move is: 12
+Sending... 12
+([' Total Score:  24', "My friend's move:  4", 'Total Score:  20', 'Your move:'], [2, 3, 4, 5, 7, 8, 9, 11, 12, 15])
+Current Score is: 20
+My move is: 15
+Sending... 15
+[' Total Score:  5', 'Well done this round! :-)', 'Round 8/10', 'Allowed moves:', '[19, 17, 14, 18, 4, 11, 12, 3, 1, 13]', 'Total Score:  1000', 'Your move:']
+Current Score is: 1000
+My move is: 19
+Sending... 19
+([' Total Score:  981', "My friend's move:  17", 'Total Score:  964', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 964
+My move is: 19
+Sending... 19
+([' Total Score:  945', "My friend's move:  17", 'Total Score:  928', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 928
+My move is: 19
+Sending... 19
+([' Total Score:  909', "My friend's move:  3", 'Total Score:  906', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 906
+My move is: 19
+Sending... 19
+([' Total Score:  887', "My friend's move:  17", 'Total Score:  870', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 870
+My move is: 19
+Sending... 19
+([' Total Score:  851', "My friend's move:  3", 'Total Score:  848', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 848
+My move is: 19
+Sending... 19
+([' Total Score:  829', "My friend's move:  17", 'Total Score:  812', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 812
+My move is: 19
+Sending... 19
+([' Total Score:  793', "My friend's move:  3", 'Total Score:  790', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 790
+My move is: 19
+Sending... 19
+([' Total Score:  771', "My friend's move:  17", 'Total Score:  754', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 754
+My move is: 19
+Sending... 19
+([' Total Score:  735', "My friend's move:  3", 'Total Score:  732', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 732
+My move is: 19
+Sending... 19
+([' Total Score:  713', "My friend's move:  17", 'Total Score:  696', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 696
+My move is: 19
+Sending... 19
+([' Total Score:  677', "My friend's move:  3", 'Total Score:  674', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 674
+My move is: 19
+Sending... 19
+([' Total Score:  655', "My friend's move:  17", 'Total Score:  638', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 638
+My move is: 19
+Sending... 19
+([' Total Score:  619', "My friend's move:  3", 'Total Score:  616', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 616
+My move is: 19
+Sending... 19
+([' Total Score:  597', "My friend's move:  17", 'Total Score:  580', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 580
+My move is: 19
+Sending... 19
+([' Total Score:  561', "My friend's move:  3", 'Total Score:  558', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 558
+My move is: 19
+Sending... 19
+([' Total Score:  539', "My friend's move:  17", 'Total Score:  522', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 522
+My move is: 19
+Sending... 19
+([' Total Score:  503', "My friend's move:  3", 'Total Score:  500', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 500
+My move is: 19
+Sending... 19
+([' Total Score:  481', "My friend's move:  17", 'Total Score:  464', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 464
+My move is: 19
+Sending... 19
+([' Total Score:  445', "My friend's move:  3", 'Total Score:  442', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 442
+My move is: 19
+Sending... 19
+([' Total Score:  423', "My friend's move:  17", 'Total Score:  406', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 406
+My move is: 19
+Sending... 19
+([' Total Score:  387', "My friend's move:  3", 'Total Score:  384', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 384
+My move is: 19
+Sending... 19
+([' Total Score:  365', "My friend's move:  17", 'Total Score:  348', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 348
+My move is: 19
+Sending... 19
+([' Total Score:  329', "My friend's move:  3", 'Total Score:  326', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 326
+My move is: 19
+Sending... 19
+([' Total Score:  307', "My friend's move:  17", 'Total Score:  290', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 290
+My move is: 19
+Sending... 19
+([' Total Score:  271', "My friend's move:  3", 'Total Score:  268', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 268
+My move is: 19
+Sending... 19
+([' Total Score:  249', "My friend's move:  17", 'Total Score:  232', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 232
+My move is: 19
+Sending... 19
+([' Total Score:  213', "My friend's move:  3", 'Total Score:  210', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 210
+My move is: 19
+Sending... 19
+([' Total Score:  191', "My friend's move:  17", 'Total Score:  174', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 174
+My move is: 19
+Sending... 19
+([' Total Score:  155', "My friend's move:  3", 'Total Score:  152', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 152
+My move is: 19
+Sending... 19
+([' Total Score:  133', "My friend's move:  17", 'Total Score:  116', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 116
+My move is: 19
+Sending... 19
+([' Total Score:  97', "My friend's move:  3", 'Total Score:  94', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 94
+My move is: 19
+Sending... 19
+([' Total Score:  75', "My friend's move:  17", 'Total Score:  58', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 58
+My move is: 19
+Sending... 19
+([' Total Score:  39', "My friend's move:  3", 'Total Score:  36', 'Your move:'], [1, 3, 4, 11, 12, 13, 14, 17, 18, 19])
+Current Score is: 36
+My move is: 19
+Sending... 19
+[' Total Score:  17', 'Well done this round! :-)', 'Round 9/10', 'Allowed moves:', '[17, 1, 3, 11, 7, 15, 6, 2, 8, 13]', 'Total Score:  1000', 'Your move:']
+Current Score is: 1000
+My move is: 17
+Sending... 17
+([' Total Score:  983', "My friend's move:  17", 'Total Score:  966', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 966
+My move is: 17
+Sending... 17
+([' Total Score:  949', "My friend's move:  11", 'Total Score:  938', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 938
+My move is: 17
+Sending... 17
+([' Total Score:  921', "My friend's move:  11", 'Total Score:  910', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 910
+My move is: 17
+Sending... 17
+([' Total Score:  893', "My friend's move:  11", 'Total Score:  882', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 882
+My move is: 17
+Sending... 17
+([' Total Score:  865', "My friend's move:  11", 'Total Score:  854', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 854
+My move is: 17
+Sending... 17
+([' Total Score:  837', "My friend's move:  11", 'Total Score:  826', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 826
+My move is: 17
+Sending... 17
+([' Total Score:  809', "My friend's move:  11", 'Total Score:  798', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 798
+My move is: 17
+Sending... 17
+([' Total Score:  781', "My friend's move:  11", 'Total Score:  770', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 770
+My move is: 17
+Sending... 17
+([' Total Score:  753', "My friend's move:  11", 'Total Score:  742', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 742
+My move is: 17
+Sending... 17
+([' Total Score:  725', "My friend's move:  11", 'Total Score:  714', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 714
+My move is: 17
+Sending... 17
+([' Total Score:  697', "My friend's move:  11", 'Total Score:  686', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 686
+My move is: 17
+Sending... 17
+([' Total Score:  669', "My friend's move:  11", 'Total Score:  658', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 658
+My move is: 17
+Sending... 17
+([' Total Score:  641', "My friend's move:  11", 'Total Score:  630', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 630
+My move is: 17
+Sending... 17
+([' Total Score:  613', "My friend's move:  11", 'Total Score:  602', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 602
+My move is: 17
+Sending... 17
+([' Total Score:  585', "My friend's move:  11", 'Total Score:  574', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 574
+My move is: 17
+Sending... 17
+([' Total Score:  557', "My friend's move:  11", 'Total Score:  546', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 546
+My move is: 17
+Sending... 17
+([' Total Score:  529', "My friend's move:  11", 'Total Score:  518', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 518
+My move is: 17
+Sending... 17
+([' Total Score:  501', "My friend's move:  11", 'Total Score:  490', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 490
+My move is: 17
+Sending... 17
+([' Total Score:  473', "My friend's move:  11", 'Total Score:  462', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 462
+My move is: 17
+Sending... 17
+([' Total Score:  445', "My friend's move:  11", 'Total Score:  434', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 434
+My move is: 17
+Sending... 17
+([' Total Score:  417', "My friend's move:  11", 'Total Score:  406', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 406
+My move is: 17
+Sending... 17
+([' Total Score:  389', "My friend's move:  11", 'Total Score:  378', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 378
+My move is: 17
+Sending... 17
+([' Total Score:  361', "My friend's move:  11", 'Total Score:  350', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 350
+My move is: 17
+Sending... 17
+([' Total Score:  333', "My friend's move:  11", 'Total Score:  322', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 322
+My move is: 17
+Sending... 17
+([' Total Score:  305', "My friend's move:  11", 'Total Score:  294', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 294
+My move is: 17
+Sending... 17
+([' Total Score:  277', "My friend's move:  11", 'Total Score:  266', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 266
+My move is: 17
+Sending... 17
+([' Total Score:  249', "My friend's move:  11", 'Total Score:  238', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 238
+My move is: 17
+Sending... 17
+([' Total Score:  221', "My friend's move:  11", 'Total Score:  210', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 210
+My move is: 17
+Sending... 17
+([' Total Score:  193', "My friend's move:  11", 'Total Score:  182', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 182
+My move is: 17
+Sending... 17
+([' Total Score:  165', "My friend's move:  11", 'Total Score:  154', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 154
+My move is: 17
+Sending... 17
+([' Total Score:  137', "My friend's move:  11", 'Total Score:  126', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 126
+My move is: 17
+Sending... 17
+([' Total Score:  109', "My friend's move:  11", 'Total Score:  98', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 98
+My move is: 17
+Sending... 17
+([' Total Score:  81', "My friend's move:  11", 'Total Score:  70', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 70
+My move is: 17
+Sending... 17
+([' Total Score:  53', "My friend's move:  11", 'Total Score:  42', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 42
+My move is: 8
+Sending... 8
+([' Total Score:  34', "My friend's move:  11", 'Total Score:  23', 'Your move:'], [1, 2, 3, 6, 7, 8, 11, 13, 15, 17])
+Current Score is: 23
+My move is: 17
+Sending... 17
+[*] Switching to interactive mode
+ Total Score:  6
+Well done this round! :-)
+('FLAG', 'DCTF{D46CA831D4DA67C22034865B917F6ACCA45158D2C0B6622E79C532DFDB161080}')
+Timeout
