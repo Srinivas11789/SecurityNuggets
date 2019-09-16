@@ -1,0 +1,20 @@
+# Solve
+* Looking at the XML upload for users, it was XXE obviously
+* Performing general XXE caused it to be blocked by WAF ( Probably looking for strings like ENTITY or DOCTYPE )
+* Looking for a number of references, we find the conversion to UTF 16 Big endian encoding. ( There are UTF8 and UTF16 BR LE), the WAF worked for UTF8 only
+* Using the trick we encode to UTF16BE form and then upload 
+* We can execute XXE but the full data is not visible, referencing the users we find that there is one more element called INTRO which has more capacity or size 
+* XXE on INTRO for the flag is the answer
+
+# Commands
+* cat unagi.xml | iconv -f UTF-8 -t UTF-16BE > payload.xml
+
+# References
+* https://mohemiv.com/tags/xxe/
+* https://gist.github.com/abdilahrf/63ea0a21dc31010c9c8620425e212e30
+* https://lab.wallarm.com/xxe-that-can-bypass-waf-protection-98f679452ce0
+* https://portswigger.net/web-security/xxe
+* https://xapax.gitbooks.io/security/content/xml_external_entity_attack.html
+* https://securitytraning.com/xml-external-entity-xxe-xml-injection-web-for-pentester/
+* https://blog.safebuff.com/2016/03/30/XXE-Payloads/
+* https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing

