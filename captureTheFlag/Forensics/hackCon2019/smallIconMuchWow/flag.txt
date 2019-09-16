@@ -1,0 +1,24 @@
+srimbp-186:smallIconMuchWow sri$ binwalk stego.jpg 
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01
+30            0x1E            TIFF image data, big-endian, offset of first image directory: 8
+202           0xCA            JPEG image data, JFIF standard 1.01
+
+srimbp-186:smallIconMuchWow sri$ binwalk --dd=".*" stego.jpg 
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01
+30            0x1E            TIFF image data, big-endian, offset of first image directory: 8
+202           0xCA            JPEG image data, JFIF standard 1.01
+
+srimbp-186:smallIconMuchWow sri$ zbarimg _stego.jpg
+_stego.jpg-0.extracted/ _stego.jpg.extracted/   
+srimbp-186:smallIconMuchWow sri$ zbarimg _stego.jpg.extracted/CA
+QR-Code:d4rk{flAg_h1dd3n_1n_th3_thumbnail}c0de
+scanned 1 barcode symbols from 1 images in 0 seconds
+
+srimbp-186:smallIconMuchWow sri$ 
+

