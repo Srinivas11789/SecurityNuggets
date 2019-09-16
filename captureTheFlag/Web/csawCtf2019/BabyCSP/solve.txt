@@ -1,0 +1,30 @@
+# Method
+* Reading the source code and meddling with the application
+* Recon:
+  - We could post any payload to the application and we can see our posts. Also there is a report to admin feature to report to admin --> ( Source code makes it evident that this page will be visited by an admin ), Also the challenge says flag is in the cookie
+* Attack Strategy
+  - We create a XSS payload that gets executed and we report this page with payload to the admin. When admin visits we need to transfer cookie to our command and control server
+  - Setup:
+    - have a simple http server exposed on a public endpoint (reachable through internet) that receives and reads out the request
+    - use ngrok to expose
+* Important Hacks
+  - bypass CSP and make the malicius xss payload script executable
+  - Script to read and transfer cookie to a server to be read
+* Got JSONP vulnerbility in callback from this article and csp evaluator ( *.google.com )
+  - Simple payload on callback works ( alert() )
+  - Generate a payload that works and sends the cookie to the c&c server
+
+# References:
+* https://github.com/zigoo0/JSONBee
+* https://www.freecodecamp.org/news/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa/
+* https://www.slideshare.net/Hacken_Ecosystem/ebrahem-hegazy-bug-hunters-manual-for-bypassing-contentsecuritypolicy?from_action=save
+* https://security.googleblog.com/2016/09/reshaping-web-defenses-with-strict.html
+* https://www.owasp.org/images/3/35/2017-04-20-JSONPXSS.pdf
+* https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet
+* https://medium.com/@mazin.ahmed/bypassing-csp-by-abusing-jsonp-endpoints-47cf453624d5
+* https://gist.github.com/YasserGersy/a0fee5ce7422a558c84bfd7790d8a082
+* https://stackoverflow.com/questions/8750469/apparent-jsonp-xss-vulnerability
+* https://gist.github.com/trungly/5889154
+* https://dubell.io/exploiting-weak-content-security-policy-csp-rules-for-fun-and-profit/
+* https://null-byte.wonderhowto.com/how-to/write-xss-cookie-stealer-javascript-steal-passwords-0180833/
+* https://blog.codinghorror.com/protecting-your-cookies-httponly/
