@@ -1,0 +1,146 @@
+* Challenge
+
+
+* Solution
+```
+srimbp-623:ebooks sri$ file DEBUG.COM 
+DEBUG.COM: COM executable for DOS
+srimbp-623:ebooks sri$ strings DEBUG.COM 
+Vers 2.10
+[SHH
+t(G&
+@'RP$
+*t
+  R
+CSED
+<-tO<
+tR< t3
+*X[YZ]]^_
+WVULLRQSP
+PSQRV3
+J<.u
+^ZY[X
+t
+ <,
+?HEu
+?EXu
++,PSR
+*@t[
+?COuU
+MuON
+!X[SP
+6M+P
+>a+&
+&<=t
+t
+ <<t
+=ALt
+    =AXt
+<DXt
+<DXu
+=ALt
+=AXu
+<CLt
+, t<
+,0t5
+=NEu
+=PTt
+=STu
+=SHt
+=FAu
+t8=STu3
+,0rM<
+<,Su
+ALCLDLBLAHCHDHBHAXCXDXBXSPBPSIDIESCSSSDS
+BYWODWQWTB
+CMPS
+CMPS
+FFRE
+FCOMP
+FCOM
+FICOM
+FICO
+FLDL2
+FLDL2
+FLDLG
+FLDLN
+FLDP
+F2XM
+FYL2XP
+FYL2
+FPTA
+FPATA
+FXTRAC
+FDECST
+FINCST
+FPRE
+FSQR
+FRNDIN
+FSCAL
+FINI
+FDIS
+FCLE
+FBST
+FLDC
+FSTC
+FSTS
+FSTEN
+FLDEN
+FSAV
+FRSTO
+FADD
+FIAD
+FSUBR
+FSUB
+FSUB
+FISUB
+FISU
+FMUL
+FIMU
+FDIVR
+FDIV
+FDIV
+FIDIV
+FIDI
+FWAI
+FIST
+LODS
+LODS
+LOOPN
+LOOP
+LOOPN
+LOOP
+MOVS
+MOVS
+PUSH
+REPN
+REPN
+SCAS
+SCAS
+STOS
+STOS
+ADD$MUL$COM$COMP$SUB$SUBR$DIV$DIVR$F$FI$F$FI$DWORD PTR $DWORD PTR $QWORD PTR $WORD PTR $BYTE PTR $TBYTE PTR $LD$@$ST$STP$LDENV$LDCW$STENV$STCW$CHS$ABS$@$@$TST$XAM$@$@$LD1$LDL2T$LDL2E$LDPI$LDLG2$LDLN2$LDZ$@$2XM1$YL2X$PTAN$PATAN$XTRACT$@$DECSTP$INCSTP$PREM$YL2XP1$SQRT$@$RNDINT$SCALE$@$@$ILD$@$IST$ISTP$@$LD$@$STP$ENI$DISI$CLEX$INIT$LD$@$ST$STP$RSTOR$@$SAVE$STSW$FREE$XCH$ST$STP$ILD$@$IST$ISTP$BLD$ILD$BSTP$ISTP$
+%e%h%
+%O%I%F%
+*AXBXCXDXSPBPSIDIDSESSSCSIPPC
+OVDNEI
+NGZR
+NVUPDI
+PLNZ
+Incorrect DOS version
+Program terminated normally
+$Invalid drive specification
+$File not found
+$File creation error
+$Insufficient space on disk
+$Disk$Write protect$ error reading drive A
+$readwritInsufficient memory
+$^ Error
+Error in EXE or HEX file
+$EXE and HEX files cannot be written
+$Writing $ bytes
+$EXEC failure
+$Access denied
+TUCTF{D0NT_F0RG3T_TH3_B4S1CS!}
+srimbp-623:ebooks sri$ 
+```
