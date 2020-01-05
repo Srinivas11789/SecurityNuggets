@@ -1,4 +1,4 @@
-* Got only half flag, the other have has a very large number requiring to optimize algo
+* Got only half flag, the other have has a very large number n requiring to optimize algo - in progress..
 
 ```
 srimbp-623:prog2 sri$ python pwn_algo.py "15.165.30.141" "9399" "Answer:"
