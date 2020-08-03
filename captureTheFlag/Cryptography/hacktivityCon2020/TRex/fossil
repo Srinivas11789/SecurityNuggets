@@ -1,0 +1,135 @@
+#!/usr/bin/env python
+
+import base64
+import binascii
+
+h = binascii.hexlify
+b = base64.b64encode
+
+c = b'37151032694744553d12220a0f584315517477520e2b3c226b5b1e150f5549120e5540230202360f0d20220a376c0067'
+
+def enc(f):
+    e = b(f)
+    z = []
+    i = 0
+    print(e)
+    while i < len(e):
+        print(e[i], e[((i + 1) % len(e))])
+        z += [ e[i] ^ e[((i + 1) % len(e))]]
+        i = i + 1
+    print(z)
+    c = h(bytearray(z))
+    return c
+
+def dec(c):
+    c = binascii.unhexlify(c)
+    c = list(c)
+    print(c)
+    # Reverse Xor c = a^b --> a = c^b
+    # i+1 % len will always be i+1 except when i+1 == len
+    n = len(c)
+    flag = []
+    base64OfPrefix = "ZmxhZ3" # base64 of flag{ known plaintext
+    plusOne = 90
+    for i in range(n-1, -1, -1):
+        n = c[i]^plusOne
+        print(c[i], plusOne, n)
+        flag = [n] + flag
+        plusOne = n 
+    """
+    while n:
+        current = c.pop()
+        print(current, flag)
+        flag += [(current ^ plusOne)]
+        plusOne = flag[0]
+        n -= 1
+    """
+    print(flag)
+    p = ""
+    for f in flag:
+        p += chr(f)
+    print(p)
+    return base64.b64decode(p)
+print(dec(c))
+test = enc(b"flag")
+print(test)
+print(dec(test))
+
+```
+$ python3 fossil
+[55, 21, 16, 50, 105, 71, 68, 85, 61, 18, 34, 10, 15, 88, 67, 21, 81, 116, 119, 82, 14, 43, 60, 34, 107, 91, 30, 21, 15, 85, 73, 18, 14, 85, 64, 35, 2, 2, 54, 15, 13, 32, 34, 10, 55, 108, 0, 103]
+103 90 61
+0 61 61
+108 61 81
+55 81 102
+10 102 108
+34 108 78
+32 78 110
+13 110 99
+15 99 108
+54 108 90
+2 90 88
+2 88 90
+35 90 121
+64 121 57
+85 57 108
+14 108 98
+18 98 112
+73 112 57
+85 57 108
+15 108 99
+21 99 118
+30 118 104
+91 104 51
+107 51 88
+34 88 122
+60 122 70
+43 70 109
+14 109 99
+82 99 49
+119 49 70
+116 70 50
+81 50 99
+21 99 118
+67 118 53
+88 53 109
+15 109 98
+10 98 104
+34 104 74
+18 74 88
+61 88 101
+85 101 48
+68 48 116
+71 116 51
+105 51 90
+50 90 104
+16 104 120
+21 120 109
+55 109 90
+[90, 109, 120, 104, 90, 51, 116, 48, 101, 88, 74, 104, 98, 109, 53, 118, 99, 50, 70, 49, 99, 109, 70, 122, 88, 51, 104, 118, 99, 108, 57, 112, 98, 108, 57, 121, 90, 88, 90, 108, 99, 110, 78, 108, 102, 81, 61, 61]
+ZmxhZ3t0eXJhbm5vc2F1cmFzX3hvcl9pbl9yZXZlcnNlfQ==
+b'flag{tyrannosauras_xor_in_reverse}'
+b'ZmxhZw=='
+90 109
+109 120
+120 104
+104 90
+90 119
+119 61
+61 61
+61 90
+[55, 21, 16, 50, 45, 74, 0, 103]
+b'371510322d4a0067'
+[55, 21, 16, 50, 45, 74, 0, 103]
+103 90 61
+0 61 61
+74 61 119
+45 119 90
+50 90 104
+16 104 120
+21 120 109
+55 109 90
+[90, 109, 120, 104, 90, 119, 61, 61]
+ZmxhZw==
+b'flag'
+```
