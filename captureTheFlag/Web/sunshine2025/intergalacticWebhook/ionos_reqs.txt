@@ -1,0 +1,15 @@
+curl 'https://my.ionos.com/add-dns-record/<yourdomain>.com' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -b '$cookie' \
+  -H 'origin: https://my.ionos.com' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36' \
+  --data-raw '__sendingdata=1&record.forWwwSubdomain=true&record.type=A&record.host=ss&record.value=0.0.0.0&record.ttl=3600&__SBMT%3Ad0e9469745d1%3A=&__SYNT%3Ad0e98758896t9d1%3AlinkId=ct.button.dns.addrecord.save&__SYNT%3Ad0e9542469d6%3Arecord.type=A' ;
+
+
+curl 'https://my.ionos.com/edit-dns-record/<yourdomain>.com/1151781502' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'origin: https://my.ionos.com' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36' \
+  --data-raw '__sendingdata=1&record.forWwwSubdomain=false&record.value=142.250.73.142&record.ttl=60&__SBMT%3Ad0e879306d6%3A=&__SYNT%3Ad0e9879554d1%3AlinkId=ct.button.dns.editrecord.save'
