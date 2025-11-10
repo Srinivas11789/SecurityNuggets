@@ -1,0 +1,15 @@
+## Try 1
+```
+WWW-Authenticate
+Digest realm="Authentication Required",qop="auth",nonce="df9bed82a7869058de3a81b48ff4ac70",opaque="ac42eeb89aca5c6f29d14e4fbb66e0d4",algorithm="MD5",qop="auth"
+```
+
+```
+Authorization
+Digest username="keno", realm="Authentication Required", nonce="df9bed82a7869058de3a81b48ff4ac70", uri="/auth", response="79664b2212cdf3791cc375df6b4099a7", opaque="ac42eeb89aca5c6f29d14e4fbb66e0d4", algorithm="MD5", qop="auth", nc=00000001, cnonce="4f022c2fbc290270"
+```
+
+## Try 2 - same WWW-Authenticate
+```
+Digest username="keno", realm="Authentication Required", nonce="df9bed82a7869058de3a81b48ff4ac70", uri="/auth", response="a79cf3829f4339a046feb15e86bfb098", opaque="ac42eeb89aca5c6f29d14e4fbb66e0d4", algorithm="MD5", qop="auth", nc=00000001, cnonce="d4de588228119e3f"
+```
