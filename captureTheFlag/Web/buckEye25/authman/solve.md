@@ -114,6 +114,12 @@ With a fresh `WWW-Authenticate` header, you have all the parameters needed to lo
 4.  **Calculate the response:** Use the formulas from `crack.py` to calculate the final `response` hash using the fresh `nonce`, your `cnonce` (as the password), and other parameters.
 5.  **Make the final request:** Send a GET request to `https://authman.challs.pwnoh.io/auth` with a correctly formatted `Authorization` header containing all the new values.
 
-This final request will succeed, granting you access as the user "keno" and solving the challenge. The `exploit.py` script I offered earlier automates this final step.
+This final request will succeed, granting you access as the user "keno" 
 
-```
+![ssrf](ssrf.png)
+
+## Mitm callback (forwarding cookie and the digest)
+
+![ssrf](ssrf_flag.png)
+
+* What did not work? the cookie cracking for the hash via HA1 and HA2 were not successful with rockyou
