@@ -13,7 +13,7 @@
 ```
 (() => {
   // === CONFIG ===
-  const recordUrl = 'https://my.ionos.com/edit-dns-record/<yourdomain>.com/1373846977';
+  const recordUrl = 'https://my.ionos.com/edit-dns-record/<yourdomain>.com/147300846212';
   const ips = ['0.0.0.0', '142.250.73.142']; // flip between these
   const ttl = 60;                               // IONOS min TTL
   const forWwwSubdomain = false;                // from your curl
