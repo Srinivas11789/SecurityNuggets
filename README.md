@@ -2,7 +2,7 @@
 :eyes::blue_book::pencil::thought_balloon::blue_book: Computer Security Nuggets -- > Ctf writeups + Explore, Research, Study, Fun and Learning Security
 
 
-<img src="https://srinivas11789.github.io/SecurityNuggets/images/security_nuggets.png" title="Logo">
+<img src="https://srixivas.github.io/SecurityNuggets/images/security_nuggets.png" title="Logo">
 
 :stuck_out_tongue_winking_eye: PVZ walnuts++ == Nuggets<br>
 * Funny graphics, trying to make up!
@@ -20,28 +20,28 @@
 
 ### Concepts
 Notes, concepts, study, learn stuff
-* [Information Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/informationSecurity)
-* [Web Application Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/webAppSecurity)
-* [Network Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/networkSecurity)
-* [Password Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/passwordSecurity)
-* [System Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/systemSecurity)
-* [Cloud Security](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/cloudSecurity)
-* [MalwaresVulnerabilityBugsWormsVirusTrojan](https://github.com/Srinivas11789/SecurityNuggets/tree/master/concepts/MalwaresVulnerabilityBugsWormsVirusTrojan)
+* [Information Security](https://github.com/srixivas/SecurityNuggets/tree/master/concepts/informationSecurity)
+* [Web Application Security](https://github.com/srixivas/SecurityNuggets/tree/master/concepts/webAppSecurity)
+* [Network Security](https://github.com/srixivas/SecurityNuggets/tree/master/concepts/networkSecurity)
+* [Password Security](https://github.com/srixivas/SecurityNuggets/tree/master/concepts/passwordSecurity)
+* [System Security](https://github.com/srixivas/SecurityNuggets/tree/master/concepts/systemSecurity)
+* [Cloud Security](https://github.com/srixivas/SecurityNuggets/tree/master/concepts/cloudSecurity)
+* [MalwaresVulnerabilityBugsWormsVirusTrojan](https://github.com/srixivas/SecurityNuggets/tree/master/concepts/MalwaresVulnerabilityBugsWormsVirusTrojan)
 
 ### CTF Writeups - I participate as team Atomy or team TopWing <in ctftimes too> or NyuSec <with my school>
-([Assets](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag) and [Helpers](https://gist.github.com/srinivas11789))
+([Assets](https://github.com/srixivas/SecurityNuggets/tree/master/captureTheFlag) and [Helpers](https://gist.github.com/srixivas))
 
 Puzzles, Challenges solved, solving, learning stuff
 * CTF Challenge writeUps
 * CTF Challenge Analysis+Study
-  - [Forensics](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Forensics)
-  - [Miscellaneous](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Miscellaneous)
-  - [Programming](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Programming)
-  - [Web](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Web)
-  - [Crypto](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Cryptography)
-  - [Reverse](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/ReverseEngineer)
-  - [Pwning](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Pwn)
-  - [Pentest](https://github.com/Srinivas11789/SecurityNuggets/tree/master/captureTheFlag/Pentest)
+  - [Forensics](https://github.com/srixivas/SecurityNuggets/tree/master/captureTheFlag/Forensics)
+  - [Miscellaneous](https://github.com/srixivas/SecurityNuggets/tree/master/captureTheFlag/Miscellaneous)
+  - [Programming](https://github.com/srixivas/SecurityNuggets/tree/master/captureTheFlag/Programming)
+  - [Web](https://github.com/srixivas/SecurityNuggets/tree/master/captureTheFlag/Web)
+  - [Crypto](https://github.com/srixivas/SecurityNuggets/tree/master/captureTheFlag/Cryptography)
+  - [Reverse](https://github.com/srixivas/SecurityNuggets/tree/master/captureTheFlag/ReverseEngineer)
+  - [Pwning](https://github.com/srixivas/SecurityNuggets/tree/master/captureTheFlag/Pwn)
+  - [Pentest](https://github.com/srixivas/SecurityNuggets/tree/master/captureTheFlag/Pentest)
 
 ### Security Tools
 Built, Building different tools
@@ -53,7 +53,7 @@ Built, Building different tools
 
 ### Security Mini Scripts for easy Automation, Problem solving
 * Simulators
-* Helpers at [assets](https://gist.github.com/srinivas11789)
+* Helpers at [assets](https://gist.github.com/srixivas)
 
 [![Analytics](https://ga-beacon.appspot.com/UA-114681129-2/SecurityNuggets/README.md)](https://github.com/igrigorik/ga-beacon)
 
